@@ -1,0 +1,32 @@
+# Credentials
+secret.txt
+secrets.txt
+.env
+.env.*
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Collection materials, authority data, and generated metadata
+Library-Metadata/
+Topical/
+Geo/
+outputs/
+*.zip
+*.docx
+*.mp4
+*.xlsx
+*.xls
+*.faiss
+*.pkl
+*.jsonl
+
+# macOS
+.DS_Store
+
+# Previous local exports
+old_outputs/
+.ipynb_checkpoints/
