@@ -2,6 +2,30 @@
 
 Creates `outputs/video_metadata.xlsx` from the six MP4 videos and the transcript workbook under `Library-Metadata`.
 
+## Video example: Ken Lundy
+
+Use the player below to play or pause the interview. GitHub starts the player muted; use the speaker control to enable audio and adjust the volume. This copy preserves the full interview and audio, compressed for browser playback.
+
+https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
+
+### Generated description
+
+Ken Lundy, a Program Manager at UCF Launch, shares his personal experience during a significant historical event as part of the Knight's Tales Project. Lundy recounts his time working for Steelcase and being in the vicinity of the World Trade Center during a major incident. He describes the communication challenges he faced while trying to contact his spouse amidst the chaos. Lundy reflects on the psychological trauma experienced by many and emphasizes the importance of remembrance and healing for the victims. His narrative provides insight into the immediate aftermath of the event and the broader social impacts. This account contributes to the collective memory of the event, highlighting the personal and professional challenges faced by individuals during crises.
+
+### Generated keywords
+
+Ken Lundy, UCF Launch, Steelcase, World Trade Center, Knight's Tales Project
+
+### Selected FAST subject headings
+
+- Psychic trauma
+- Universities and colleges--Professional staff
+- Memorials--Psychological aspects
+- Healing
+- Communication in human services
+
+These are the existing outputs from the supplied notebook workflow, shown unchanged. [View the example metadata as JSON](examples/ken-lundy-metadata.json).
+
 ## Setup and run
 
 ```sh
@@ -11,7 +35,7 @@ python3 -m venv .venv
 .venv/bin/python pipeline.py
 ```
 
-Collection inputs and authority data are not distributed in this repository. Place one transcript workbook and its MP4 files under `Library-Metadata/`, topical authority JSONL under `Topical/`, and geographic authority JSONL under `Geo/`. Each authority record must contain `id`, `fast` (the authorized heading), and `deleted` fields. The workbook must retain `ResponseId`, `Q1_4` (first name), `Q1_6` (last name), and `Q14_Video_Transcript` columns. Video filenames must include the matching first and last names.
+The featured interview is hosted as a GitHub video attachment. The complete collection inputs and authority data are not distributed in this repository. Place one transcript workbook and its MP4 files under `Library-Metadata/`, topical authority JSONL under `Topical/`, and geographic authority JSONL under `Geo/`. Each authority record must contain `id`, `fast` (the authorized heading), and `deleted` fields. The workbook must retain `ResponseId`, `Q1_4` (first name), `Q1_6` (last name), and `Q14_Video_Transcript` columns. Video filenames must include the matching first and last names.
 
 Put the OpenAI API key in `secret.txt` or `secrets.txt`, or set `OPENAI_API_KEY`. Keys are never printed. Running the pipeline sends the interview transcript and sampled frames to OpenAI and incurs API charges. Responses use `store=False`.
 
