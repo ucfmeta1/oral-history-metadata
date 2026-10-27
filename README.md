@@ -26,6 +26,45 @@ Ken Lundy, UCF Launch, Steelcase, World Trade Center, Knight's Tales Project
 
 These are the existing outputs from the supplied notebook workflow, shown unchanged. [View the example metadata as JSON](examples/ken-lundy-metadata.json).
 
+## Proposed discovery interface
+
+A search-and-filter concept for exploring the oral-history collection. The sidebar combines affiliation, visual artifacts, attire, observable gestures, audio events, and thematic subjects; result cards connect each interview to its discovery facets.
+
+```text
++---------------------------------------+--------------------------------------+
+| [=] UCF Remembers 9/11       Search transcripts & entities                   |
++---------------------------------------+--------------------------------------+
+| [ Sidebar Filters ]                   | Results (Showing 18 items)           |
+| v UCF AFFILIATION                     |                                      |
+|   [ ] Faculty   [ ] Staff             | +--------------------------------+   |
+|   [ ] Alumni    [ ] Student           | | [>] A Pilot's Perspective       |  |
+|                                       | | Col. Phillip Jones             |   |
+| v VISUAL PROPS & ARTIFACTS            | | Facets:                        |   |
+|   [x] Historical Photos               | |   Military Uniform             |   |
+|   [ ] Mobile/Digital Screens          | |   Downward Gaze                |   |
+|   [ ] Newspaper Clippings             | |   USCENTAF / Shaw AFB           |  |
+|                                       | +--------------------------------+   |
+| v ATTIRE & SYMBOLS                    |                                      |
+|   [x] Military Uniforms               | +--------------------------------+   |
+|   [ ] Cultural Garments (Hijab)       | | [>] Witness from Oyster Bar    |   |
+|                                       | | Doris Stanley                  |   |
+| v BEHAVIORAL & GAZE CUES              | | Facets:                        |   |
+|   [x] Downward Gaze / Reflection      | |   Reflective Pause             |   |
+|   [ ] Expressive Hand Gestures        | |   Anxiety & Trauma             |   |
+|                                       | |   Live TV Broadcasts           |   |
+| v PARALINGUISTIC EVENTS               | +--------------------------------+   |
+|   [x] Sighs / Trembling Voice         |                                      |
+|   [ ] Extended Silent Pauses          |                                      |
+|                                       |                                      |
+| v THEMATIC ELEMENTS                   |                                      |
+|   [x] Military Response & Logistics   |                                      |
+|   [x] 2001 Tech & Comm. Barriers      |                                      |
+|   [x] Social Aftermath / Backlash     |                                      |
++---------------------------------------+--------------------------------------+
+```
+
+This is a static wireframe based on the proposed design. The 18-item count, selected filters, and card facets are illustrative, not verified findings from the six-video run. Audio events and detailed behavioral facets would require additional analysis and review before becoming searchable metadata.
+
 ## Setup and run
 
 ```sh
