@@ -14,5 +14,55 @@
     "Memorials--Psychological aspects",
     "Healing",
     "Communication in human services"
-  ]
+  ],
+  "primary_subjects": [
+    "Ken Lundy",
+    "UCF Staff",
+    "Steelcase",
+    "World Trade Center"
+  ],
+  "secondary_subjects": [
+    "Knight's Tales Project",
+    "Communication challenges",
+    "Psychological trauma",
+    "Remembrance and healing"
+  ],
+  "visual_evidence": {
+    "visible_people": [
+      "Individual with glasses and gray beard"
+    ],
+    "visible_objects": [],
+    "scenes": [
+      "Individual against a dark, patterned background"
+    ],
+    "onscreen_text": [],
+    "activities": [
+      "Speaking",
+      "Looking slightly to the side",
+      "Looking downward"
+    ],
+    "uncertainties": []
+  },
+  "workbook_context": {
+    "Q1_4": "Ken",
+    "Q1_6": "Lundy",
+    "Q6": "Staff",
+    "Q8": "",
+    "Q9": "",
+    "Q11": "Program Manager - UCF Launch",
+    "RecordedDate": "2026-09-11 09:14:58.182000"
+  },
+  "evidence_notes": [
+    "Ken Lundy is identified as a Program Manager at UCF Launch.",
+    "The interview is part of the Knight's Tales Project.",
+    "Lundy worked for Steelcase and was near the World Trade Center during a significant event.",
+    "Communication challenges during the event are highlighted."
+  ],
+  "uncertainty_notes": [
+    "The specific date of the significant event is not mentioned.",
+    "The exact nature of the significant event is not detailed.",
+    "The precise location of the Steelcase headquarters is not specified.",
+    "Full names and identities of the speaker's spouse are not provided."
+  ],
+  "source_sheet": "Generated_Metadata"
 }

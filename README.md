@@ -2,68 +2,33 @@
 
 Creates `outputs/video_metadata.xlsx` from the six MP4 videos and the transcript workbook under `Library-Metadata`.
 
+<!-- BEGIN EXCEL VIDEO EXAMPLE -->
 ## Video example: Ken Lundy
 
-Use the player below to play or pause the interview. GitHub starts the player muted; use the speaker control to enable audio and adjust the volume. This copy preserves the full interview and audio, compressed for browser playback.
+UCF Remembers 9/11 — sample metadata view. The left panel shows entities, subjects, and visual evidence from the generated Excel row; the right panel shows the matching video and generated description, keywords, and FAST headings.
+
+<table>
+<tr><th width="35%">Entities &amp; evidence</th><th width="65%">Video &amp; generated metadata</th></tr>
+<tr>
+<td width="35%" valign="top">
+
+<h4>Entities &amp; affiliation</h4><ul><li>Ken Lundy</li><li>Staff</li><li>Program Manager - UCF Launch</li></ul><h4>Primary subjects</h4><ul><li>Ken Lundy</li><li>UCF Staff</li><li>Steelcase</li><li>World Trade Center</li></ul><h4>Themes &amp; secondary subjects</h4><ul><li>Knight&#x27;s Tales Project</li><li>Communication challenges</li><li>Psychological trauma</li><li>Remembrance and healing</li></ul><h4>Visual evidence: sampled frames</h4><p><strong>Visible people</strong></p><ul><li>Individual with glasses and gray beard</li></ul><p><strong>Artifacts & props</strong></p><ul><li>None detected in sampled frames</li></ul><p><strong>Observed activities</strong></p><ul><li>Speaking</li><li>Looking slightly to the side</li><li>Looking downward</li></ul><p><strong>Scene</strong></p><ul><li>Individual against a dark, patterned background</li></ul><p><strong>Onscreen text</strong></p><ul><li>None detected in sampled frames</li></ul><h4>Evidence notes</h4><ul><li>Ken Lundy is identified as a Program Manager at UCF Launch.</li><li>The interview is part of the Knight&#x27;s Tales Project.</li><li>Lundy worked for Steelcase and was near the World Trade Center during a significant event.</li><li>Communication challenges during the event are highlighted.</li></ul>
+
+</td>
+<td width="65%" valign="top">
+
+<h3>Ken Lundy</h3><p>Program Manager - UCF Launch</p><p>Showing 1 of 6 oral histories · 187 seconds · 6 sampled frames</p><p>Play or pause using the controls below. Use the speaker control to unmute the audio.</p>
 
 https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
 
-### Generated description
+<h4>Generated description</h4><p>Ken Lundy, a Program Manager at UCF Launch, shares his personal experience during a significant historical event as part of the Knight&#x27;s Tales Project. Lundy recounts his time working for Steelcase and being in the vicinity of the World Trade Center during a major incident. He describes the communication challenges he faced while trying to contact his spouse amidst the chaos. Lundy reflects on the psychological trauma experienced by many and emphasizes the importance of remembrance and healing for the victims. His narrative provides insight into the immediate aftermath of the event and the broader social impacts. This account contributes to the collective memory of the event, highlighting the personal and professional challenges faced by individuals during crises.</p><h4>Generated keywords</h4><ul><li>Ken Lundy</li><li>UCF Launch</li><li>Steelcase</li><li>World Trade Center</li><li>Knight&#x27;s Tales Project</li></ul><h4>Selected FAST subject headings</h4><ul><li>Psychic trauma</li><li>Universities and colleges--Professional staff</li><li>Memorials--Psychological aspects</li><li>Healing</li><li>Communication in human services</li></ul><details><summary>Uncertainties recorded in Excel</summary><ul><li>The specific date of the significant event is not mentioned.</li><li>The exact nature of the significant event is not detailed.</li><li>The precise location of the Steelcase headquarters is not specified.</li><li>Full names and identities of the speaker&#x27;s spouse are not provided.</li></ul></details>
 
-Ken Lundy, a Program Manager at UCF Launch, shares his personal experience during a significant historical event as part of the Knight's Tales Project. Lundy recounts his time working for Steelcase and being in the vicinity of the World Trade Center during a major incident. He describes the communication challenges he faced while trying to contact his spouse amidst the chaos. Lundy reflects on the psychological trauma experienced by many and emphasizes the importance of remembrance and healing for the victims. His narrative provides insight into the immediate aftermath of the event and the broader social impacts. This account contributes to the collective memory of the event, highlighting the personal and professional challenges faced by individuals during crises.
+</td>
+</tr>
+</table>
 
-### Generated keywords
-
-Ken Lundy, UCF Launch, Steelcase, World Trade Center, Knight's Tales Project
-
-### Selected FAST subject headings
-
-- Psychic trauma
-- Universities and colleges--Professional staff
-- Memorials--Psychological aspects
-- Healing
-- Communication in human services
-
-These are the existing outputs from the supplied notebook workflow, shown unchanged. [View the example metadata as JSON](examples/ken-lundy-metadata.json).
-
-## Proposed discovery interface
-
-A search-and-filter concept for exploring the oral-history collection. The sidebar combines affiliation, visual artifacts, attire, observable gestures, audio events, and thematic subjects; result cards connect each interview to its discovery facets.
-
-```text
-+---------------------------------------+--------------------------------------+
-| [=] UCF Remembers 9/11       Search transcripts & entities                   |
-+---------------------------------------+--------------------------------------+
-| [ Sidebar Filters ]                   | Results (Showing 18 items)           |
-| v UCF AFFILIATION                     |                                      |
-|   [ ] Faculty   [ ] Staff             | +--------------------------------+   |
-|   [ ] Alumni    [ ] Student           | | [>] A Pilot's Perspective       |  |
-|                                       | | Col. Phillip Jones             |   |
-| v VISUAL PROPS & ARTIFACTS            | | Facets:                        |   |
-|   [x] Historical Photos               | |   Military Uniform             |   |
-|   [ ] Mobile/Digital Screens          | |   Downward Gaze                |   |
-|   [ ] Newspaper Clippings             | |   USCENTAF / Shaw AFB           |  |
-|                                       | +--------------------------------+   |
-| v ATTIRE & SYMBOLS                    |                                      |
-|   [x] Military Uniforms               | +--------------------------------+   |
-|   [ ] Cultural Garments (Hijab)       | | [>] Witness from Oyster Bar    |   |
-|                                       | | Doris Stanley                  |   |
-| v BEHAVIORAL & GAZE CUES              | | Facets:                        |   |
-|   [x] Downward Gaze / Reflection      | |   Reflective Pause             |   |
-|   [ ] Expressive Hand Gestures        | |   Anxiety & Trauma             |   |
-|                                       | |   Live TV Broadcasts           |   |
-| v PARALINGUISTIC EVENTS               | +--------------------------------+   |
-|   [x] Sighs / Trembling Voice         |                                      |
-|   [ ] Extended Silent Pauses          |                                      |
-|                                       |                                      |
-| v THEMATIC ELEMENTS                   |                                      |
-|   [x] Military Response & Logistics   |                                      |
-|   [x] 2001 Tech & Comm. Barriers      |                                      |
-|   [x] Social Aftermath / Backlash     |                                      |
-+---------------------------------------+--------------------------------------+
-```
-
-This is a static wireframe based on the proposed design. The 18-item count, selected filters, and card facets are illustrative, not verified findings from the six-video run. Audio events and detailed behavioral facets would require additional analysis and review before becoming searchable metadata.
+Source: `outputs/notebook/UCFremembers911_video_metadata.xlsx`, `Generated_Metadata`, Ken Lundy’s row. Visual evidence comes from sampled frames; observations and subjects are shown as generated. This README panel is static; its video supports playback and audio controls. [View the exported example data](examples/ken-lundy-metadata.json).
+<!-- END EXCEL VIDEO EXAMPLE -->
 
 ## Setup and run
 
