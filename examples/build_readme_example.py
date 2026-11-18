@@ -44,10 +44,14 @@ def build(record, video_url=None):
                          for o in observations if o['category'] == category])
     right = '<h3>' + escape(name) + '</h3>'
     right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
-    right += f'<p><a href="examples/videos/{slug}.mp4"><img src="examples/previews/{slug}.jpg" width="480" alt="Play {escape(name)} interview with audio"></a></p>'
-    right += f'<p><a href="examples/videos/{slug}.mp4">Play full video with audio</a> · Compressed viewing copy; original duration retained.</p>'
     if video_url:
-        right += '\n\n' + video_url + '\n\n'
+        # GitHub renders its uploaded attachment as a native inline video player.
+        # Use that player alone instead of also showing a duplicate thumbnail.
+        right += '<p>Play/pause and audio controls are available below.</p>\n\n' + video_url + '\n\n'
+        right += f'<p><a href="examples/videos/{slug}.mp4">Open video with audio if the inline player is unavailable</a></p>'
+    else:
+        right += f'<p><a href="examples/videos/{slug}.mp4"><img src="examples/previews/{slug}.jpg" width="480" alt="Play {escape(name)} interview with audio"></a></p>'
+        right += f'<p><a href="examples/videos/{slug}.mp4">Open video player with audio</a> · Compressed viewing copy; original duration retained.</p>'
     right += '<h4>Generated description</h4><p>' + escape(record['description']) + '</p>'
     right += '<h4>Keywords</h4>' + listing(record['keywords'])
     right += '<h4>Selected FAST subjects</h4>' + listing(record['fast_subjects'])
@@ -116,7 +120,7 @@ def main():
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
     section = (START + '\n## Video examples — all generated results\n\n'
                f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, all visual-evidence categories, the JSON evidence, description, five keywords, selected FAST subjects, retrieved candidates, and review notes. '
-               'Click a video preview to open its full MP4 on GitHub; playback includes audio. Ken Lundy also retains the existing inline video attachment. '
+               'Ken Lundy has one inline video player with play/pause and audio controls. For the other interviews, click the preview or Open video player with audio to open the full MP4 on GitHub. '
                'Values are shown as generated, including unresolved transcription details.\n\n'
                + index + '\n\n' + ''.join(build(r, args.video_url if identity(r)[1] == 'ken-lundy' else None) for r in records)
                + 'Source: `outputs/notebook/UCFremembers911_video_metadata.json`, matching the generated Excel workbook. '
