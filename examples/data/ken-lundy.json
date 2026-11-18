@@ -1,0 +1,746 @@
+{
+  "video_filename": "Lundy-Ken-2026-09-11_Video.mp4",
+  "duration_seconds": 186.96666666666667,
+  "sampled_frames": 8,
+  "description": "Ken introduces himself as recording an interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026, the 25th anniversary of 9/11. He recalls working for Steelcase, whose headquarters was in Grand Rapids, Michigan, while his territory was New York City. Before the attacks, he and his wife had traveled to the New York City area over Labor Day 2001 to seek employment and housing; he says his first visit to the World Trade Center towers was during that trip. He describes being at Steelcase headquarters in Grand Rapids on September 11, 2001, watching events unfold there, and being unable to reach his wife, who was working for Social Security. He says he later met his wife at home in Grand Rapids and recalls meeting a friend in the World Trade Center shopping area during his earlier visit. He reflects on the people who worked in the World Trade Center, remembers the victims, and expresses hope and prayer for healing. In the supplied video frames, the speaker wears a dark collared top and pale-framed glasses; frames also show him speaking and, at one moment, looking downward.",
+  "entities_and_facets": {
+    "people": [
+      "Ken (surname spelling uncertain)",
+      "Ken’s wife",
+      "Ken’s friend"
+    ],
+    "locations": [
+      "UCF John C. Hitt Library",
+      "Grand Rapids, Michigan",
+      "New York City",
+      "World Trade Center"
+    ],
+    "organizations": [
+      "UCF",
+      "Knights Tales Project",
+      "Steelcase",
+      "Social Security"
+    ],
+    "dates": [
+      "September 11, 2026 (recording date)",
+      "September 11, 2001 (event date)",
+      "Labor Day 2001 (prior visit)"
+    ],
+    "themes": [
+      "September 11, 2001 attacks",
+      "work and relocation",
+      "World Trade Center visit before the attacks",
+      "family communication",
+      "remembrance and healing"
+    ],
+    "perspective": "Personal recollection of watching events unfold at Steelcase headquarters in Grand Rapids, combined with memories of a prior World Trade Center visit; the account does not describe being at an attack site during the attacks."
+  },
+  "visual_evidence": {
+    "visual_observations": [
+      {
+        "frame_id": "V001",
+        "category": "attire_and_symbols",
+        "observation": "Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible.",
+        "confidence": "high",
+        "timestamp_seconds": 15.567,
+        "review_required": false
+      },
+      {
+        "frame_id": "V002",
+        "category": "activities_and_emotional_moments",
+        "observation": "Mouth open mid-speech, facing mostly forward with gaze slightly to the side.",
+        "confidence": "high",
+        "timestamp_seconds": 46.733,
+        "review_required": false
+      },
+      {
+        "frame_id": "V006",
+        "category": "activities_and_emotional_moments",
+        "observation": "Gaze lowered and lips closed; no hand gesture is visible.",
+        "confidence": "high",
+        "timestamp_seconds": 158.0,
+        "review_required": false
+      },
+      {
+        "frame_id": "V007",
+        "category": "activities_and_emotional_moments",
+        "observation": "Mouth open mid-speech, with gaze angled slightly downward to the side.",
+        "confidence": "high",
+        "timestamp_seconds": 171.367,
+        "review_required": false
+      }
+    ]
+  },
+  "keywords": [
+    "September 11, 2001 attacks",
+    "Grand Rapids recollections",
+    "World Trade Center visit before the attacks",
+    "family communication during the attacks",
+    "remembrance and healing"
+  ],
+  "fast_subjects": [
+    "September 11 Terrorist Attacks (2001)",
+    "Victims of terrorism"
+  ],
+  "description_support": [
+    {
+      "text": "Ken introduces himself as recording an interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026, the 25th anniversary of 9/11.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        }
+      ]
+    },
+    {
+      "text": "He recalls working for Steelcase, whose headquarters was in Grand Rapids, Michigan, while his territory was New York City.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        }
+      ]
+    },
+    {
+      "text": "Before the attacks, he and his wife had traveled to the New York City area over Labor Day 2001 to seek employment and housing; he says his first visit to the World Trade Center towers was during that trip.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        },
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "text": "He describes being at Steelcase headquarters in Grand Rapids on September 11, 2001, watching events unfold there, and being unable to reach his wife, who was working for Social Security.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        }
+      ]
+    },
+    {
+      "text": "He says he later met his wife at home in Grand Rapids and recalls meeting a friend in the World Trade Center shopping area during his earlier visit.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "text": "He reflects on the people who worked in the World Trade Center, remembers the victims, and expresses hope and prayer for healing.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "text": "In the supplied video frames, the speaker wears a dark collared top and pale-framed glasses; frames also show him speaking and, at one moment, looking downward.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        }
+      ]
+    }
+  ],
+  "keyword_support": [
+    {
+      "term": "September 11, 2001 attacks",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        },
+        {
+          "source_id": "C002",
+          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+        }
+      ]
+    },
+    {
+      "term": "Grand Rapids recollections",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        },
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "term": "World Trade Center visit before the attacks",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "term": "family communication during the attacks",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        },
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    },
+    {
+      "term": "remembrance and healing",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ]
+    }
+  ],
+  "fast_selection_details": [
+    {
+      "heading": "September 11 Terrorist Attacks (2001)",
+      "authority_id": "fst01112794",
+      "reason": "Collection-wide policy"
+    },
+    {
+      "candidate_id": "F06",
+      "rationale": "The interview explicitly remembers the September 11 victims and reflects on the people who worked in the World Trade Center, making victims of terrorism a central topic beyond the collection-wide event heading.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
+        }
+      ],
+      "heading": "Victims of terrorism",
+      "authority_id": "fst01166347"
+    }
+  ],
+  "fast_candidates": [
+    {
+      "id": "fst01907196",
+      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "facet": "Topical",
+      "rrf_score": 0.03076923076923077,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.622646331787109,
+      "metadata": {
+        "id": "fst01907196",
+        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00870710",
+      "heading": "Community college libraries",
+      "facet": "Topical",
+      "rrf_score": 0.011363636363636364,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.661622047424316,
+      "metadata": {
+        "id": "fst00870710",
+        "fast": "Community college libraries",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01327677",
+      "heading": "Washington (D.C.)--John F. Kennedy Center Plaza",
+      "facet": "Geographic",
+      "rrf_score": 0.010309278350515464,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.666948318481445,
+      "metadata": {
+        "id": "fst01327677",
+        "fast": "Washington (D.C.)--John F. Kennedy Center Plaza",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01907195",
+      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "facet": "Topical",
+      "rrf_score": 0.03125,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.696799278259277,
+      "metadata": {
+        "id": "fst01907195",
+        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst02060917",
+      "heading": "September 11 Terrorist Attacks, 2001, in comics",
+      "facet": "Topical",
+      "rrf_score": 0.03200204813108039,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.756510257720947,
+      "metadata": {
+        "id": "fst02060917",
+        "fast": "September 11 Terrorist Attacks, 2001, in comics",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01166347",
+      "heading": "Victims of terrorism",
+      "facet": "Topical",
+      "rrf_score": 0.014285714285714285,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.788251876831055,
+      "metadata": {
+        "id": "fst01166347",
+        "fast": "Victims of terrorism",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01112793",
+      "heading": "September",
+      "facet": "Topical",
+      "rrf_score": 0.012195121951219513,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.794103145599365,
+      "metadata": {
+        "id": "fst01112793",
+        "fast": "September",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01229406",
+      "heading": "New York (State)--Guilderland Center",
+      "facet": "Geographic",
+      "rrf_score": 0.009900990099009901,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.798067092895508,
+      "metadata": {
+        "id": "fst01229406",
+        "fast": "New York (State)--Guilderland Center",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01907194",
+      "heading": "September 11 Terrorist Attacks (2001) in literature",
+      "facet": "Topical",
+      "rrf_score": 0.03200204813108039,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.802373886108398,
+      "metadata": {
+        "id": "fst01907194",
+        "fast": "September 11 Terrorist Attacks (2001) in literature",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00920516",
+      "heading": "Family social work",
+      "facet": "Topical",
+      "rrf_score": 0.012987012987012988,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.814682960510254,
+      "metadata": {
+        "id": "fst00920516",
+        "fast": "Family social work",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01747281",
+      "heading": "September 11 Terrorist Attacks, 2001, on television",
+      "facet": "Topical",
+      "rrf_score": 0.03278688524590164,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.815991401672363,
+      "metadata": {
+        "id": "fst01747281",
+        "fast": "September 11 Terrorist Attacks, 2001, on television",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01728100",
+      "heading": "Communication in families",
+      "facet": "Topical",
+      "rrf_score": 0.012658227848101266,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.826535224914551,
+      "metadata": {
+        "id": "fst01728100",
+        "fast": "Communication in families",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01881448",
+      "heading": "New York (State)--Tioga Center",
+      "facet": "Geographic",
+      "rrf_score": 0.009345794392523364,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.8286542892456055,
+      "metadata": {
+        "id": "fst01881448",
+        "fast": "New York (State)--Tioga Center",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01083242",
+      "heading": "Public utilities, Relocation of",
+      "facet": "Topical",
+      "rrf_score": 0.013157894736842105,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.833428382873535,
+      "metadata": {
+        "id": "fst01083242",
+        "fast": "Public utilities, Relocation of",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00920522",
+      "heading": "Family social work--Planning",
+      "facet": "Topical",
+      "rrf_score": 0.010869565217391304,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.838628768920898,
+      "metadata": {
+        "id": "fst00920522",
+        "fast": "Family social work--Planning",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01020466",
+      "heading": "Middle class--Relocation",
+      "facet": "Topical",
+      "rrf_score": 0.014492753623188406,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.83914041519165,
+      "metadata": {
+        "id": "fst01020466",
+        "fast": "Middle class--Relocation",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01180235",
+      "heading": "Work and family",
+      "facet": "Topical",
+      "rrf_score": 0.022704081632653063,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.840871334075928,
+      "metadata": {
+        "id": "fst01180235",
+        "fast": "Work and family",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00952727",
+      "heading": "Healing in art",
+      "facet": "Topical",
+      "rrf_score": 0.012048192771084338,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.843144416809082,
+      "metadata": {
+        "id": "fst00952727",
+        "fast": "Healing in art",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01884429",
+      "heading": "New York (State)--Plainfield Center",
+      "facet": "Geographic",
+      "rrf_score": 0.009259259259259259,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.843195915222168,
+      "metadata": {
+        "id": "fst01884429",
+        "fast": "New York (State)--Plainfield Center",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00920521",
+      "heading": "Family social work--Management",
+      "facet": "Topical",
+      "rrf_score": 0.01098901098901099,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.845835208892822,
+      "metadata": {
+        "id": "fst00920521",
+        "fast": "Family social work--Management",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01257864",
+      "heading": "New York (State)--Center Moriches",
+      "facet": "Geographic",
+      "rrf_score": 0.00980392156862745,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.850793838500977,
+      "metadata": {
+        "id": "fst01257864",
+        "fast": "New York (State)--Center Moriches",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00920518",
+      "heading": "Family social work--Evaluation",
+      "facet": "Topical",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.853703022003174,
+      "metadata": {
+        "id": "fst00920518",
+        "fast": "Family social work--Evaluation",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01120300",
+      "heading": "Skyscrapers--Security measures",
+      "facet": "Topical",
+      "rrf_score": 0.012195121951219513,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.854660987854004,
+      "metadata": {
+        "id": "fst01120300",
+        "fast": "Skyscrapers--Security measures",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01180245",
+      "heading": "Work and family--Social aspects",
+      "facet": "Topical",
+      "rrf_score": 0.012048192771084338,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.857648849487305,
+      "metadata": {
+        "id": "fst01180245",
+        "fast": "Work and family--Social aspects",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01123105",
+      "heading": "Social security--Field work",
+      "facet": "Topical",
+      "rrf_score": 0.011363636363636364,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.857868671417236,
+      "metadata": {
+        "id": "fst01123105",
+        "fast": "Social security--Field work",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01299066",
+      "heading": "New York (State)--Orangeville Center",
+      "facet": "Geographic",
+      "rrf_score": 0.009523809523809525,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.859671592712402,
+      "metadata": {
+        "id": "fst01299066",
+        "fast": "New York (State)--Orangeville Center",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00920524",
+      "heading": "Family social work--Standards",
+      "facet": "Topical",
+      "rrf_score": 0.010638297872340425,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.861045837402344,
+      "metadata": {
+        "id": "fst00920524",
+        "fast": "Family social work--Standards",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00920523",
+      "heading": "Family social work--Research",
+      "facet": "Topical",
+      "rrf_score": 0.010752688172043012,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.86272668838501,
+      "metadata": {
+        "id": "fst00920523",
+        "fast": "Family social work--Research",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00920525",
+      "heading": "Family social work--Study and teaching",
+      "facet": "Topical",
+      "rrf_score": 0.008849557522123894,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.8643903732299805,
+      "metadata": {
+        "id": "fst00920525",
+        "fast": "Family social work--Study and teaching",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01036779",
+      "heading": "New York State Social Studies Test",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.870355129241943,
+      "metadata": {
+        "id": "fst01036779",
+        "fast": "New York State Social Studies Test",
+        "facet": "Topical"
+      }
+    }
+  ],
+  "quality": {
+    "status": "needs_review",
+    "issues": [
+      "The keyword “family communication during the attacks” overstates the coverage: the transcript briefly mentions being unable to reach his wife and later meeting her at home, rather than sustained discussion of family communication.",
+      "The FAST heading “Victims of terrorism” is weakly relevant as a selected heading: victims are mentioned briefly in closing remarks, while the interview primarily recounts the speaker’s own experience. The rationale’s claim that victims are a central topic is unsupported."
+    ],
+    "attempts": 2,
+    "visual_low_confidence": 0,
+    "specific_fast_count": 1
+  },
+  "uncertainty_notes": [
+    "The transcript identifies the speaker as “Ken Landy,” while the supplied metadata gives the surname as “Lundy”; the surname spelling is unresolved.",
+    "The transcript ends mid-sentence after the speaker says “later on that afternoon,” so the omitted continuation is unknown."
+  ],
+  "frame_manifest": [
+    {
+      "id": "V001",
+      "timestamp_seconds": 15.567,
+      "selection": "coverage"
+    },
+    {
+      "id": "V002",
+      "timestamp_seconds": 46.733,
+      "selection": "coverage"
+    },
+    {
+      "id": "V003",
+      "timestamp_seconds": 77.9,
+      "selection": "coverage"
+    },
+    {
+      "id": "V004",
+      "timestamp_seconds": 109.033,
+      "selection": "coverage"
+    },
+    {
+      "id": "V005",
+      "timestamp_seconds": 140.2,
+      "selection": "coverage"
+    },
+    {
+      "id": "V006",
+      "timestamp_seconds": 158.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V007",
+      "timestamp_seconds": 171.367,
+      "selection": "coverage"
+    },
+    {
+      "id": "V008",
+      "timestamp_seconds": 184.0,
+      "selection": "visual_change_or_fill"
+    }
+  ]
+}

@@ -30,3 +30,6 @@ outputs/
 # Previous local exports
 old_outputs/
 .ipynb_checkpoints/
+
+# Compressed videos explicitly published as README examples
+!examples/videos/*.mp4

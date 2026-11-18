@@ -1,0 +1,805 @@
+{
+  "video_filename": "Arrieta-Ventura-Danna-2026-09-11_Video.mp4",
+  "duration_seconds": 168.96666666666667,
+  "sampled_frames": 8,
+  "description": "The speaker introduces herself in the transcript as “Donna,” while the supplied metadata gives “Danna”; her surname is listed in the metadata as Arrieta Ventura. In this UCF Remembers 9/11 recording, dated September 11, 2026, she reflects on family connections to the September 11, 2001 attacks and their aftermath. She recounts that her mother, an immigrant from Peru, was studying in high school in New York in 2001 and could communicate with family in Huánuco only every week or two. The speaker relays her great-aunt’s account of listening to radio coverage in Lima and fearing for the mother while communication was unavailable. She also recounts a story from her middle-school science teacher about his friend, who worked at or near the World Trade Center and was surrounded and hidden by coworkers and friends while walking in New York in the weeks after the attacks. The account emphasizes fear and the attacks’ cultural effects in the United States and internationally, including in rural areas.",
+  "entities_and_facets": {
+    "people": [
+      "Donna (speaker’s transcript name; metadata gives Danna)",
+      "Arrieta Ventura (surname listed in metadata)",
+      "Speaker’s mother",
+      "Speaker’s great-aunt",
+      "Middle-school science teacher",
+      "Teacher’s friend"
+    ],
+    "locations": [
+      "Huánuco, Peru",
+      "Lima, Peru",
+      "New York",
+      "United States"
+    ],
+    "organizations": [
+      "UCF Remembers 9/11",
+      "World Trade Center"
+    ],
+    "dates": [
+      "September 11, 2001 (attacks)",
+      "September 11, 2026 (recording date)"
+    ],
+    "themes": [
+      "Family communication across borders",
+      "Inherited family memory",
+      "Radio and television-era news coverage",
+      "Fear and uncertainty",
+      "International and rural impacts",
+      "Aftermath of the attacks"
+    ],
+    "perspective": "First-person retrospective account combining the speaker’s family history, a great-aunt’s remembered experience of radio coverage, and a story relayed through a former teacher; the speaker does not describe being present at an attack site."
+  },
+  "visual_evidence": {
+    "visual_observations": [
+      {
+        "frame_id": "V005",
+        "category": "attire_and_symbols",
+        "observation": "Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible.",
+        "confidence": "high",
+        "timestamp_seconds": 98.533,
+        "review_required": false
+      },
+      {
+        "frame_id": "V001",
+        "category": "activities_and_emotional_moments",
+        "observation": "Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area.",
+        "confidence": "medium",
+        "timestamp_seconds": 14.067,
+        "review_required": false
+      },
+      {
+        "frame_id": "V003",
+        "category": "activities_and_emotional_moments",
+        "observation": "Leans forward and looks slightly downward, mouth open.",
+        "confidence": "high",
+        "timestamp_seconds": 42.233,
+        "review_required": false
+      },
+      {
+        "frame_id": "V007",
+        "category": "activities_and_emotional_moments",
+        "observation": "Tilts head down and directs gaze below the camera; eyes appear closed or lowered.",
+        "confidence": "high",
+        "timestamp_seconds": 142.0,
+        "review_required": false
+      },
+      {
+        "frame_id": "V008",
+        "category": "activities_and_emotional_moments",
+        "observation": "Raises gaze to face forward again, with a neutral visible expression.",
+        "confidence": "high",
+        "timestamp_seconds": 154.867,
+        "review_required": false
+      }
+    ]
+  },
+  "keywords": [
+    "Family communication across borders",
+    "Peruvian family memories",
+    "Radio coverage and fear",
+    "International impact of 9/11",
+    "Aftermath in New York"
+  ],
+  "fast_subjects": [
+    "September 11 Terrorist Attacks (2001)",
+    "Immigrants--Family relationships",
+    "Collective memory",
+    "Communication, International--Social aspects"
+  ],
+  "description_support": [
+    {
+      "text": "The speaker introduces herself in the transcript as “Donna,” while the supplied metadata gives “Danna”; her surname is listed in the metadata as Arrieta Ventura.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "C001",
+          "quote": "{\"Q1_4\": \"Danna\", \"Q1_6\": \"Arrieta Ventura\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Video filename\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Arrieta-Ventura-Danna-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+        }
+      ]
+    },
+    {
+      "text": "In this UCF Remembers 9/11 recording, dated September 11, 2026, she reflects on family connections to the September 11, 2001 attacks and their aftermath.",
+      "support": [
+        {
+          "source_id": "C001",
+          "quote": "{\"Q1_4\": \"Danna\", \"Q1_6\": \"Arrieta Ventura\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Video filename\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Arrieta-Ventura-Danna-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+        },
+        {
+          "source_id": "C002",
+          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+        },
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        }
+      ]
+    },
+    {
+      "text": "She recounts that her mother, an immigrant from Peru, was studying in high school in New York in 2001 and could communicate with family in Huánuco only every week or two.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        }
+      ]
+    },
+    {
+      "text": "The speaker relays her great-aunt’s account of listening to radio coverage in Lima and fearing for the mother while communication was unavailable.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    },
+    {
+      "text": "She also recounts a story from her middle-school science teacher about his friend, who worked at or near the World Trade Center and was surrounded and hidden by coworkers and friends while walking in New York in the weeks after the attacks.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    },
+    {
+      "text": "The account emphasizes fear and the attacks’ cultural effects in the United States and internationally, including in rural areas.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        },
+        {
+          "source_id": "T003",
+          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
+        }
+      ]
+    }
+  ],
+  "keyword_support": [
+    {
+      "term": "Family communication across borders",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    },
+    {
+      "term": "Peruvian family memories",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        }
+      ]
+    },
+    {
+      "term": "Radio coverage and fear",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    },
+    {
+      "term": "International impact of 9/11",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        },
+        {
+          "source_id": "T003",
+          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
+        }
+      ]
+    },
+    {
+      "term": "Aftermath in New York",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    }
+  ],
+  "fast_selection_details": [
+    {
+      "heading": "September 11 Terrorist Attacks (2001)",
+      "authority_id": "fst01112794",
+      "reason": "Collection-wide policy"
+    },
+    {
+      "candidate_id": "F05",
+      "rationale": "The account centers on the speaker’s immigrant family and the fear caused by the mother’s separation from relatives in Peru during the attacks and their aftermath.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ],
+      "heading": "Immigrants--Family relationships",
+      "authority_id": "fst00967734"
+    },
+    {
+      "candidate_id": "F22",
+      "rationale": "The speaker brings together family recollections and a story passed through a former teacher to reflect on the attacks’ lasting cultural impact and the importance of remembering them.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        },
+        {
+          "source_id": "T003",
+          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
+        }
+      ],
+      "heading": "Collective memory",
+      "authority_id": "fst01739814"
+    },
+    {
+      "candidate_id": "F29",
+      "rationale": "Limited cross-border communication between New York and Peru is central to the family’s uncertainty, while the speaker emphasizes the attacks’ international effects.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        },
+        {
+          "source_id": "T003",
+          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
+        }
+      ],
+      "heading": "Communication, International--Social aspects",
+      "authority_id": "fst00870340"
+    }
+  ],
+  "fast_candidates": [
+    {
+      "id": "fst01037025",
+      "heading": "News recordings",
+      "facet": "Topical",
+      "rrf_score": 0.01282051282051282,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.845719337463379,
+      "metadata": {
+        "id": "fst01037025",
+        "fast": "News recordings",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01087275",
+      "heading": "Radio broadcasting and war",
+      "facet": "Topical",
+      "rrf_score": 0.011235955056179775,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.85459566116333,
+      "metadata": {
+        "id": "fst01087275",
+        "fast": "Radio broadcasting and war",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01737651",
+      "heading": "Family secrets",
+      "facet": "Topical",
+      "rrf_score": 0.012345679012345678,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.91718864440918,
+      "metadata": {
+        "id": "fst01737651",
+        "fast": "Family secrets",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146963",
+      "heading": "Television news anchors",
+      "facet": "Topical",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.932741641998291,
+      "metadata": {
+        "id": "fst01146963",
+        "fast": "Television news anchors",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00967734",
+      "heading": "Immigrants--Family relationships",
+      "facet": "Topical",
+      "rrf_score": 0.014705882352941176,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.937579154968262,
+      "metadata": {
+        "id": "fst00967734",
+        "fast": "Immigrants--Family relationships",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01749943",
+      "heading": "Memory on television",
+      "facet": "Topical",
+      "rrf_score": 0.00909090909090909,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.957831382751465,
+      "metadata": {
+        "id": "fst01749943",
+        "fast": "Memory on television",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01140739",
+      "heading": "Symbolic Drawing of the Family Space",
+      "facet": "Topical",
+      "rrf_score": 0.014925373134328358,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.965802192687988,
+      "metadata": {
+        "id": "fst01140739",
+        "fast": "Symbolic Drawing of the Family Space",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01037024",
+      "heading": "News radio stations",
+      "facet": "Topical",
+      "rrf_score": 0.0136986301369863,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.965897560119629,
+      "metadata": {
+        "id": "fst01037024",
+        "fast": "News radio stations",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01749982",
+      "heading": "Multilingual communication",
+      "facet": "Topical",
+      "rrf_score": 0.013888888888888888,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.970508575439453,
+      "metadata": {
+        "id": "fst01749982",
+        "fast": "Multilingual communication",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146813",
+      "heading": "Television broadcasting of news--U.S. states",
+      "facet": "Topical",
+      "rrf_score": 0.011494252873563218,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.971200942993164,
+      "metadata": {
+        "id": "fst01146813",
+        "fast": "Television broadcasting of news--U.S. states",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00839182",
+      "heading": "Broadcast journalism--Technological innovations",
+      "facet": "Topical",
+      "rrf_score": 0.011904761904761904,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.974257469177246,
+      "metadata": {
+        "id": "fst00839182",
+        "fast": "Broadcast journalism--Technological innovations",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146811",
+      "heading": "Television broadcasting of news--Study and teaching",
+      "facet": "Topical",
+      "rrf_score": 0.008928571428571428,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.977603435516357,
+      "metadata": {
+        "id": "fst01146811",
+        "fast": "Television broadcasting of news--Study and teaching",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146798",
+      "heading": "Television broadcasting of news--Law and legislation",
+      "facet": "Topical",
+      "rrf_score": 0.009009009009009009,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.97829532623291,
+      "metadata": {
+        "id": "fst01146798",
+        "fast": "Television broadcasting of news--Law and legislation",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146803",
+      "heading": "Television broadcasting of news--Philosophy",
+      "facet": "Topical",
+      "rrf_score": 0.01020408163265306,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.978326797485352,
+      "metadata": {
+        "id": "fst01146803",
+        "fast": "Television broadcasting of news--Philosophy",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00976250",
+      "heading": "Intergenerational communication",
+      "facet": "Topical",
+      "rrf_score": 0.016129032258064516,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.985492706298828,
+      "metadata": {
+        "id": "fst00976250",
+        "fast": "Intergenerational communication",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01236609",
+      "heading": "United States--Territory of the United States, South of the River Ohio",
+      "facet": "Geographic",
+      "rrf_score": 0.008771929824561403,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.990816116333008,
+      "metadata": {
+        "id": "fst01236609",
+        "fast": "United States--Territory of the United States, South of the River Ohio",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01146799",
+      "heading": "Television broadcasting of news--Management",
+      "facet": "Topical",
+      "rrf_score": 0.010416666666666666,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.993465423583984,
+      "metadata": {
+        "id": "fst01146799",
+        "fast": "Television broadcasting of news--Management",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146790",
+      "heading": "Television broadcasting of news--Awards",
+      "facet": "Topical",
+      "rrf_score": 0.01098901098901099,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.994370460510254,
+      "metadata": {
+        "id": "fst01146790",
+        "fast": "Television broadcasting of news--Awards",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00900644",
+      "heading": "Early memories",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.996268272399902,
+      "metadata": {
+        "id": "fst00900644",
+        "fast": "Early memories",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146810",
+      "heading": "Television broadcasting of news--Standards",
+      "facet": "Topical",
+      "rrf_score": 0.01,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.001250267028809,
+      "metadata": {
+        "id": "fst01146810",
+        "fast": "Television broadcasting of news--Standards",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146794",
+      "heading": "Television broadcasting of news--Evaluation",
+      "facet": "Topical",
+      "rrf_score": 0.010638297872340425,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.006468772888184,
+      "metadata": {
+        "id": "fst01146794",
+        "fast": "Television broadcasting of news--Evaluation",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01739814",
+      "heading": "Collective memory",
+      "facet": "Topical",
+      "rrf_score": 0.015151515151515152,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -7.008658409118652,
+      "metadata": {
+        "id": "fst01739814",
+        "fast": "Collective memory",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01265481",
+      "heading": "United States--Center Hill Metabentonite",
+      "facet": "Geographic",
+      "rrf_score": 0.008849557522123894,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.019870758056641,
+      "metadata": {
+        "id": "fst01265481",
+        "fast": "United States--Center Hill Metabentonite",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst02021907",
+      "heading": "Collective memory and television",
+      "facet": "Topical",
+      "rrf_score": 0.009900990099009901,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.022758960723877,
+      "metadata": {
+        "id": "fst02021907",
+        "fast": "Collective memory and television",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146793",
+      "heading": "Television broadcasting of news--Employees",
+      "facet": "Topical",
+      "rrf_score": 0.010752688172043012,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.026129722595215,
+      "metadata": {
+        "id": "fst01146793",
+        "fast": "Television broadcasting of news--Employees",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146807",
+      "heading": "Television broadcasting of news--Research",
+      "facet": "Topical",
+      "rrf_score": 0.010101010101010102,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.02741813659668,
+      "metadata": {
+        "id": "fst01146807",
+        "fast": "Television broadcasting of news--Research",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146806",
+      "heading": "Television broadcasting of news--Public opinion",
+      "facet": "Topical",
+      "rrf_score": 0.014084507042253521,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -7.029952049255371,
+      "metadata": {
+        "id": "fst01146806",
+        "fast": "Television broadcasting of news--Public opinion",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01242544",
+      "heading": "United States--Northwest boundary of the United States",
+      "facet": "Geographic",
+      "rrf_score": 0.009345794392523364,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -7.030411720275879,
+      "metadata": {
+        "id": "fst01242544",
+        "fast": "United States--Northwest boundary of the United States",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00870340",
+      "heading": "Communication, International--Social aspects",
+      "facet": "Topical",
+      "rrf_score": 0.011363636363636364,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -7.031149864196777,
+      "metadata": {
+        "id": "fst00870340",
+        "fast": "Communication, International--Social aspects",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01101619",
+      "heading": "Rural extension",
+      "facet": "Topical",
+      "rrf_score": 0.011764705882352941,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -7.031330108642578,
+      "metadata": {
+        "id": "fst01101619",
+        "fast": "Rural extension",
+        "facet": "Topical"
+      }
+    }
+  ],
+  "quality": {
+    "status": "needs_review",
+    "issues": [
+      "Description sentence 1: The transcript says “Donna,” while metadata lists “Danna”; the supplied data does not establish that these are the same person, so avoid presenting the discrepancy as a resolved identity.",
+      "Description sentence 4 overstates the chronology: the aunt feared for the mother during a week or two without communication, but the excerpt does not establish that communication was unavailable specifically throughout the attacks or that the mother was separated from all relatives.",
+      "Keyword “Peruvian family memories” is weakly supported: the account concerns the aunt’s reported experience and the speaker’s family ties, not sustained recollections or memories from family members in Peru.",
+      "FAST heading “Collective memory” is weakly relevant: the speaker urges remembering the attacks, but the account is primarily personal and family recollection rather than collective memory as a sustained subject.",
+      "FAST heading “Communication, International--Social aspects” is weakly relevant: limited international contact is discussed, but the account focuses on its role in family anxiety rather than international communication as a broader social topic."
+    ],
+    "attempts": 2,
+    "visual_low_confidence": 0,
+    "specific_fast_count": 3
+  },
+  "uncertainty_notes": [
+    "The speaker’s first name differs between the transcript (“Donna”) and supplied metadata (“Danna”); the discrepancy is unresolved.",
+    "The transcript does not clearly establish the teacher’s friend’s identity or what the phrase “who was a hijab” means; no attire or identity inference is made."
+  ],
+  "frame_manifest": [
+    {
+      "id": "V001",
+      "timestamp_seconds": 14.067,
+      "selection": "coverage"
+    },
+    {
+      "id": "V002",
+      "timestamp_seconds": 28.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V003",
+      "timestamp_seconds": 42.233,
+      "selection": "coverage"
+    },
+    {
+      "id": "V004",
+      "timestamp_seconds": 70.4,
+      "selection": "coverage"
+    },
+    {
+      "id": "V005",
+      "timestamp_seconds": 98.533,
+      "selection": "coverage"
+    },
+    {
+      "id": "V006",
+      "timestamp_seconds": 126.7,
+      "selection": "coverage"
+    },
+    {
+      "id": "V007",
+      "timestamp_seconds": 142.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V008",
+      "timestamp_seconds": 154.867,
+      "selection": "coverage"
+    }
+  ]
+}
