@@ -1,79 +1,77 @@
-"""Build the README video panel from one generated Excel row, without API calls."""
+"""Refresh the README example from a generated metadata JSON record (no API calls)."""
 import argparse
 from html import escape
 import json
 from pathlib import Path
-from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_URL = 'https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf'
 START = '<!-- BEGIN EXCEL VIDEO EXAMPLE -->'
 END = '<!-- END EXCEL VIDEO EXAMPLE -->'
 
-def listing(values, empty='None recorded'):
-    return '<ul>' + ''.join('<li>' + escape(str(v)) + '</li>' for v in (values or [empty])) + '</ul>'
 
-def build(workbook, video_name, video_url):
-    wb = load_workbook(workbook, read_only=True, data_only=True)
-    try:
-        rows = iter(wb['Generated_Metadata'].values)
-        headers = next(rows)
-        matches = [dict(zip(headers, row)) for row in rows if Path(str(row[headers.index('Video')])).name == video_name]
-    finally:
-        wb.close()
-    if len(matches) != 1:
-        raise ValueError('Expected exactly one matching video row in Generated_Metadata.')
-    row = matches[0]
-    visual = json.loads(row['Visual_Evidence_JSON'])
-    context = json.loads(row['Workbook_Context_JSON'])
-    keywords = row['Keywords'].split('; ')
-    fast = row['FAST_Subjects'].split('; ')
-    name = ' '.join(str(context.get(k, '')).strip() for k in ('Q1_4', 'Q1_6')).strip()
-    left = '<h4>Entities &amp; affiliation</h4>' + listing([name, context.get('Q6', ''), context.get('Q11', '')])
-    left += '<h4>Primary subjects</h4>' + listing(row['Primary_Subjects'].split('; '))
-    left += '<h4>Themes &amp; secondary subjects</h4>' + listing(row['Secondary_Subjects'].split('; '))
-    left += '<h4>Visual evidence: sampled frames</h4>'
-    for key, label in [('visible_people', 'Visible people'), ('visible_objects', 'Artifacts & props'),
-                       ('activities', 'Observed activities'), ('scenes', 'Scene'), ('onscreen_text', 'Onscreen text')]:
-        left += '<p><strong>' + label + '</strong></p>' + listing(visual.get(key, []), 'None detected in sampled frames')
-    left += '<h4>Evidence notes</h4>' + listing(json.loads(row['Evidence_Notes']))
-    right = '<h3>' + escape(name) + '</h3><p>' + escape(str(context.get('Q11', ''))) + '</p>'
-    right += '<p>Showing 1 of 6 oral histories · ' + str(round(row['Duration_Seconds'])) + ' seconds · ' + str(row['Sampled_Frames']) + ' sampled frames</p>'
-    right += '<p>Play or pause using the controls below. Use the speaker control to unmute the audio.</p>\n\n' + video_url + '\n\n'
-    right += '<h4>Generated description</h4><p>' + escape(row['Description']) + '</p>'
-    right += '<h4>Generated keywords</h4>' + listing(keywords)
-    right += '<h4>Selected FAST subject headings</h4>' + listing(fast)
-    right += '<details><summary>Uncertainties recorded in Excel</summary>' + listing(json.loads(row['Uncertainties'])) + '</details>'
-    section = START + '\n## Video example: Ken Lundy\n\n'
-    section += 'UCF Remembers 9/11 — sample metadata view. The left panel shows entities, subjects, and visual evidence from the generated Excel row; the right panel shows the matching video and generated description, keywords, and FAST headings.\n\n'
-    section += '<table>\n<tr><th width="35%">Entities &amp; evidence</th><th width="65%">Video &amp; generated metadata</th></tr>\n<tr>\n<td width="35%" valign="top">\n\n' + left + '\n\n</td>\n<td width="65%" valign="top">\n\n' + right + '\n\n</td>\n</tr>\n</table>\n\n'
-    section += 'Source: `outputs/notebook/UCFremembers911_video_metadata.xlsx`, `Generated_Metadata`, Ken Lundy’s row. Visual evidence comes from sampled frames; observations and subjects are shown as generated. This README panel is static; its video supports playback and audio controls. [View the exported example data](examples/ken-lundy-metadata.json).\n' + END + '\n\n'
-    payload = dict(video_filename=video_name, description=row['Description'], keywords=keywords, fast_subjects=fast,
-                   primary_subjects=row['Primary_Subjects'].split('; '), secondary_subjects=row['Secondary_Subjects'].split('; '),
-                   visual_evidence=visual, workbook_context=context, evidence_notes=json.loads(row['Evidence_Notes']),
-                   uncertainty_notes=json.loads(row['Uncertainties']), source_sheet='Generated_Metadata')
-    return section, payload
+def listing(value):
+    values = value if isinstance(value, list) else [value] if value else []
+    return '<ul>' + ''.join('<li>' + escape(str(v)) + '</li>' for v in (values or ['None recorded'])) + '</ul>'
+
+
+def build(record, video_url):
+    facets = record['entities_and_facets']
+    left = ''
+    for key in ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective'):
+        left += '<h4>' + key.title() + '</h4>' + listing(facets.get(key))
+    left += '<h4>Visual evidence</h4>'
+    observations = record['visual_evidence']['visual_observations']
+    for category, label in [('attire_and_symbols', 'Attire and symbols'),
+                             ('artifacts_and_props', 'Artifacts and props'),
+                             ('activities_and_emotional_moments', 'Activities, expressions and gaze')]:
+        left += '<p><strong>' + label + '</strong></p>'
+        left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']} (confidence: {o['confidence']}; review required: {o['review_required']})"
+                         for o in observations if o['category'] == category])
+    right = '<h3>Ken Lundy</h3>'
+    right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
+    right += '<p>Play/pause and audio controls are available in the GitHub video player.</p>\n\n' + video_url + '\n\n'
+    right += '<h4>Generated description</h4><p>' + escape(record['description']) + '</p>'
+    right += '<h4>Keywords</h4>' + listing(record['keywords'])
+    right += '<h4>Selected FAST subjects</h4>' + listing(record['fast_subjects'])
+    right += '<h4>Review status</h4><p>' + escape(record['quality']['status']) + '</p>'
+    right += '<h4>Review issues</h4>' + listing(record['quality'].get('issues'))
+    right += '<h4>Uncertainties</h4>' + listing(record.get('uncertainty_notes'))
+    return (START + '\n## Video example: Ken Lundy — all facets\n\n'
+            'One generated example from the eight-frame notebook run. All six entity facets and all three visual-evidence categories appear below, including categories with no observations. Values are shown as generated; review flags and transcription uncertainty remain visible.\n\n'
+            '<table>\n<tr><th width="40%">Entities and visual evidence</th><th width="60%">Video and generated metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
+            + left + '\n\n</td>\n<td width="60%" valign="top">\n\n' + right + '\n\n</td>\n</tr>\n</table>\n\n'
+            'Source: `outputs/notebook/UCFremembers911_video_metadata.json`, matching the generated Excel workbook. '
+            'This is a static metadata panel; the video attachment supports playback with audio. '
+            '[Full example, including evidence support and FAST candidates](examples/ken-lundy-metadata.json). '
+            'Observations are extracted directly from sampled frames with no post-processing.\n' + END)
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--workbook', type=Path, default=ROOT/'outputs/notebook/UCFremembers911_video_metadata.xlsx')
+    parser.add_argument('--input', type=Path, default=ROOT/'outputs/notebook/UCFremembers911_video_metadata.json')
     parser.add_argument('--video', default='Lundy-Ken-2026-09-11_Video.mp4')
     parser.add_argument('--video-url', default=VIDEO_URL)
     args = parser.parse_args()
-    section, payload = build(args.workbook, args.video, args.video_url)
-    path = ROOT/'README.md'
-    text = path.read_text()
-    if START in text:
-        start = text.index(START)
-        end = text.index(END, start) + len(END)
-        text = text[:start] + section.rstrip() + text[end:]
-    else:
-        start = text.index('## Video example: Ken Lundy')
-        end = text.index('## Setup and run', start)
-        text = text[:start] + section + text[end:]
-    path.write_text(text)
-    (ROOT/'examples/ken-lundy-metadata.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2)+'\n')
-    print('Updated README panel and example JSON from Excel.')
+    records = json.loads(args.input.read_text())
+    matches = [r for r in records if r['video_filename'] == args.video]
+    if len(matches) != 1:
+        raise ValueError('Expected one matching video record.')
+    record = matches[0]
+    # Publish metadata only; omit full transcript spans and private workbook context.
+    keys = ('video_filename', 'duration_seconds', 'sampled_frames', 'description',
+            'entities_and_facets', 'visual_evidence', 'keywords', 'fast_subjects',
+            'description_support', 'keyword_support', 'fast_selection_details',
+            'fast_candidates', 'quality', 'uncertainty_notes', 'frame_manifest')
+    example = {k: record[k] for k in keys if k in record}
+    (ROOT/'examples/ken-lundy-metadata.json').write_text(json.dumps(example, ensure_ascii=False, indent=2)+'\n')
+    readme = ROOT/'README.md'
+    text = readme.read_text()
+    start = text.index(START)
+    end = text.index(END, start)+len(END)
+    readme.write_text(text[:start]+build(record, args.video_url)+text[end:])
+    print(f"Updated README and example: {record['sampled_frames']} frames, {len(record['visual_evidence']['visual_observations'])} observations.")
+
 
 if __name__ == '__main__':
     main()

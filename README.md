@@ -2,35 +2,37 @@
 
 Creates `outputs/video_metadata.xlsx` from the six MP4 videos and the transcript workbook under `Library-Metadata`.
 
-<!-- BEGIN EXCEL VIDEO EXAMPLE -->
-## Video example: Ken Lundy
+The current workflow is the notebook: it generates transcripts from video audio, extracts representative visual evidence from eight frames, and exports descriptions, separate entity facets, five keywords, and up to five supported FAST subjects. Start with [Current notebook workflow](#current-notebook-workflow). The standalone `pipeline.py` workflow below is retained as a legacy alternative.
 
-UCF Remembers 9/11 — sample metadata view. The left panel shows entities, subjects, and visual evidence from the generated Excel row; the right panel shows the matching video and generated description, keywords, and FAST headings.
+<!-- BEGIN EXCEL VIDEO EXAMPLE -->
+## Video example: Ken Lundy — all facets
+
+One generated example from the eight-frame notebook run. All six entity facets and all three visual-evidence categories appear below, including categories with no observations. Values are shown as generated; review flags and transcription uncertainty remain visible.
 
 <table>
-<tr><th width="35%">Entities &amp; evidence</th><th width="65%">Video &amp; generated metadata</th></tr>
+<tr><th width="40%">Entities and visual evidence</th><th width="60%">Video and generated metadata</th></tr>
 <tr>
-<td width="35%" valign="top">
+<td width="40%" valign="top">
 
-<h4>Entities &amp; affiliation</h4><ul><li>Ken Lundy</li><li>Staff</li><li>Program Manager - UCF Launch</li></ul><h4>Primary subjects</h4><ul><li>Ken Lundy</li><li>UCF Staff</li><li>Steelcase</li><li>World Trade Center</li></ul><h4>Themes &amp; secondary subjects</h4><ul><li>Knight&#x27;s Tales Project</li><li>Communication challenges</li><li>Psychological trauma</li><li>Remembrance and healing</li></ul><h4>Visual evidence: sampled frames</h4><p><strong>Visible people</strong></p><ul><li>Individual with glasses and gray beard</li></ul><p><strong>Artifacts & props</strong></p><ul><li>None detected in sampled frames</li></ul><p><strong>Observed activities</strong></p><ul><li>Speaking</li><li>Looking slightly to the side</li><li>Looking downward</li></ul><p><strong>Scene</strong></p><ul><li>Individual against a dark, patterned background</li></ul><p><strong>Onscreen text</strong></p><ul><li>None detected in sampled frames</li></ul><h4>Evidence notes</h4><ul><li>Ken Lundy is identified as a Program Manager at UCF Launch.</li><li>The interview is part of the Knight&#x27;s Tales Project.</li><li>Lundy worked for Steelcase and was near the World Trade Center during a significant event.</li><li>Communication challenges during the event are highlighted.</li></ul>
+<h4>People</h4><ul><li>Ken (surname spelling uncertain)</li><li>Ken’s wife</li><li>Ken’s friend</li></ul><h4>Locations</h4><ul><li>UCF John C. Hitt Library</li><li>Grand Rapids, Michigan</li><li>New York City</li><li>World Trade Center</li></ul><h4>Organizations</h4><ul><li>UCF</li><li>Knights Tales Project</li><li>Steelcase</li><li>Social Security</li></ul><h4>Dates</h4><ul><li>September 11, 2026 (recording date)</li><li>September 11, 2001 (event date)</li><li>Labor Day 2001 (prior visit)</li></ul><h4>Themes</h4><ul><li>September 11, 2001 attacks</li><li>work and relocation</li><li>World Trade Center visit before the attacks</li><li>family communication</li><li>remembrance and healing</li></ul><h4>Perspective</h4><ul><li>Personal recollection of watching events unfold at Steelcase headquarters in Grand Rapids, combined with memories of a prior World Trade Center visit; the account does not describe being at an attack site during the attacks.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>15.567 s · V001 · Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible. (confidence: high; review required: False)</li></ul><p><strong>Artifacts and props</strong></p><ul><li>None recorded</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>46.733 s · V002 · Mouth open mid-speech, facing mostly forward with gaze slightly to the side. (confidence: high; review required: False)</li><li>158 s · V006 · Gaze lowered and lips closed; no hand gesture is visible. (confidence: high; review required: False)</li><li>171.367 s · V007 · Mouth open mid-speech, with gaze angled slightly downward to the side. (confidence: high; review required: False)</li></ul>
 
 </td>
-<td width="65%" valign="top">
+<td width="60%" valign="top">
 
-<h3>Ken Lundy</h3><p>Program Manager - UCF Launch</p><p>Showing 1 of 6 oral histories · 187 seconds · 6 sampled frames</p><p>Play or pause using the controls below. Use the speaker control to unmute the audio.</p>
+<h3>Ken Lundy</h3><p>187 seconds · 8 sampled frames</p><p>Play/pause and audio controls are available in the GitHub video player.</p>
 
 https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
 
-<h4>Generated description</h4><p>Ken Lundy, a Program Manager at UCF Launch, shares his personal experience during a significant historical event as part of the Knight&#x27;s Tales Project. Lundy recounts his time working for Steelcase and being in the vicinity of the World Trade Center during a major incident. He describes the communication challenges he faced while trying to contact his spouse amidst the chaos. Lundy reflects on the psychological trauma experienced by many and emphasizes the importance of remembrance and healing for the victims. His narrative provides insight into the immediate aftermath of the event and the broader social impacts. This account contributes to the collective memory of the event, highlighting the personal and professional challenges faced by individuals during crises.</p><h4>Generated keywords</h4><ul><li>Ken Lundy</li><li>UCF Launch</li><li>Steelcase</li><li>World Trade Center</li><li>Knight&#x27;s Tales Project</li></ul><h4>Selected FAST subject headings</h4><ul><li>Psychic trauma</li><li>Universities and colleges--Professional staff</li><li>Memorials--Psychological aspects</li><li>Healing</li><li>Communication in human services</li></ul><details><summary>Uncertainties recorded in Excel</summary><ul><li>The specific date of the significant event is not mentioned.</li><li>The exact nature of the significant event is not detailed.</li><li>The precise location of the Steelcase headquarters is not specified.</li><li>Full names and identities of the speaker&#x27;s spouse are not provided.</li></ul></details>
+<h4>Generated description</h4><p>Ken introduces himself as recording an interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026, the 25th anniversary of 9/11. He recalls working for Steelcase, whose headquarters was in Grand Rapids, Michigan, while his territory was New York City. Before the attacks, he and his wife had traveled to the New York City area over Labor Day 2001 to seek employment and housing; he says his first visit to the World Trade Center towers was during that trip. He describes being at Steelcase headquarters in Grand Rapids on September 11, 2001, watching events unfold there, and being unable to reach his wife, who was working for Social Security. He says he later met his wife at home in Grand Rapids and recalls meeting a friend in the World Trade Center shopping area during his earlier visit. He reflects on the people who worked in the World Trade Center, remembers the victims, and expresses hope and prayer for healing. In the supplied video frames, the speaker wears a dark collared top and pale-framed glasses; frames also show him speaking and, at one moment, looking downward.</p><h4>Keywords</h4><ul><li>September 11, 2001 attacks</li><li>Grand Rapids recollections</li><li>World Trade Center visit before the attacks</li><li>family communication during the attacks</li><li>remembrance and healing</li></ul><h4>Selected FAST subjects</h4><ul><li>September 11 Terrorist Attacks (2001)</li><li>Victims of terrorism</li></ul><h4>Review status</h4><p>needs_review</p><h4>Review issues</h4><ul><li>The keyword “family communication during the attacks” overstates the coverage: the transcript briefly mentions being unable to reach his wife and later meeting her at home, rather than sustained discussion of family communication.</li><li>The FAST heading “Victims of terrorism” is weakly relevant as a selected heading: victims are mentioned briefly in closing remarks, while the interview primarily recounts the speaker’s own experience. The rationale’s claim that victims are a central topic is unsupported.</li></ul><h4>Uncertainties</h4><ul><li>The transcript identifies the speaker as “Ken Landy,” while the supplied metadata gives the surname as “Lundy”; the surname spelling is unresolved.</li><li>The transcript ends mid-sentence after the speaker says “later on that afternoon,” so the omitted continuation is unknown.</li></ul>
 
 </td>
 </tr>
 </table>
 
-Source: `outputs/notebook/UCFremembers911_video_metadata.xlsx`, `Generated_Metadata`, Ken Lundy’s row. Visual evidence comes from sampled frames; observations and subjects are shown as generated. This README panel is static; its video supports playback and audio controls. [View the exported example data](examples/ken-lundy-metadata.json).
+Source: `outputs/notebook/UCFremembers911_video_metadata.json`, matching the generated Excel workbook. This is a static metadata panel; the video attachment supports playback with audio. [Full example, including evidence support and FAST candidates](examples/ken-lundy-metadata.json). Observations are extracted directly from sampled frames with no post-processing.
 <!-- END EXCEL VIDEO EXAMPLE -->
 
-## Setup and run
+## Legacy script setup and run
 
 ```sh
 python3 -m venv .venv
@@ -45,7 +47,7 @@ Put the OpenAI API key in `secret.txt` or `secrets.txt`, or set `OPENAI_API_KEY`
 
 Defaults: `gpt-4.1-mini`, 12 evenly spaced low-detail JPEG frames per video, two GPT requests per interview. Override with `--model`, `--frames`, or `--limit 1` for a trial. Existing transcripts avoid transcription charges. Actual token usage is saved in the workbook and JSON; no fixed cost estimate is promised.
 
-## Workflow
+## Legacy script workflow
 
 1. Match each spreadsheet row to exactly one video by first/last name, rejecting unmatched or ambiguous inputs.
 2. Use transcript, supplied affiliation/occupation/date and sampled video frames to generate a description, entities, perspective, timestamped visual observations and uncertainties.
@@ -62,13 +64,56 @@ Official references:
 - https://developers.openai.com/api/docs/guides/images-vision
 - https://www.oclc.org/developer/api/oclc-apis/fast-api/assign-fast.en.html
 
-## Supplied notebook workflow
+## Current notebook workflow
 
-`Test_UCFremembers911_video_FAST_metadata.ipynb` is adapted for local execution. It retains the supplied GPT-4o model, revised rubric prompts, topical FAISS index (`text-embedding-3-large`), MMR retrieval, and cross-encoder reranking. It uses `secret.txt` / `secrets.txt` or `OPENAI_API_KEY` and the `.venv` environment, with no Colab dependency.
+`Test_UCFremembers911_video_FAST_metadata.ipynb` is adapted for local execution. It uses GPT-6 Luna with model-compatible API parameters, revised rubric prompts, and the topical FAISS index (`text-embedding-3-large`), MMR retrieval, and cross-encoder reranking. It uses `secret.txt` / `secrets.txt` or `OPENAI_API_KEY` and the `.venv` environment, with no Colab dependency.
 
 ```sh
 .venv/bin/python -m pip install -r requirements-notebook.txt
 .venv/bin/python run_notebook.py
 ```
 
-Edit configuration cell 5 (`ROOT`, `TRANSCRIPT_WORKBOOK`, `FAST_DB_DIR`) for a different collection. This collection's name-based matching expects `Q1_4`, `Q1_6`, `ResponseId` and `Q14_Video_Transcript`. The notebook exports 30 reranked candidates, five selected headings and five keywords for each video to `outputs/notebook/`, including Excel, CSV, JSON and an executed notebook. On first run the cross-encoder is downloaded; the local FAST index takes several GB of memory. A full run incurs GPT-4o and embedding API charges. The notebook preserves supplied redactions and puts uncertainty outside the catalog description.
+Edit configuration cell 5 (`ROOT`, `OUTPUT_DIR`, `TRANSCRIPT_WORKBOOK`, `FAST_DB_DIR`) for a different collection. Audio-generated transcripts are written to `TRANSCRIPT_WORKBOOK` and read back for name-based matching; the original supplied transcript workbook is not required. The notebook exports 30 reranked candidates, five selected headings and five keywords for each video to `outputs/notebook/`, including Excel, CSV, JSON and an executed notebook. On first run the cross-encoder is downloaded; the local FAST index takes several GB of memory. A full run incurs transcription, configured metadata-model, and embedding API charges; cached successful stages are reused. The notebook preserves supplied redactions and puts uncertainty outside the catalog description.
+
+## Robust metadata mode
+
+The notebook now defaults to `ROBUST_MODE = True` and `ROBUST_FRAME_COUNT = 8`. Set `ROBUST_MODE = False` to use the earlier six-frame workflow. Run with:
+
+```sh
+.venv/bin/python run_notebook.py
+```
+
+The evidence-first mode adds:
+
+- Six evenly spaced coverage frames plus two additional frames chosen from a two-second visual-change scan, up to eight total (67% fewer API images than the previous default). Images are sent at high detail, resized within 1280 × 1280 pixels. This improves coverage but cannot guarantee detection of every short event.
+- A compact set of representative observations, matching the reference workbook’s categorized JSON structure in `Visual Evidence JSON`, bound to actual frame IDs, with ordinal confidence labels and low-confidence review flags. No observations are filtered or summarized after extraction. Gestures and expressions are described without diagnosing emotions or identifying faces.
+- Exact transcript spans and separate recording/collection context. Description sentences, keywords, and selected FAST subjects carry source IDs and verbatim supporting excerpts. Missing/redacted details are not guessed.
+- Semantic retrieval merged with SQLite FTS5 lexical retrieval over non-deleted topical and geographic FAST records. Reciprocal-rank fusion merges the routes; the existing cross-encoder reranks the pool. Unknown/deleted authority IDs and the rejected September 11 “in art” subdivision are excluded.
+- The verified collection heading `September 11 Terrorist Attacks (2001)` (`fst01112794`) plus up to four specific candidate headings. Fewer than five total are allowed when the evidence does not support four additional subjects. The universal event is a cataloging policy, not an AI retrieval result.
+- A separate text-based evidence audit, with one bounded revision attempt. Remaining issues produce `needs_review`, rather than a claim of validated factual accuracy. This audit is not independent human review or visual reinspection.
+
+The workbook includes `Quality_JSON`, `Description_Support_JSON`, `Keyword_Support_JSON`, and `Provenance_JSON`. Full JSON additionally preserves transcript spans, frame manifests, selection rationales, retrieval routes, model usage and implementation fingerprints. Confidence labels and cross-encoder scores are not calibrated probabilities. API usage increases with more frames and review calls; exact counts are recorded in provenance. Previous baseline files were preserved locally under `outputs/baseline_before_robust/`.
+
+`robust_metadata.py` implements the new workflow. Source quotes are checked literally against exact source spans; those checks validate traceability, not entailment. A reviewer still needs to approve cataloging quality. Audio transcription is enabled in the notebook; audio-derived emotional labels are not generated.
+
+## Audio-generated transcripts and separate entity columns
+
+The notebook now transcribes audio instead of reading the supplied transcript spreadsheet. `TRANSCRIPTION_MODEL = 'gpt-transcribe'` selects the current transcription API model; `whisper-1` can be selected while that model remains available. Audio is extracted locally to mono 16 kHz MP3 and split into ten-minute chunks below the upload limit. Successful chunk transcripts are cached by full video-content SHA-256, model and settings.
+
+The generated source workbook is `outputs/notebook/generated_transcriptions/UCFremembers911_generated_transcriptions.xlsx`. It contains one video per row with `Transcript` plus filename-derived identity/date fields and transcription provenance. The notebook reads this generated Excel file back before metadata generation. Plain-text transcripts and a JSON manifest are retained beside it. The original transcript Excel file is not opened or used as fallback. Speaker affiliation/occupation must now be supported by the audio-generated text; it is not copied from the supplied workbook. Automatic transcription still requires review for names and wording. Chunk starts are approximate chunk positions, not word-aligned timestamps.
+
+The main metadata sheet exports `People`, `Locations`, `Organizations`, `Dates`, `Themes` and `Perspective` as separate columns. List values use `; ` separators without JSON array notation or JSON quoting. Full structured evidence remains in the JSON output and evidence worksheets. Set `DRY_RUN=True` to transcribe and process only the first video; normal mode processes all videos.
+
+Workbook output uses the managed Artifact Tool runtime. `workbook_io.py` discovers it under `~/.cache/codex-runtimes/codex-primary-runtime/dependencies`; set `ARTIFACT_DEPENDENCIES` if the runtime is stored elsewhere. Previous outputs from supplied transcripts are preserved locally under `outputs/before_audio_transcription/`.
+
+### Raw visual evidence
+
+Visual post-processing is disabled. All observations are exported unchanged, including repeated activities and low-confidence observations. The main Visual Evidence column contains the original observations with timestamps, and Visual_Evidence contains one row per observation. There is no processed visual worksheet or processed visual object in the JSON output. Capitalized headers and semicolon-separated entity values are retained.
+
+To refresh the README example after a new notebook run:
+
+```sh
+.venv/bin/python examples/build_readme_example.py
+```
+
+Run the local checks with `.venv/bin/python -m unittest discover -q`.
