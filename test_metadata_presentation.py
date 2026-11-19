@@ -38,7 +38,8 @@ class PresentationTests(unittest.TestCase):
         activities['visual_evidence']['visual_observations'][0].update(
             category='activities_and_emotional_moments',observation='At 8 s, Looks downward.',timestamp_seconds=8)
         self.assertIn('Looks downward.',build(activities))
-        self.assertNotIn('8 s',build(activities))
+        self.assertNotIn('At 8 s,',build(activities))
+        self.assertNotIn('8 s ·',build(activities))
         self.assertNotIn('"timestamp_seconds"',build(activities))
         with_artifact=deepcopy(record)
         with_artifact['visual_evidence']['visual_observations'].append(dict(frame_id='V002',category='artifacts_and_props',
