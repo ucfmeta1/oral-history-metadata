@@ -8,13 +8,14 @@ import pandas as pd
 from openpyxl import load_workbook
 from metadata_policy import UNIVERSAL_FAST
 from workbook_io import write_workbook, display_header
+from metadata_formatting import VISUAL_LABELS
 
 class EvidenceExportTests(unittest.TestCase):
     def test_evidence_and_review_flags_round_trip_without_api_calls(self):
         notebook=json.loads(Path('Test_UCFremembers911_video_FAST_metadata.ipynb').read_text())
         tree=ast.parse(''.join(notebook['cells'][8]['source']))
         function=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='evidence_sheets')
-        ns=dict(pd=pd,UNIVERSAL_FAST=UNIVERSAL_FAST,display_header=display_header)
+        ns=dict(pd=pd,UNIVERSAL_FAST=UNIVERSAL_FAST,display_header=display_header,VISUAL_LABELS=VISUAL_LABELS)
         exec(compile(ast.Module(body=[function],type_ignores=[]),'<evidence_export>','exec'),ns)
         support=dict(source_id='T001',quote='An exact original passage.')
         record=dict(video_filename='example.mp4',quality=dict(status='needs_review',issues=['Check ambiguous person'],attempts=2,visual_low_confidence=1,specific_fast_count=1),

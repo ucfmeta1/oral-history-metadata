@@ -8,6 +8,7 @@ import subprocess
 import imageio_ffmpeg
 from openpyxl import load_workbook
 from workbook_io import write_workbook
+from metadata_formatting import written_date
 
 VERSION = 'audio-transcripts-1'
 
@@ -16,7 +17,7 @@ def video_context(video):
     parts = stem.split('-')
     date = re.search(r'(\d{4}-\d{2}-\d{2})_Video$', video.stem)
     return dict(Q1_4=parts[-1] if len(parts)>1 else '', Q1_6=' '.join(parts[:-1]) if len(parts)>1 else stem,
-                RecordedDate=date.group(1) if date else '', Identity_Source='Video filename')
+                RecordedDate=written_date(date.group(1)) if date else '', Identity_Source='Video filename')
 
 def original_speaker_names(workbook, videos):
     """Read only Q1_4–Q1_6 as name authority; never use supplied transcript text."""

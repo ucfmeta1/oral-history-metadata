@@ -4,7 +4,7 @@
   "video_filename": "Stanley-Doris-2026-09-11_Video.mp4",
   "duration_seconds": 288.53333333333336,
   "sampled_frames": 15,
-  "description": "Doris Stanley recounts being 21 and working at an oyster-bar restaurant when television coverage of the September 11 attacks interrupted preparations for lunch. She describes watching repeated footage of the attacks in New York, the Pentagon, and Pennsylvania, including the collapse of a World Trade Center building. Stanley recalls feeling shocked and frightened, and says the footage continued for hours before she asked her boss whether the televisions could be turned off. She connects the experience to later anxiety and panic attacks, fear of heights and bridges, and counseling at UCF, where she says she explored its services and unpacked the experience. Stanley says a later visit to the New York memorial during a conference was healing, and reflects that she felt the loss despite not believing she had personally lost anyone. Recorded for the UCF Remembers 9/11 collection on September 11, 2026, this account centers on television-viewing and its lasting personal effects, rather than physical presence at an attack site.",
+  "description": "Doris Stanley recalls learning of the September 11, 2001 attacks while working at a restaurant that was preparing to open for lunch. She describes televisions in the restaurant switching to coverage of the attacks in New York, the Pentagon, and Pennsylvania, which the staff watched while preparing for the day. Stanley recalls watching the World Trade Center collapse live on television and feeling shocked and frightened by the repeated coverage. She connects the hours of televised coverage with anxiety and panic attacks that followed, and says counseling services at UCF helped her explore that impact. During a later trip to New York for a conference, she visited the memorial and describes the experience as healing in some ways. Recorded for the UCF Remembers 9/11 collection on September 11, 2026, her account reflects on the lasting effects of witnessing the attacks through television coverage.",
   "entities_and_facets": {
     "people": [
       "Doris Stanley"
@@ -16,23 +16,23 @@
       "UCF"
     ],
     "organizations": [
-      "UCF",
-      "UCF Remembers 9/11"
+      "UCF Remembers 9/11",
+      "UCF"
     ],
     "dates": [
       "September 11, 2001",
       "September 11, 2026"
     ],
     "themes": [
-      "September 11 attacks",
-      "television coverage",
-      "restaurant work",
-      "emotional aftermath",
-      "anxiety and panic attacks",
-      "counseling",
-      "memorial visit and healing"
+      "September 11 Attacks",
+      "Television Coverage",
+      "Workplace Response",
+      "Anxiety and Trauma",
+      "Counseling",
+      "Memorial Visit and Healing",
+      "Collective Loss and Remembrance"
     ],
-    "perspective": "Personal recollection of witnessing television coverage while working at a restaurant, with reflections on its later effects and a subsequent memorial visit; not an account of being physically present at an attack site."
+    "perspective": "Personal recollection of watching television coverage of the attacks while at work, and reflection on their lasting effects; she does not describe being physically present at an attack site."
   },
   "visual_evidence": {
     "visual_observations": [
@@ -69,43 +69,48 @@
     ]
   },
   "keywords": [
-    "September 11 television coverage",
-    "World Trade Center collapse",
-    "long-term anxiety and panic attacks",
-    "UCF counseling services",
-    "New York memorial visit"
+    "September 11 attacks and television coverage",
+    "Workplace response during the attacks",
+    "Anxiety, panic attacks, and counseling",
+    "Memorial visit and healing",
+    "Remembrance and collective loss"
   ],
   "fast_subjects": [
     "September 11 Terrorist Attacks (2001)",
     "September 11 Terrorist Attacks, 2001, on television",
     "Anxiety",
-    "Counseling--Practice"
+    "Traumatism--Psychological aspects"
   ],
   "description_support": [
     {
-      "text": "Doris Stanley recounts being 21 and working at an oyster-bar restaurant when television coverage of the September 11 attacks interrupted preparations for lunch.",
+      "text": "Doris Stanley recalls learning of the September 11, 2001 attacks while working at a restaurant that was preparing to open for lunch.",
       "support": [
         {
-          "source_id": "T001",
-          "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
-        },
-        {
           "source_id": "C001",
-          "quote": "{\"Q1_4\": \"Doris\", \"Q1_5\": \"E\", \"Q1_6\": \"Stanley\", \"Speaker_Name\": \"Doris Stanley\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 5 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Stanley-Doris-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+          "quote": "{\"Q1_4\": \"Doris\", \"Q1_5\": \"E\", \"Q1_6\": \"Stanley\", \"Speaker_Name\": \"Doris Stanley\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 5 / Q1_4–Q1_6\", \"RecordedDate\": \"September 11, 2026\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Stanley-Doris-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         },
         {
           "source_id": "C002",
           "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+        },
+        {
+          "source_id": "T001",
+          "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
         }
       ]
     },
     {
-      "text": "She describes watching repeated footage of the attacks in New York, the Pentagon, and Pennsylvania, including the collapse of a World Trade Center building.",
+      "text": "She describes televisions in the restaurant switching to coverage of the attacks in New York, the Pentagon, and Pennsylvania, which the staff watched while preparing for the day.",
       "support": [
         {
           "source_id": "T001",
           "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
-        },
+        }
+      ]
+    },
+    {
+      "text": "Stanley recalls watching the World Trade Center collapse live on television and feeling shocked and frightened by the repeated coverage.",
+      "support": [
         {
           "source_id": "T002",
           "quote": "never get that day. All of the TVs flipped to the footage, no matter what they were supposed to have on them, sports or whatever, they all flipped to the footage of the Trade Center mainly. And I watched in live time the building collapse, and it was just... Shocking and upsetting, and at 21 years old, you still kind of feel invincible when you're a teenager. You have this invincibility thing, you know, and that kind of was taken away in a moment there. It just, and I didn't realize it at the time. I didn't actually realize how it was affecting me at the time. I was there for a few hours before I asked my boss, maybe, I think it was, can we turn the TVs off or something? I think after us and just a few patrons that actually did come in that day, we finally had to turn them off because it was just over and over of the footage of the planes hitting the buildings and the footage of, like, "
@@ -113,20 +118,7 @@
       ]
     },
     {
-      "text": "Stanley recalls feeling shocked and frightened, and says the footage continued for hours before she asked her boss whether the televisions could be turned off.",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
-        },
-        {
-          "source_id": "T002",
-          "quote": "never get that day. All of the TVs flipped to the footage, no matter what they were supposed to have on them, sports or whatever, they all flipped to the footage of the Trade Center mainly. And I watched in live time the building collapse, and it was just... Shocking and upsetting, and at 21 years old, you still kind of feel invincible when you're a teenager. You have this invincibility thing, you know, and that kind of was taken away in a moment there. It just, and I didn't realize it at the time. I didn't actually realize how it was affecting me at the time. I was there for a few hours before I asked my boss, maybe, I think it was, can we turn the TVs off or something? I think after us and just a few patrons that actually did come in that day, we finally had to turn them off because it was just over and over of the footage of the planes hitting the buildings and the footage of, like, "
-        }
-      ]
-    },
-    {
-      "text": "She connects the experience to later anxiety and panic attacks, fear of heights and bridges, and counseling at UCF, where she says she explored its services and unpacked the experience.",
+      "text": "She connects the hours of televised coverage with anxiety and panic attacks that followed, and says counseling services at UCF helped her explore that impact.",
       "support": [
         {
           "source_id": "T003",
@@ -135,7 +127,7 @@
       ]
     },
     {
-      "text": "Stanley says a later visit to the New York memorial during a conference was healing, and reflects that she felt the loss despite not believing she had personally lost anyone.",
+      "text": "During a later trip to New York for a conference, she visited the memorial and describes the experience as healing in some ways.",
       "support": [
         {
           "source_id": "T004",
@@ -144,19 +136,15 @@
       ]
     },
     {
-      "text": "Recorded for the UCF Remembers 9/11 collection on September 11, 2026, this account centers on television-viewing and its lasting personal effects, rather than physical presence at an attack site.",
+      "text": "Recorded for the UCF Remembers 9/11 collection on September 11, 2026, her account reflects on the lasting effects of witnessing the attacks through television coverage.",
       "support": [
         {
           "source_id": "C001",
-          "quote": "{\"Q1_4\": \"Doris\", \"Q1_5\": \"E\", \"Q1_6\": \"Stanley\", \"Speaker_Name\": \"Doris Stanley\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 5 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Stanley-Doris-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+          "quote": "{\"Q1_4\": \"Doris\", \"Q1_5\": \"E\", \"Q1_6\": \"Stanley\", \"Speaker_Name\": \"Doris Stanley\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 5 / Q1_4–Q1_6\", \"RecordedDate\": \"September 11, 2026\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Stanley-Doris-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         },
         {
           "source_id": "C002",
           "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
-        },
-        {
-          "source_id": "T001",
-          "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
         },
         {
           "source_id": "T003",
@@ -171,7 +159,7 @@
   ],
   "keyword_support": [
     {
-      "term": "September 11 television coverage",
+      "term": "September 11 attacks and television coverage",
       "support": [
         {
           "source_id": "T001",
@@ -184,8 +172,12 @@
       ]
     },
     {
-      "term": "World Trade Center collapse",
+      "term": "Workplace response during the attacks",
       "support": [
+        {
+          "source_id": "T001",
+          "quote": "Okay. So, I was 21, and I was working at a bar, like oyster bar restaurant kind of thing. And since they did lunch, we would open up early, and we were opening up right around the time that this happened. And there are 16 maybe TVs all spread throughout the bar, and suddenly they all kind of flipped to footage of what was happening in New York. And it was the footage of the planes hitting the building. It was the footage of the field in Pennsylvania and the Pentagon, and they just kind of were playing it on a loop. It was going on over and over, and we were trying to prep for the day, but we all kind of stopped in our tracks as we were watching it. And it became evident that we were under a terrorist attack, and it became really scary. We were all really scared and shocked, and just a few of us there trying to open up for the restaurant and get ready for the lunch rush that we would "
+        },
         {
           "source_id": "T002",
           "quote": "never get that day. All of the TVs flipped to the footage, no matter what they were supposed to have on them, sports or whatever, they all flipped to the footage of the Trade Center mainly. And I watched in live time the building collapse, and it was just... Shocking and upsetting, and at 21 years old, you still kind of feel invincible when you're a teenager. You have this invincibility thing, you know, and that kind of was taken away in a moment there. It just, and I didn't realize it at the time. I didn't actually realize how it was affecting me at the time. I was there for a few hours before I asked my boss, maybe, I think it was, can we turn the TVs off or something? I think after us and just a few patrons that actually did come in that day, we finally had to turn them off because it was just over and over of the footage of the planes hitting the buildings and the footage of, like, "
@@ -193,33 +185,33 @@
       ]
     },
     {
-      "term": "long-term anxiety and panic attacks",
+      "term": "Anxiety, panic attacks, and counseling",
       "support": [
         {
           "source_id": "T003",
           "quote": "people jumping from the buildings to get out of it. Reporters and, and it just, all of the chaos. I just was watching it on, like, 16 televisions, and I didn't realize at the time, I hadn't started college yet, and shortly after that I actually did, so I don't know. I think it had an effect on me that I just didn't realize because I ended up getting anxiety, like panic attacks. I ended up for years experiencing things I had never experienced before. I was suddenly afraid to, I was afraid of heights suddenly. I was afraid to drive across a bridge for some reason, like strange things, and I didn't know why. And I got through my AA degree and I came to UCF. And they had some wonderful services, and I explored the services, and I was in the counseling services, and we really did a lot of unpacking, and we linked it to that. I think that watching people die for like four hours on televisions "
+        }
+      ]
+    },
+    {
+      "term": "Memorial visit and healing",
+      "support": [
+        {
+          "source_id": "T004",
+          "quote": "over and over affected me at 21 years old. And I'll never forget it, and it sticks with me to this day. And I think I tried to ignore it for a long time, but recently I'm coming to terms with it. I visited New York this year for a conference, and I made sure to go to the memorial, and I walked through the entire thing, and I listened to the story, and it was healing for me in some ways. I don't think I lost anybody personally, but we lost so many people, and I felt that loss, and I still feel it to this day, and I will never forget. And I really hope no one ever forgets. Thank you."
+        }
+      ]
+    },
+    {
+      "term": "Remembrance and collective loss",
+      "support": [
+        {
+          "source_id": "T004",
+          "quote": "over and over affected me at 21 years old. And I'll never forget it, and it sticks with me to this day. And I think I tried to ignore it for a long time, but recently I'm coming to terms with it. I visited New York this year for a conference, and I made sure to go to the memorial, and I walked through the entire thing, and I listened to the story, and it was healing for me in some ways. I don't think I lost anybody personally, but we lost so many people, and I felt that loss, and I still feel it to this day, and I will never forget. And I really hope no one ever forgets. Thank you."
         },
         {
-          "source_id": "T004",
-          "quote": "over and over affected me at 21 years old. And I'll never forget it, and it sticks with me to this day. And I think I tried to ignore it for a long time, but recently I'm coming to terms with it. I visited New York this year for a conference, and I made sure to go to the memorial, and I walked through the entire thing, and I listened to the story, and it was healing for me in some ways. I don't think I lost anybody personally, but we lost so many people, and I felt that loss, and I still feel it to this day, and I will never forget. And I really hope no one ever forgets. Thank you."
-        }
-      ]
-    },
-    {
-      "term": "UCF counseling services",
-      "support": [
-        {
-          "source_id": "T003",
-          "quote": "people jumping from the buildings to get out of it. Reporters and, and it just, all of the chaos. I just was watching it on, like, 16 televisions, and I didn't realize at the time, I hadn't started college yet, and shortly after that I actually did, so I don't know. I think it had an effect on me that I just didn't realize because I ended up getting anxiety, like panic attacks. I ended up for years experiencing things I had never experienced before. I was suddenly afraid to, I was afraid of heights suddenly. I was afraid to drive across a bridge for some reason, like strange things, and I didn't know why. And I got through my AA degree and I came to UCF. And they had some wonderful services, and I explored the services, and I was in the counseling services, and we really did a lot of unpacking, and we linked it to that. I think that watching people die for like four hours on televisions "
-        }
-      ]
-    },
-    {
-      "term": "New York memorial visit",
-      "support": [
-        {
-          "source_id": "T004",
-          "quote": "over and over affected me at 21 years old. And I'll never forget it, and it sticks with me to this day. And I think I tried to ignore it for a long time, but recently I'm coming to terms with it. I visited New York this year for a conference, and I made sure to go to the memorial, and I walked through the entire thing, and I listened to the story, and it was healing for me in some ways. I don't think I lost anybody personally, but we lost so many people, and I felt that loss, and I still feel it to this day, and I will never forget. And I really hope no one ever forgets. Thank you."
+          "source_id": "C002",
+          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
         }
       ]
     }
@@ -231,8 +223,8 @@
       "reason": "Collection-wide policy"
     },
     {
-      "candidate_id": "F01",
-      "rationale": "Televised footage is the central event through which Stanley experienced the attacks, including repeated viewing and the collapse of a World Trade Center building.",
+      "candidate_id": "F02",
+      "rationale": "Televised coverage is central to the account: Stanley describes the restaurant televisions switching to the attacks, watching the World Trade Center collapse live, and the repeated footage shaping her experience.",
       "support": [
         {
           "source_id": "T001",
@@ -251,8 +243,8 @@
       "authority_id": "fst01747281"
     },
     {
-      "candidate_id": "F30",
-      "rationale": "Stanley describes lasting anxiety and panic attacks after the experience, with fear of heights and bridges and later reflection on its effects.",
+      "candidate_id": "F27",
+      "rationale": "Stanley recounts lasting anxiety and panic attacks after witnessing the coverage, including fears of heights and driving across bridges.",
       "support": [
         {
           "source_id": "T003",
@@ -267,45 +259,33 @@
       "authority_id": "fst00810950"
     },
     {
-      "candidate_id": "F09",
-      "rationale": "Counseling at UCF is a meaningful part of the account’s explanation of how she unpacked and connected her later symptoms to the televised experience.",
+      "candidate_id": "F29",
+      "rationale": "The testimony explicitly connects repeated televised scenes of people dying to a lasting psychological impact, later explored through counseling.",
       "support": [
         {
           "source_id": "T003",
           "quote": "people jumping from the buildings to get out of it. Reporters and, and it just, all of the chaos. I just was watching it on, like, 16 televisions, and I didn't realize at the time, I hadn't started college yet, and shortly after that I actually did, so I don't know. I think it had an effect on me that I just didn't realize because I ended up getting anxiety, like panic attacks. I ended up for years experiencing things I had never experienced before. I was suddenly afraid to, I was afraid of heights suddenly. I was afraid to drive across a bridge for some reason, like strange things, and I didn't know why. And I got through my AA degree and I came to UCF. And they had some wonderful services, and I explored the services, and I was in the counseling services, and we really did a lot of unpacking, and we linked it to that. I think that watching people die for like four hours on televisions "
+        },
+        {
+          "source_id": "T004",
+          "quote": "over and over affected me at 21 years old. And I'll never forget it, and it sticks with me to this day. And I think I tried to ignore it for a long time, but recently I'm coming to terms with it. I visited New York this year for a conference, and I made sure to go to the memorial, and I walked through the entire thing, and I listened to the story, and it was healing for me in some ways. I don't think I lost anybody personally, but we lost so many people, and I felt that loss, and I still feel it to this day, and I will never forget. And I really hope no one ever forgets. Thank you."
         }
       ],
-      "heading": "Counseling--Practice",
-      "authority_id": "fst00881230"
+      "heading": "Traumatism--Psychological aspects",
+      "authority_id": "fst01155548"
     }
   ],
   "fast_candidates": [
     {
-      "id": "fst01747281",
-      "heading": "September 11 Terrorist Attacks, 2001, on television",
-      "facet": "Topical",
-      "rrf_score": 0.03177805800756621,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -3.854355812072754,
-      "metadata": {
-        "id": "fst01747281",
-        "fast": "September 11 Terrorist Attacks, 2001, on television",
-        "facet": "Topical"
-      }
-    },
-    {
       "id": "fst01907194",
       "heading": "September 11 Terrorist Attacks (2001) in literature",
       "facet": "Topical",
-      "rrf_score": 0.029957522915269395,
+      "rrf_score": 0.03128054740957967,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -3.9006357192993164,
+      "rerank_score": -2.1837809085845947,
       "metadata": {
         "id": "fst01907194",
         "fast": "September 11 Terrorist Attacks (2001) in literature",
@@ -313,18 +293,18 @@
       }
     },
     {
-      "id": "fst01907195",
-      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "id": "fst01747281",
+      "heading": "September 11 Terrorist Attacks, 2001, on television",
       "facet": "Topical",
-      "rrf_score": 0.029631255487269532,
+      "rrf_score": 0.03252247488101534,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -3.9144983291625977,
+      "rerank_score": -2.3588016033172607,
       "metadata": {
-        "id": "fst01907195",
-        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "id": "fst01747281",
+        "fast": "September 11 Terrorist Attacks, 2001, on television",
         "facet": "Topical"
       }
     },
@@ -332,12 +312,12 @@
       "id": "fst02060917",
       "heading": "September 11 Terrorist Attacks, 2001, in comics",
       "facet": "Topical",
-      "rrf_score": 0.02844551282051282,
+      "rrf_score": 0.029571646010002173,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -3.9628772735595703,
+      "rerank_score": -2.415104389190674,
       "metadata": {
         "id": "fst02060917",
         "fast": "September 11 Terrorist Attacks, 2001, in comics",
@@ -345,15 +325,31 @@
       }
     },
     {
-      "id": "fst01907196",
-      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "id": "fst01907195",
+      "heading": "September 11 Terrorist Attacks (2001) in mass media",
       "facet": "Topical",
-      "rrf_score": 0.02690100430416069,
+      "rrf_score": 0.03076923076923077,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -4.0667724609375,
+      "rerank_score": -2.4271137714385986,
+      "metadata": {
+        "id": "fst01907195",
+        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907196",
+      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "facet": "Topical",
+      "rrf_score": 0.02964426877470356,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -2.6198713779449463,
       "metadata": {
         "id": "fst01907196",
         "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
@@ -361,210 +357,14 @@
       }
     },
     {
-      "id": "fst01095901",
-      "heading": "Restaurant management--Periodicals",
-      "facet": "Topical",
-      "rrf_score": 0.008849557522123894,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.475574016571045,
-      "metadata": {
-        "id": "fst01095901",
-        "fast": "Restaurant management--Periodicals",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01093359",
-      "heading": "Rehabilitation counseling--Field work",
-      "facet": "Topical",
-      "rrf_score": 0.010638297872340425,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.476613998413086,
-      "metadata": {
-        "id": "fst01093359",
-        "fast": "Rehabilitation counseling--Field work",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01095933",
-      "heading": "Restaurants--Food service",
-      "facet": "Topical",
-      "rrf_score": 0.0136986301369863,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.477733612060547,
-      "metadata": {
-        "id": "fst01095933",
-        "fast": "Restaurants--Food service",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00881230",
-      "heading": "Counseling--Practice",
-      "facet": "Topical",
-      "rrf_score": 0.014492753623188406,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.489625930786133,
-      "metadata": {
-        "id": "fst00881230",
-        "fast": "Counseling--Practice",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01095899",
-      "heading": "Restaurant management",
-      "facet": "Topical",
-      "rrf_score": 0.025937081659973226,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -4.492912292480469,
-      "metadata": {
-        "id": "fst01095899",
-        "fast": "Restaurant management",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01095946",
-      "heading": "Restaurants--Personnel management",
-      "facet": "Topical",
-      "rrf_score": 0.013157894736842105,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.524021148681641,
-      "metadata": {
-        "id": "fst01095946",
-        "fast": "Restaurants--Personnel management",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01117479",
-      "heading": "Short-term counseling",
-      "facet": "Topical",
-      "rrf_score": 0.012345679012345678,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.55322265625,
-      "metadata": {
-        "id": "fst01117479",
-        "fast": "Short-term counseling",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01763303",
-      "heading": "Hotel restaurants",
-      "facet": "Topical",
-      "rrf_score": 0.011627906976744186,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.557466983795166,
-      "metadata": {
-        "id": "fst01763303",
-        "fast": "Hotel restaurants",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01057151",
-      "heading": "Pentagon",
-      "facet": "Topical",
-      "rrf_score": 0.0136986301369863,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.641993522644043,
-      "metadata": {
-        "id": "fst01057151",
-        "fast": "Pentagon",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01200546",
-      "heading": "Pentagon Memorial (Va.)",
-      "facet": "Topical",
-      "rrf_score": 0.015151515151515152,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.683436393737793,
-      "metadata": {
-        "id": "fst01200546",
-        "fast": "Pentagon Memorial (Va.)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00881231",
-      "heading": "Counseling--Psychological aspects",
-      "facet": "Topical",
-      "rrf_score": 0.015151515151515152,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.690673828125,
-      "metadata": {
-        "id": "fst00881231",
-        "fast": "Counseling--Psychological aspects",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01095902",
-      "heading": "Restaurant management--Prices",
-      "facet": "Topical",
-      "rrf_score": 0.008771929824561403,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.691908836364746,
-      "metadata": {
-        "id": "fst01095902",
-        "fast": "Restaurant management--Prices",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00881212",
-      "heading": "Counseling",
-      "facet": "Topical",
-      "rrf_score": 0.012658227848101266,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.693758487701416,
-      "metadata": {
-        "id": "fst00881212",
-        "fast": "Counseling",
-        "facet": "Topical"
-      }
-    },
-    {
       "id": "fst01112793",
       "heading": "September",
       "facet": "Topical",
-      "rrf_score": 0.013513513513513514,
+      "rrf_score": 0.014705882352941176,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.834047317504883,
+      "rerank_score": -3.882050037384033,
       "metadata": {
         "id": "fst01112793",
         "fast": "September",
@@ -572,74 +372,14 @@
       }
     },
     {
-      "id": "fst00903395",
-      "heading": "Educational counseling",
-      "facet": "Topical",
-      "rrf_score": 0.011235955056179775,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.8440728187561035,
-      "metadata": {
-        "id": "fst00903395",
-        "fast": "Educational counseling",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00920300",
-      "heading": "Family counseling",
-      "facet": "Topical",
-      "rrf_score": 0.011363636363636364,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.866133689880371,
-      "metadata": {
-        "id": "fst00920300",
-        "fast": "Family counseling",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01146878",
-      "heading": "Television in counseling",
-      "facet": "Topical",
-      "rrf_score": 0.01282051282051282,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.870211601257324,
-      "metadata": {
-        "id": "fst01146878",
-        "fast": "Television in counseling",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00952875",
-      "heading": "Health counseling",
-      "facet": "Topical",
-      "rrf_score": 0.011494252873563218,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.930635929107666,
-      "metadata": {
-        "id": "fst00952875",
-        "fast": "Health counseling",
-        "facet": "Topical"
-      }
-    },
-    {
       "id": "fst01057152",
       "heading": "Pentagon in architecture",
       "facet": "Topical",
-      "rrf_score": 0.01098901098901099,
+      "rrf_score": 0.00909090909090909,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.938467979431152,
+      "rerank_score": -3.888396739959717,
       "metadata": {
         "id": "fst01057152",
         "fast": "Pentagon in architecture",
@@ -647,14 +387,29 @@
       }
     },
     {
-      "id": "fst01057153",
-      "heading": "Pentagon in art",
+      "id": "fst01057151",
+      "heading": "Pentagon",
       "facet": "Topical",
-      "rrf_score": 0.010869565217391304,
+      "rrf_score": 0.014925373134328358,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.9600019454956055,
+      "rerank_score": -3.8911020755767822,
+      "metadata": {
+        "id": "fst01057151",
+        "fast": "Pentagon",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01057153",
+      "heading": "Pentagon in art",
+      "facet": "Topical",
+      "rrf_score": 0.009009009009009009,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.9084630012512207,
       "metadata": {
         "id": "fst01057153",
         "fast": "Pentagon in art",
@@ -662,14 +417,104 @@
       }
     },
     {
-      "id": "fst01740078",
-      "heading": "Counseling psychology",
+      "id": "fst00881230",
+      "heading": "Counseling--Practice",
+      "facet": "Topical",
+      "rrf_score": 0.012345679012345678,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.005249977111816,
+      "metadata": {
+        "id": "fst00881230",
+        "fast": "Counseling--Practice",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146878",
+      "heading": "Television in counseling",
+      "facet": "Topical",
+      "rrf_score": 0.0136986301369863,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.010435104370117,
+      "metadata": {
+        "id": "fst01146878",
+        "fast": "Television in counseling",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00881231",
+      "heading": "Counseling--Psychological aspects",
+      "facet": "Topical",
+      "rrf_score": 0.013333333333333334,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.056434154510498,
+      "metadata": {
+        "id": "fst00881231",
+        "fast": "Counseling--Psychological aspects",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00903395",
+      "heading": "Educational counseling",
+      "facet": "Topical",
+      "rrf_score": 0.011764705882352941,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.073973178863525,
+      "metadata": {
+        "id": "fst00903395",
+        "fast": "Educational counseling",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00881212",
+      "heading": "Counseling",
+      "facet": "Topical",
+      "rrf_score": 0.011363636363636364,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.073983192443848,
+      "metadata": {
+        "id": "fst00881212",
+        "fast": "Counseling",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01117479",
+      "heading": "Short-term counseling",
       "facet": "Topical",
       "rrf_score": 0.011904761904761904,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -5.026042938232422,
+      "rerank_score": -4.0941338539123535,
+      "metadata": {
+        "id": "fst01117479",
+        "fast": "Short-term counseling",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01740078",
+      "heading": "Counseling psychology",
+      "facet": "Topical",
+      "rrf_score": 0.011494252873563218,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.094440937042236,
       "metadata": {
         "id": "fst01740078",
         "fast": "Counseling psychology",
@@ -677,17 +522,17 @@
       }
     },
     {
-      "id": "fst02021893",
-      "heading": "Anxiety on television",
+      "id": "fst00920300",
+      "heading": "Family counseling",
       "facet": "Topical",
-      "rrf_score": 0.013333333333333334,
+      "rrf_score": 0.011235955056179775,
       "retrieval_routes": [
-        "lexical"
+        "semantic"
       ],
-      "rerank_score": -5.057476997375488,
+      "rerank_score": -4.200750827789307,
       "metadata": {
-        "id": "fst02021893",
-        "fast": "Anxiety on television",
+        "id": "fst00920300",
+        "fast": "Family counseling",
         "facet": "Topical"
       }
     },
@@ -695,11 +540,11 @@
       "id": "fst01016395",
       "heading": "Mental health counseling",
       "facet": "Topical",
-      "rrf_score": 0.014285714285714285,
+      "rrf_score": 0.012658227848101266,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -5.066961765289307,
+      "rerank_score": -4.22766637802124,
       "metadata": {
         "id": "fst01016395",
         "fast": "Mental health counseling",
@@ -707,14 +552,75 @@
       }
     },
     {
-      "id": "fst01202834",
-      "heading": "Pennsylvania--York",
-      "facet": "Geographic",
-      "rrf_score": 0.011235955056179775,
+      "id": "fst01200546",
+      "heading": "Pentagon Memorial (Va.)",
+      "facet": "Topical",
+      "rrf_score": 0.015625,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.098978042602539,
+      "rerank_score": -4.229393482208252,
+      "metadata": {
+        "id": "fst01200546",
+        "fast": "Pentagon Memorial (Va.)",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01180680",
+      "heading": "Workplace literacy",
+      "facet": "Topical",
+      "rrf_score": 0.01639344262295082,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.301052570343018,
+      "metadata": {
+        "id": "fst01180680",
+        "fast": "Workplace literacy",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00952875",
+      "heading": "Health counseling",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.320920944213867,
+      "metadata": {
+        "id": "fst00952875",
+        "fast": "Health counseling",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst02021893",
+      "heading": "Anxiety on television",
+      "facet": "Topical",
+      "rrf_score": 0.03036576949620428,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -4.3257646560668945,
+      "metadata": {
+        "id": "fst02021893",
+        "fast": "Anxiety on television",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01202834",
+      "heading": "Pennsylvania--York",
+      "facet": "Geographic",
+      "rrf_score": 0.009259259259259259,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.330097198486328,
       "metadata": {
         "id": "fst01202834",
         "fast": "Pennsylvania--York",
@@ -722,18 +628,108 @@
       }
     },
     {
+      "id": "fst01738149",
+      "heading": "Anxiety disorders",
+      "facet": "Topical",
+      "rrf_score": 0.015625,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.355862617492676,
+      "metadata": {
+        "id": "fst01738149",
+        "fast": "Anxiety disorders",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00952729",
+      "heading": "Healing in the Bible",
+      "facet": "Topical",
+      "rrf_score": 0.009433962264150943,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.374444484710693,
+      "metadata": {
+        "id": "fst00952729",
+        "fast": "Healing in the Bible",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146696",
+      "heading": "Television and the arts",
+      "facet": "Topical",
+      "rrf_score": 0.009615384615384616,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.4057087898254395,
+      "metadata": {
+        "id": "fst01146696",
+        "fast": "Television and the arts",
+        "facet": "Topical"
+      }
+    },
+    {
       "id": "fst00810950",
       "heading": "Anxiety",
       "facet": "Topical",
-      "rrf_score": 0.027757078986587184,
+      "rrf_score": 0.02363150867823765,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -5.179432392120361,
+      "rerank_score": -4.418997287750244,
       "metadata": {
         "id": "fst00810950",
         "fast": "Anxiety",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146697",
+      "heading": "Television and the blind",
+      "facet": "Topical",
+      "rrf_score": 0.009523809523809525,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.443715572357178,
+      "metadata": {
+        "id": "fst01146697",
+        "fast": "Television and the blind",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01155548",
+      "heading": "Traumatism--Psychological aspects",
+      "facet": "Topical",
+      "rrf_score": 0.012195121951219513,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -4.485854148864746,
+      "metadata": {
+        "id": "fst01155548",
+        "fast": "Traumatism--Psychological aspects",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst02021907",
+      "heading": "Collective memory and television",
+      "facet": "Topical",
+      "rrf_score": 0.014285714285714285,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -4.486719131469727,
+      "metadata": {
+        "id": "fst02021907",
+        "fast": "Collective memory and television",
         "facet": "Topical"
       }
     }

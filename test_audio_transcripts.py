@@ -24,7 +24,7 @@ class AudioTranscriptTests(unittest.TestCase):
     def test_filename_context_preserves_compound_last_name(self):
         c=video_context(Path('Arrieta-Ventura-Danna-2026-09-11_Video.mp4'))
         self.assertEqual((c['Q1_4'],c['Q1_6']),('Danna','Arrieta Ventura'))
-        self.assertEqual(c['RecordedDate'],'2026-09-11')
+        self.assertEqual(c['RecordedDate'],'September 11, 2026')
 
     def test_transcription_is_cached_and_original_workbook_is_not_needed(self):
         with TemporaryDirectory() as tmp:

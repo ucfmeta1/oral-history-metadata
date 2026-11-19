@@ -28,7 +28,7 @@ class PresentationTests(unittest.TestCase):
             visual_evidence=dict(visual_observations=[dict(frame_id='V001',category='attire_and_symbols',
                 observation='Wears glasses.',confidence='high',timestamp_seconds=2,review_required=False)]))
         panel=build(record)
-        self.assertNotIn('<strong>Artifacts and props</strong>',panel)
+        self.assertNotIn('<strong>Artifacts & Props</strong>',panel)
         self.assertIn('[2 s] Wears glasses.',panel)
         self.assertNotIn('<h4>Visual evidence</h4>',panel)
         self.assertIn('"timestamp_seconds": 2',panel)
@@ -45,9 +45,10 @@ class PresentationTests(unittest.TestCase):
         with_artifact=deepcopy(record)
         with_artifact['visual_evidence']['visual_observations'].append(dict(frame_id='V002',category='artifacts_and_props',
             observation='Holds a photograph.',confidence='high',timestamp_seconds=4,review_required=False))
-        self.assertIn('<strong>Artifacts and props</strong>',build(with_artifact))
+        self.assertIn('<strong>Artifacts & Props</strong>',build(with_artifact))
         self.assertIn('Holds a photograph.',build(with_artifact))
-        self.assertIn('4 s · V002',build(with_artifact))
+        self.assertIn('[4 s] Holds a photograph.',build(with_artifact))
+        self.assertNotIn('V002',build(with_artifact))
         for label in ('<h4>Description</h4>','<h4>FAST Subjects</h4>'):
             self.assertIn(label,panel)
         for label in ('Generated description','Selected FAST subjects','Review status','Review issues','Uncertainties',

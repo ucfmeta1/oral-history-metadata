@@ -11,6 +11,7 @@ from audio_transcripts import video_context, original_speaker_names
 from robust_metadata import speaker_identity_issues
 from metadata_presentation import presentation_record, presentation_visual_json
 from workbook_io import display_header
+from metadata_formatting import format_metadata, VISUAL_LABELS, sentence_text
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_URL = 'https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf'
@@ -32,12 +33,13 @@ def identity(record):
 
 def readme_observation_text(item):
     text = item['observation']
-    if item['category'] in {'attire_and_symbols', 'activities_and_emotional_moments'}:
+    if item['category'] in {'attire_and_symbols', 'artifacts_and_props', 'activities_and_emotional_moments'}:
         text = re.sub(r'^(?:At\s+)?\d+(?:\.\d+)?\s*(?:s|seconds?)\s*[,;:\-]\s*', '', text, flags=re.I)
-    return text
+    return sentence_text(text)
 
 
 def build(record, video_url=None):
+    record = format_metadata(record)
     name, slug = identity(record)
     facets = record['entities_and_facets']
     left = ''
@@ -45,15 +47,14 @@ def build(record, video_url=None):
         left += '<h4>' + display_header(key) + '</h4>' + listing(facets.get(key))
     observations = [o for o in record.get('visual_evidence', {}).get('visual_observations', [])
                     if o.get('observation', '').strip()]
-    for category, label in [('attire_and_symbols', 'Attire and symbols'),
-                             ('artifacts_and_props', 'Artifacts and props'),
-                             ('activities_and_emotional_moments', 'Activities, expressions and gaze')]:
+    for category, label in [('attire_and_symbols', VISUAL_LABELS['attire_and_symbols']),
+                             ('artifacts_and_props', VISUAL_LABELS['artifacts_and_props']),
+                             ('activities_and_emotional_moments', VISUAL_LABELS['activities_and_emotional_moments'])]:
         category_observations = [o for o in observations if o['category'] == category]
         if not observations or (category == 'artifacts_and_props' and not category_observations):
             continue
         left += '<p><strong>' + label + '</strong></p>'
-        left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']}"
-                         if category == 'artifacts_and_props' else f"[{o['timestamp_seconds']:g} s] {readme_observation_text(o)}"
+        left += listing([f"[{o['timestamp_seconds']:g} s] {readme_observation_text(o)}"
                          for o in category_observations])
     right = '<h3>' + escape(name) + '</h3>'
     right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
@@ -73,7 +74,9 @@ def build(record, video_url=None):
     if observations:
         visual = json.loads(presentation_visual_json(dict(visual_observations=observations)))
         for item in visual['visual_observations']:
-            if item['category'] in {'attire_and_symbols', 'activities_and_emotional_moments'}:
+            if item['category'] in {'attire_and_symbols', 'artifacts_and_props'}:
+                item.pop('frame_id', None)
+            if item['category'] in {'attire_and_symbols', 'artifacts_and_props', 'activities_and_emotional_moments'}:
                 item['observation'] = readme_observation_text(item)
         visual_details = ('<details><summary>Visual evidence JSON</summary>\n\n```json\n'
                           + json.dumps(visual, ensure_ascii=False, indent=2) + '\n```\n\n</details>\n\n')
@@ -115,7 +118,7 @@ def main():
     parser.add_argument('--attachments', type=Path, default=ROOT/'examples/video-attachments.json',
                         help='Video attachment URLs keyed by speaker slug.')
     args = parser.parse_args()
-    records = json.loads(args.input.read_text())
+    records = [format_metadata(r) for r in json.loads(args.input.read_text())]
     video_urls = json.loads(args.attachments.read_text()) if args.attachments.exists() else {}
     video_urls['ken-lundy'] = args.video_url
     if args.video:

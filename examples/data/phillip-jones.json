@@ -4,7 +4,7 @@
   "video_filename": "Jones-Phillip-2026-09-11_Video.mp4",
   "duration_seconds": 304.6333333333333,
   "sampled_frames": 15,
-  "description": "Phillip Jones, a retired Air Force colonel, recalls serving as deputy A5 at U.S. CENTAF at Shaw Air Force Base on September 11, 2001. While watching television at work, he saw the second airplane hit and recognized that the attack was not an accident; he describes his response from Shaw, not being at an attack site. He sent office staff and conference participants home, then helped cancel programs, plan deployments to the Middle East, and arrange support and transportation for personnel in Egypt. Jones recounts that UAE visitors in Sumter, South Carolina, were confined to their hotel rooms after being roughed up, and that military transport was arranged to return them and the Egyptians home. He says he worked without a day off for about 90 days, later contributing to planning for the wars in Afghanistan and Iraq. Jones also remembers his friend Dwayne Williams, an Army major who perished, and reflects on the loss for Williams’s family and colleagues.",
+  "description": "Phillip Jones, a retired Air Force colonel, recounts his work as deputy A5 at U.S. CENTAF at Shaw Air Force Base on September 11, 2001. He describes learning of the attacks through office television coverage, then sending staff and conference attendees home because he feared their planning work could make them a target. Jones recounts coordinating support for personnel in Egypt and arranging military transport for them and visitors from the United Arab Emirates who had been sent to a hotel in Sumter, South Carolina. He describes the ensuing work at headquarters, including planning deployments to the Middle East and coordinating transportation for forces and units. Jones says he worked without a day off for about 90 days, until around Thanksgiving, and later contributed to planning related to Afghanistan and the war in Iraq. He closes by remembering his friend Dwayne Williams, who perished in the attacks. The recording is dated September 11, 2026.",
   "entities_and_facets": {
     "people": [
       "Phillip Jones",
@@ -15,28 +15,28 @@
       "Egypt",
       "United Arab Emirates",
       "Sumter, South Carolina",
-      "the Pentagon",
-      "the Middle East",
-      "Afghanistan",
-      "Iraq"
+      "Middle East",
+      "Pentagon"
     ],
     "organizations": [
       "U.S. CENTAF",
-      "U.S. Air Force",
+      "Air Force",
       "U.S. Army"
     ],
     "dates": [
       "September 11, 2001",
-      "2026-09-11"
+      "about 90 days after September 11, 2001",
+      "around Thanksgiving",
+      "September 11, 2026"
     ],
     "themes": [
-      "military planning and response",
-      "deployment logistics",
-      "support for personnel overseas",
-      "television coverage of the attacks",
-      "remembrance and loss"
+      "Television Coverage of the September 11 Attacks",
+      "Military Planning and Response",
+      "Evacuation and Support for Personnel Overseas",
+      "Deployment Logistics",
+      "Personal Loss and Remembrance"
     ],
-    "perspective": "First-person retrospective oral history focused on Jones’s work and response at Shaw Air Force Base; he recounts seeing the attacks on television and does not describe being at an attack site."
+    "perspective": "First-person account of military planning and logistics after learning of the attacks through television coverage; the speaker does not describe being at an attack site."
   },
   "visual_evidence": {
     "visual_observations": [
@@ -73,27 +73,25 @@
     ]
   },
   "keywords": [
-    "military response and deployment planning",
-    "transportation and support for personnel overseas",
-    "U.S. CENTAF at Shaw Air Force Base",
-    "television coverage of September 11",
-    "remembrance of Dwayne Williams"
+    "military response planning after September 11",
+    "Middle East deployment logistics",
+    "support for personnel stranded overseas",
+    "television coverage of the attacks",
+    "military transportation coordination"
   ],
   "fast_subjects": [
     "September 11 Terrorist Attacks (2001)",
-    "South Carolina--Shaw Air Force Base"
+    "Transportation, Military--Planning",
+    "South Carolina--Shaw Air Force Base",
+    "South Carolina--Sumter"
   ],
   "description_support": [
     {
-      "text": "Phillip Jones, a retired Air Force colonel, recalls serving as deputy A5 at U.S. CENTAF at Shaw Air Force Base on September 11, 2001.",
+      "text": "Phillip Jones, a retired Air Force colonel, recounts his work as deputy A5 at U.S. CENTAF at Shaw Air Force Base on September 11, 2001.",
       "support": [
         {
           "source_id": "T001",
           "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
-        },
-        {
-          "source_id": "C001",
-          "quote": "{\"Q1_4\": \"Phillip\", \"Q1_5\": \"\", \"Q1_6\": \"Jones\", \"Speaker_Name\": \"Phillip Jones\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 4 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Jones-Phillip-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         },
         {
           "source_id": "C002",
@@ -102,21 +100,38 @@
       ]
     },
     {
-      "text": "While watching television at work, he saw the second airplane hit and recognized that the attack was not an accident; he describes his response from Shaw, not being at an attack site.",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
-        }
-      ]
-    },
-    {
-      "text": "He sent office staff and conference participants home, then helped cancel programs, plan deployments to the Middle East, and arrange support and transportation for personnel in Egypt.",
+      "text": "He describes learning of the attacks through office television coverage, then sending staff and conference attendees home because he feared their planning work could make them a target.",
       "support": [
         {
           "source_id": "T001",
           "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
         },
+        {
+          "source_id": "T002",
+          "quote": "planning war in the Middle East, we might be a target as well. I made everybody go home. Then I ran across the street to where the conference was going on, and I told all those people to go home as well. And of course, then it was chaos in our headquarters. Our general, in fact, was in the Pentagon, and the deputy was gone, and we had a reserve guy who was filling in. And we sat down and said, What do we do next? And of course, we didn't have a plan at that point on what to do next, but we knew that we had to. Cancel the programs that we had going on, and we had to take care of the guys that were in Egypt, knowing that they've canceled all flights and all the support for those guys was going to stop. So we came up with a game plan on how to deal with that, and immediately we started working on orders to start deploying forces to the Middle East. In the meantime, we started asking "
+        }
+      ]
+    },
+    {
+      "text": "Jones recounts coordinating support for personnel in Egypt and arranging military transport for them and visitors from the United Arab Emirates who had been sent to a hotel in Sumter, South Carolina.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
+        },
+        {
+          "source_id": "T003",
+          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
+        },
+        {
+          "source_id": "T004",
+          "quote": "operations center, and I was responsible back home to make sure that we worked all of the transportation for all the forces and all the units that were deploying to the Middle East. It wasn't until about Thanksgiving that I got a day off. And, you know, those things continued on for however many years. You know the history: Afghanistan, then the war in Iraq. And I was very instrumental in planning that as well. And we worked our butts off trying to make sure that the people had what they needed, where they needed it, in time to get it there. In the meantime, the poor guys that were stuck in Egypt, they had to make do with what they did. And the major that was in charge from my office did an outstanding job of protecting the people, figuring out how to get some money so he could pay to have the support that he needed, because the support wasn't coming. That was not a priority anymore. "
+        }
+      ]
+    },
+    {
+      "text": "He describes the ensuing work at headquarters, including planning deployments to the Middle East and coordinating transportation for forces and units.",
+      "support": [
         {
           "source_id": "T002",
           "quote": "planning war in the Middle East, we might be a target as well. I made everybody go home. Then I ran across the street to where the conference was going on, and I told all those people to go home as well. And of course, then it was chaos in our headquarters. Our general, in fact, was in the Pentagon, and the deputy was gone, and we had a reserve guy who was filling in. And we sat down and said, What do we do next? And of course, we didn't have a plan at that point on what to do next, but we knew that we had to. Cancel the programs that we had going on, and we had to take care of the guys that were in Egypt, knowing that they've canceled all flights and all the support for those guys was going to stop. So we came up with a game plan on how to deal with that, and immediately we started working on orders to start deploying forces to the Middle East. In the meantime, we started asking "
@@ -132,16 +147,7 @@
       ]
     },
     {
-      "text": "Jones recounts that UAE visitors in Sumter, South Carolina, were confined to their hotel rooms after being roughed up, and that military transport was arranged to return them and the Egyptians home.",
-      "support": [
-        {
-          "source_id": "T003",
-          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
-        }
-      ]
-    },
-    {
-      "text": "He says he worked without a day off for about 90 days, later contributing to planning for the wars in Afghanistan and Iraq.",
+      "text": "Jones says he worked without a day off for about 90 days, until around Thanksgiving, and later contributed to planning related to Afghanistan and the war in Iraq.",
       "support": [
         {
           "source_id": "T003",
@@ -154,19 +160,32 @@
       ]
     },
     {
-      "text": "Jones also remembers his friend Dwayne Williams, an Army major who perished, and reflects on the loss for Williams’s family and colleagues.",
+      "text": "He closes by remembering his friend Dwayne Williams, who perished in the attacks.",
       "support": [
         {
           "source_id": "T005",
           "quote": "And so it was kind of a figuring-stuff-out process. We did that kind of stuff because that's what we did. We were planners and we planned. And so, yeah, that's my 9/11 story. On a side light, the general was okay. He was on the other far side of the building when the airplane hit. But I did have a good friend, Dwayne Williams, who was hit. He was a major in the Army that I'd been stationed in Egypt with, and he perished. It's a sad day for his family, I know, and for all of us that knew him. That's my 9/11 story."
+        }
+      ]
+    },
+    {
+      "text": "The recording is dated September 11, 2026.",
+      "support": [
+        {
+          "source_id": "C001",
+          "quote": "{\"Q1_4\": \"Phillip\", \"Q1_5\": \"\", \"Q1_6\": \"Jones\", \"Speaker_Name\": \"Phillip Jones\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 4 / Q1_4–Q1_6\", \"RecordedDate\": \"September 11, 2026\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Jones-Phillip-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         }
       ]
     }
   ],
   "keyword_support": [
     {
-      "term": "military response and deployment planning",
+      "term": "military response planning after September 11",
       "support": [
+        {
+          "source_id": "T001",
+          "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
+        },
         {
           "source_id": "T002",
           "quote": "planning war in the Middle East, we might be a target as well. I made everybody go home. Then I ran across the street to where the conference was going on, and I told all those people to go home as well. And of course, then it was chaos in our headquarters. Our general, in fact, was in the Pentagon, and the deputy was gone, and we had a reserve guy who was filling in. And we sat down and said, What do we do next? And of course, we didn't have a plan at that point on what to do next, but we knew that we had to. Cancel the programs that we had going on, and we had to take care of the guys that were in Egypt, knowing that they've canceled all flights and all the support for those guys was going to stop. So we came up with a game plan on how to deal with that, and immediately we started working on orders to start deploying forces to the Middle East. In the meantime, we started asking "
@@ -178,8 +197,12 @@
       ]
     },
     {
-      "term": "transportation and support for personnel overseas",
+      "term": "Middle East deployment logistics",
       "support": [
+        {
+          "source_id": "T002",
+          "quote": "planning war in the Middle East, we might be a target as well. I made everybody go home. Then I ran across the street to where the conference was going on, and I told all those people to go home as well. And of course, then it was chaos in our headquarters. Our general, in fact, was in the Pentagon, and the deputy was gone, and we had a reserve guy who was filling in. And we sat down and said, What do we do next? And of course, we didn't have a plan at that point on what to do next, but we knew that we had to. Cancel the programs that we had going on, and we had to take care of the guys that were in Egypt, knowing that they've canceled all flights and all the support for those guys was going to stop. So we came up with a game plan on how to deal with that, and immediately we started working on orders to start deploying forces to the Middle East. In the meantime, we started asking "
+        },
         {
           "source_id": "T003",
           "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
@@ -191,7 +214,24 @@
       ]
     },
     {
-      "term": "U.S. CENTAF at Shaw Air Force Base",
+      "term": "support for personnel stranded overseas",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
+        },
+        {
+          "source_id": "T003",
+          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
+        },
+        {
+          "source_id": "T004",
+          "quote": "operations center, and I was responsible back home to make sure that we worked all of the transportation for all the forces and all the units that were deploying to the Middle East. It wasn't until about Thanksgiving that I got a day off. And, you know, those things continued on for however many years. You know the history: Afghanistan, then the war in Iraq. And I was very instrumental in planning that as well. And we worked our butts off trying to make sure that the people had what they needed, where they needed it, in time to get it there. In the meantime, the poor guys that were stuck in Egypt, they had to make do with what they did. And the major that was in charge from my office did an outstanding job of protecting the people, figuring out how to get some money so he could pay to have the support that he needed, because the support wasn't coming. That was not a priority anymore. "
+        }
+      ]
+    },
+    {
+      "term": "television coverage of the attacks",
       "support": [
         {
           "source_id": "T001",
@@ -200,20 +240,15 @@
       ]
     },
     {
-      "term": "television coverage of September 11",
+      "term": "military transportation coordination",
       "support": [
         {
-          "source_id": "T001",
-          "quote": "Good morning. My name is Phil Jones. I'm a retired Air Force colonel. In 9/11, I was the deputy A5 at U.S. CENTAF at Shaw Air Force Base. We had a lot of things going on that day. We had a group of people that were in Egypt that we were trying to manage, and we also had a conference at Shaw Air Force Base in support of an exercise that we were going to have in October. That conference included all the services, other agencies, and also people from Egypt and the United Arab Emirates. Typically in our office, we had a television on, and when the first airplane hit, that was just news. Oh my gosh, somebody made a mistake. And as we're watching it, we see the second airplane hit, and I immediately knew this was not an accident. So I jumped into action. The first thing I did was told everybody in the office to go home because, as far as I knew, being the guys who were responsible for "
-        }
-      ]
-    },
-    {
-      "term": "remembrance of Dwayne Williams",
-      "support": [
+          "source_id": "T003",
+          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
+        },
         {
-          "source_id": "T005",
-          "quote": "And so it was kind of a figuring-stuff-out process. We did that kind of stuff because that's what we did. We were planners and we planned. And so, yeah, that's my 9/11 story. On a side light, the general was okay. He was on the other far side of the building when the airplane hit. But I did have a good friend, Dwayne Williams, who was hit. He was a major in the Army that I'd been stationed in Egypt with, and he perished. It's a sad day for his family, I know, and for all of us that knew him. That's my 9/11 story."
+          "source_id": "T004",
+          "quote": "operations center, and I was responsible back home to make sure that we worked all of the transportation for all the forces and all the units that were deploying to the Middle East. It wasn't until about Thanksgiving that I got a day off. And, you know, those things continued on for however many years. You know the history: Afghanistan, then the war in Iraq. And I was very instrumental in planning that as well. And we worked our butts off trying to make sure that the people had what they needed, where they needed it, in time to get it there. In the meantime, the poor guys that were stuck in Egypt, they had to make do with what they did. And the major that was in charge from my office did an outstanding job of protecting the people, figuring out how to get some money so he could pay to have the support that he needed, because the support wasn't coming. That was not a priority anymore. "
         }
       ]
     }
@@ -225,8 +260,24 @@
       "reason": "Collection-wide policy"
     },
     {
+      "candidate_id": "F18",
+      "rationale": "Military transportation planning is a sustained, central part of Jones’s account: he describes arranging military transport for the stranded Egyptians and UAE visitors and coordinating transportation for forces and units deploying to the Middle East.",
+      "support": [
+        {
+          "source_id": "T003",
+          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
+        },
+        {
+          "source_id": "T004",
+          "quote": "operations center, and I was responsible back home to make sure that we worked all of the transportation for all the forces and all the units that were deploying to the Middle East. It wasn't until about Thanksgiving that I got a day off. And, you know, those things continued on for however many years. You know the history: Afghanistan, then the war in Iraq. And I was very instrumental in planning that as well. And we worked our butts off trying to make sure that the people had what they needed, where they needed it, in time to get it there. In the meantime, the poor guys that were stuck in Egypt, they had to make do with what they did. And the major that was in charge from my office did an outstanding job of protecting the people, figuring out how to get some money so he could pay to have the support that he needed, because the support wasn't coming. That was not a priority anymore. "
+        }
+      ],
+      "heading": "Transportation, Military--Planning",
+      "authority_id": "fst01155405"
+    },
+    {
       "candidate_id": "F01",
-      "rationale": "Shaw Air Force Base is the central setting of Jones’s account: he was stationed there and describes directing the immediate response and coordinating subsequent military planning and deployment logistics from there.",
+      "rationale": "Shaw Air Force Base is the setting for the account and the headquarters where Jones worked, sent conference attendees home, and coordinated the response.",
       "support": [
         {
           "source_id": "T001",
@@ -235,14 +286,22 @@
         {
           "source_id": "T002",
           "quote": "planning war in the Middle East, we might be a target as well. I made everybody go home. Then I ran across the street to where the conference was going on, and I told all those people to go home as well. And of course, then it was chaos in our headquarters. Our general, in fact, was in the Pentagon, and the deputy was gone, and we had a reserve guy who was filling in. And we sat down and said, What do we do next? And of course, we didn't have a plan at that point on what to do next, but we knew that we had to. Cancel the programs that we had going on, and we had to take care of the guys that were in Egypt, knowing that they've canceled all flights and all the support for those guys was going to stop. So we came up with a game plan on how to deal with that, and immediately we started working on orders to start deploying forces to the Middle East. In the meantime, we started asking "
-        },
-        {
-          "source_id": "T004",
-          "quote": "operations center, and I was responsible back home to make sure that we worked all of the transportation for all the forces and all the units that were deploying to the Middle East. It wasn't until about Thanksgiving that I got a day off. And, you know, those things continued on for however many years. You know the history: Afghanistan, then the war in Iraq. And I was very instrumental in planning that as well. And we worked our butts off trying to make sure that the people had what they needed, where they needed it, in time to get it there. In the meantime, the poor guys that were stuck in Egypt, they had to make do with what they did. And the major that was in charge from my office did an outstanding job of protecting the people, figuring out how to get some money so he could pay to have the support that he needed, because the support wasn't coming. That was not a priority anymore. "
         }
       ],
       "heading": "South Carolina--Shaw Air Force Base",
       "authority_id": "fst01219335"
+    },
+    {
+      "candidate_id": "F28",
+      "rationale": "Sumter is specifically where the UAE conference visitors were housed after being sent from the base; Jones recounts checking on them and bringing them to the base for support.",
+      "support": [
+        {
+          "source_id": "T003",
+          "quote": "ourselves, Hey, I wonder what happened to those guys from the UAE that we sent back home to the hotel in Sumter, South Carolina. So we went to check on them, and they were locked in their rooms because they'd been roughed up pretty good by the local population. So they hadn't eaten in three days other than what they could get out of a vending machine. So we brought them onto the base, put them on the quarters, and then we didn't know how we were going to get them or the Egyptians back because they were not going to be in airplanes flying out. And even if they were, nobody was going to be getting on an airplane with a bunch of Arabs flying back to the Middle East. So we had to get military transport to come in and get those guys home. But from that point on, for about the next 90 days, I didn't have a day off. And the A-5, the actual A-5 deployed to the Middle East to run the air "
+        }
+      ],
+      "heading": "South Carolina--Sumter",
+      "authority_id": "fst01216215"
     }
   ],
   "fast_candidates": [
@@ -254,7 +313,7 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -0.49137404561042786,
+      "rerank_score": 0.48375141620635986,
       "metadata": {
         "id": "fst01219335",
         "fast": "South Carolina--Shaw Air Force Base",
@@ -262,59 +321,14 @@
       }
     },
     {
-      "id": "fst01115371",
-      "heading": "Shaw alphabet",
-      "facet": "Topical",
-      "rrf_score": 0.013888888888888888,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -1.3756229877471924,
-      "metadata": {
-        "id": "fst01115371",
-        "fast": "Shaw alphabet",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01214481",
-      "heading": "Florida--Eglin Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.008547008547008548,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.422788143157959,
-      "metadata": {
-        "id": "fst01214481",
-        "fast": "Florida--Eglin Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01238171",
-      "heading": "South Carolina--Myrtle Beach Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.015873015873015872,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.4614014625549316,
-      "metadata": {
-        "id": "fst01238171",
-        "fast": "South Carolina--Myrtle Beach Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
       "id": "fst01277322",
       "heading": "North Carolina--Pope Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.015384615384615385,
+      "rrf_score": 0.014705882352941176,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.475557565689087,
+      "rerank_score": -2.2724690437316895,
       "metadata": {
         "id": "fst01277322",
         "fast": "North Carolina--Pope Air Force Base",
@@ -322,44 +336,29 @@
       }
     },
     {
-      "id": "fst01877526",
-      "heading": "South Africa--Swartkop Air Force Base",
+      "id": "fst01238171",
+      "heading": "South Carolina--Myrtle Beach Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.012987012987012988,
+      "rrf_score": 0.015625,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.510526657104492,
+      "rerank_score": -2.3194398880004883,
       "metadata": {
-        "id": "fst01877526",
-        "fast": "South Africa--Swartkop Air Force Base",
+        "id": "fst01238171",
+        "fast": "South Carolina--Myrtle Beach Air Force Base",
         "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst00903913",
-      "heading": "Egypt (Maine : Imaginary place)",
-      "facet": "Topical",
-      "rrf_score": 0.011494252873563218,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.5268242359161377,
-      "metadata": {
-        "id": "fst00903913",
-        "fast": "Egypt (Maine : Imaginary place)",
-        "facet": "Topical"
       }
     },
     {
       "id": "fst01927912",
       "heading": "North Carolina--Seymour Johnson Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.012345679012345678,
+      "rrf_score": 0.011764705882352941,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.56646990776062,
+      "rerank_score": -2.441195487976074,
       "metadata": {
         "id": "fst01927912",
         "fast": "North Carolina--Seymour Johnson Air Force Base",
@@ -367,104 +366,14 @@
       }
     },
     {
-      "id": "fst01214180",
-      "heading": "Texas--Dyess Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.008620689655172414,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.5787365436553955,
-      "metadata": {
-        "id": "fst01214180",
-        "fast": "Texas--Dyess Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01214544",
-      "heading": "Alaska--Ladd Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.00847457627118644,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.5830788612365723,
-      "metadata": {
-        "id": "fst01214544",
-        "fast": "Alaska--Ladd Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01204246",
-      "heading": "Georgia--Moody Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.00980392156862745,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.610970973968506,
-      "metadata": {
-        "id": "fst01204246",
-        "fast": "Georgia--Moody Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01907195",
-      "heading": "September 11 Terrorist Attacks (2001) in mass media",
-      "facet": "Topical",
-      "rrf_score": 0.013333333333333334,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.6135361194610596,
-      "metadata": {
-        "id": "fst01907195",
-        "fast": "September 11 Terrorist Attacks (2001) in mass media",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01204249",
-      "heading": "Georgia--Robins Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.009708737864077669,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.6218767166137695,
-      "metadata": {
-        "id": "fst01204249",
-        "fast": "Georgia--Robins Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01213140",
-      "heading": "Texas--Randolph Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.008771929824561403,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.624424934387207,
-      "metadata": {
-        "id": "fst01213140",
-        "fast": "Texas--Randolph Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
       "id": "fst01206061",
       "heading": "Florida--Tyndall Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.009615384615384616,
+      "rrf_score": 0.009259259259259259,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.6251819133758545,
+      "rerank_score": -2.6030125617980957,
       "metadata": {
         "id": "fst01206061",
         "fast": "Florida--Tyndall Air Force Base",
@@ -472,32 +381,47 @@
       }
     },
     {
-      "id": "fst01747281",
-      "heading": "September 11 Terrorist Attacks, 2001, on television",
-      "facet": "Topical",
-      "rrf_score": 0.012048192771084338,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.629063606262207,
-      "metadata": {
-        "id": "fst01747281",
-        "fast": "September 11 Terrorist Attacks, 2001, on television",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01263183",
-      "heading": "South Carolina--Sumter Junction",
+      "id": "fst01214180",
+      "heading": "Texas--Dyess Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.0125,
+      "rrf_score": 0.008333333333333333,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.6681411266326904,
+      "rerank_score": -2.6221275329589844,
       "metadata": {
-        "id": "fst01263183",
-        "fast": "South Carolina--Sumter Junction",
+        "id": "fst01214180",
+        "fast": "Texas--Dyess Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01879374",
+      "heading": "South Carolina--Charleston Army Air Field",
+      "facet": "Geographic",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.6245174407958984,
+      "metadata": {
+        "id": "fst01879374",
+        "fast": "South Carolina--Charleston Army Air Field",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01213140",
+      "heading": "Texas--Randolph Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.00847457627118644,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.6378841400146484,
+      "metadata": {
+        "id": "fst01213140",
+        "fast": "Texas--Randolph Air Force Base",
         "facet": "Geographic"
       }
     },
@@ -505,11 +429,11 @@
       "id": "fst01271967",
       "heading": "South Dakota--Ellsworth Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.013157894736842105,
+      "rrf_score": 0.012658227848101266,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.677014112472534,
+      "rerank_score": -2.686401128768921,
       "metadata": {
         "id": "fst01271967",
         "fast": "South Dakota--Ellsworth Air Force Base",
@@ -517,29 +441,14 @@
       }
     },
     {
-      "id": "fst01210320",
-      "heading": "California--Vandenberg Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.009174311926605505,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.6795170307159424,
-      "metadata": {
-        "id": "fst01210320",
-        "fast": "California--Vandenberg Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
       "id": "fst01212030",
       "heading": "Virginia--Langley Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.00909090909090909,
+      "rrf_score": 0.008771929824561403,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.703235149383545,
+      "rerank_score": -2.7172365188598633,
       "metadata": {
         "id": "fst01212030",
         "fast": "Virginia--Langley Air Force Base",
@@ -547,32 +456,32 @@
       }
     },
     {
-      "id": "fst00903914",
-      "heading": "Egypt in the Bible",
-      "facet": "Topical",
-      "rrf_score": 0.011627906976744186,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.7034006118774414,
-      "metadata": {
-        "id": "fst00903914",
-        "fast": "Egypt in the Bible",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01263238",
-      "heading": "United Arab Emirates--Saqr Harbor",
+      "id": "fst01209443",
+      "heading": "Arizona--Williams Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.011111111111111112,
+      "rrf_score": 0.008928571428571428,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.705961227416992,
+      "rerank_score": -2.721907615661621,
       "metadata": {
-        "id": "fst01263238",
-        "fast": "United Arab Emirates--Saqr Harbor",
+        "id": "fst01209443",
+        "fast": "Arizona--Williams Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01210320",
+      "heading": "California--Vandenberg Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.008849557522123894,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.72588849067688,
+      "metadata": {
+        "id": "fst01210320",
+        "fast": "California--Vandenberg Air Force Base",
         "facet": "Geographic"
       }
     },
@@ -580,11 +489,11 @@
       "id": "fst01213141",
       "heading": "Texas--Brooks Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.008695652173913044,
+      "rrf_score": 0.008403361344537815,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.7158167362213135,
+      "rerank_score": -2.7343292236328125,
       "metadata": {
         "id": "fst01213141",
         "fast": "Texas--Brooks Air Force Base",
@@ -592,74 +501,44 @@
       }
     },
     {
-      "id": "fst01214614",
-      "heading": "Tennessee--Arnold Air Force Base",
+      "id": "fst01213053",
+      "heading": "Colorado--Lowry Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.008403361344537815,
+      "rrf_score": 0.008547008547008548,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.7215800285339355,
+      "rerank_score": -2.7364306449890137,
       "metadata": {
-        "id": "fst01214614",
-        "fast": "Tennessee--Arnold Air Force Base",
+        "id": "fst01213053",
+        "fast": "Colorado--Lowry Air Force Base",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01209210",
-      "heading": "United Arab Emirates--ʻAjmān",
+      "id": "fst01204246",
+      "heading": "Georgia--Moody Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.015151515151515152,
+      "rrf_score": 0.009433962264150943,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.733462333679199,
+      "rerank_score": -2.787008762359619,
       "metadata": {
-        "id": "fst01209210",
-        "fast": "United Arab Emirates--ʻAjmān",
+        "id": "fst01204246",
+        "fast": "Georgia--Moody Air Force Base",
         "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01212905",
-      "heading": "California--Norton Air Force Base",
-      "facet": "Geographic",
-      "rrf_score": 0.009009009009009009,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.734182357788086,
-      "metadata": {
-        "id": "fst01212905",
-        "fast": "California--Norton Air Force Base",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst00904000",
-      "heading": "Egyptology",
-      "facet": "Topical",
-      "rrf_score": 0.013513513513513514,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.7377617359161377,
-      "metadata": {
-        "id": "fst00904000",
-        "fast": "Egyptology",
-        "facet": "Topical"
       }
     },
     {
       "id": "fst01212914",
       "heading": "Texas--Kelly Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.008928571428571428,
+      "rrf_score": 0.008620689655172414,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.737832546234131,
+      "rerank_score": -2.7970070838928223,
       "metadata": {
         "id": "fst01212914",
         "fast": "Texas--Kelly Air Force Base",
@@ -670,11 +549,11 @@
       "id": "fst01203478",
       "heading": "Nevada--Nellis Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.009900990099009901,
+      "rrf_score": 0.009523809523809525,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.7464041709899902,
+      "rerank_score": -2.8054723739624023,
       "metadata": {
         "id": "fst01203478",
         "fast": "Nevada--Nellis Air Force Base",
@@ -682,17 +561,197 @@
       }
     },
     {
-      "id": "fst01216242",
-      "heading": "Alabama--Maxwell Air Force Base",
+      "id": "fst01155405",
+      "heading": "Transportation, Military--Planning",
+      "facet": "Topical",
+      "rrf_score": 0.014705882352941176,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -2.8136916160583496,
+      "metadata": {
+        "id": "fst01155405",
+        "fast": "Transportation, Military--Planning",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01206542",
+      "heading": "California--Beale Air Force Base",
       "facet": "Geographic",
-      "rrf_score": 0.008333333333333333,
+      "rrf_score": 0.009174311926605505,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.749755382537842,
+      "rerank_score": -2.844644546508789,
       "metadata": {
-        "id": "fst01216242",
-        "fast": "Alabama--Maxwell Air Force Base",
+        "id": "fst01206542",
+        "fast": "California--Beale Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01204249",
+      "heading": "Georgia--Robins Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.009345794392523364,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.8553900718688965,
+      "metadata": {
+        "id": "fst01204249",
+        "fast": "Georgia--Robins Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01212905",
+      "heading": "California--Norton Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.008695652173913044,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.860400676727295,
+      "metadata": {
+        "id": "fst01212905",
+        "fast": "California--Norton Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01207125",
+      "heading": "Utah--Hill Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.00909090909090909,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.8972043991088867,
+      "metadata": {
+        "id": "fst01207125",
+        "fast": "Utah--Hill Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01877526",
+      "heading": "South Africa--Swartkop Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.0125,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -2.945589780807495,
+      "metadata": {
+        "id": "fst01877526",
+        "fast": "South Africa--Swartkop Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01207641",
+      "heading": "Arizona--Luke Air Force Base",
+      "facet": "Geographic",
+      "rrf_score": 0.009009009009009009,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.0546669960021973,
+      "metadata": {
+        "id": "fst01207641",
+        "fast": "Arizona--Luke Air Force Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01301519",
+      "heading": "Nebraska--Alliance Army Air Base",
+      "facet": "Geographic",
+      "rrf_score": 0.011235955056179775,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.069600820541382,
+      "metadata": {
+        "id": "fst01301519",
+        "fast": "Nebraska--Alliance Army Air Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01889362",
+      "heading": "Louisiana--DeRidder Army Air Base",
+      "facet": "Geographic",
+      "rrf_score": 0.01098901098901099,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.076533794403076,
+      "metadata": {
+        "id": "fst01889362",
+        "fast": "Louisiana--DeRidder Army Air Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01261021",
+      "heading": "South Dakota--Sioux Falls Army Air Base",
+      "facet": "Geographic",
+      "rrf_score": 0.011494252873563218,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.158510208129883,
+      "metadata": {
+        "id": "fst01261021",
+        "fast": "South Dakota--Sioux Falls Army Air Base",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01216215",
+      "heading": "South Carolina--Sumter",
+      "facet": "Geographic",
+      "rrf_score": 0.015384615384615385,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.1662049293518066,
+      "metadata": {
+        "id": "fst01216215",
+        "fast": "South Carolina--Sumter",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01154957",
+      "heading": "Transport of sick and wounded",
+      "facet": "Topical",
+      "rrf_score": 0.011904761904761904,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -3.1815383434295654,
+      "metadata": {
+        "id": "fst01154957",
+        "fast": "Transport of sick and wounded",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01304129",
+      "heading": "Nevada--Reno Army Air Base",
+      "facet": "Geographic",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.182405471801758,
+      "metadata": {
+        "id": "fst01304129",
+        "fast": "Nevada--Reno Army Air Base",
         "facet": "Geographic"
       }
     }

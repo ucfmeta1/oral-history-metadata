@@ -4,23 +4,22 @@
   "video_filename": "Lundy-Ken-2026-09-11_Video.mp4",
   "duration_seconds": 186.96666666666667,
   "sampled_frames": 15,
-  "description": "Ken Lundy recorded this interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026, the 25th anniversary of the September 11 attacks. At the time of the attacks, Lundy worked for Steelcase, whose headquarters was in Grand Rapids, Michigan, and his territory was New York City. He and his wife had recently traveled to the New York City area to find work and a place to stay, then returned to Grand Rapids before September 11. Lundy says he watched events unfold at Steelcase headquarters and could not reach his wife, who was working for Social Security; they met at home later that afternoon. He first visited the World Trade Center towers on Labor Day 2001, met a friend in the shopping area, and recalls seeing people who worked in the building. Lundy remembers the victims and expresses hope and prayer for healing. The interview is part of the UCF Remembers 9/11 collection.",
+  "description": "Ken Lundy records this interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026. He recalls working for Steelcase, whose headquarters was in Grand Rapids, Michigan, while his territory was New York City. On Labor Day 2001, Lundy and his wife had visited the New York City area to seek employment and find a place to stay; he recalls that this was his first time in the World Trade Center towers. On September 11, 2001, Lundy was back in Grand Rapids at Steelcase headquarters, where he watched events unfold and was unable to reach his wife, who was working for Social Security. He recalls meeting a friend in the World Trade Center shopping area during the earlier visit and seeing people who worked in the building. Lundy closes by remembering the victims and expressing hope for healing.",
   "entities_and_facets": {
     "people": [
       "Ken Lundy"
     ],
     "locations": [
       "UCF John C. Hitt Library",
-      "New York City",
       "Grand Rapids, Michigan",
+      "New York City",
       "World Trade Center"
     ],
     "organizations": [
       "UCF",
       "Knights Tales Project",
       "Steelcase",
-      "Social Security",
-      "UCF Remembers 9/11"
+      "Social Security"
     ],
     "dates": [
       "September 11, 2001",
@@ -28,13 +27,12 @@
       "September 11, 2026"
     ],
     "themes": [
-      "September 11 attacks",
-      "work and relocation",
-      "witnessing events from afar",
-      "World Trade Center visit",
-      "remembrance and healing"
+      "September 11 Attacks",
+      "Work and Employment",
+      "Prior Visit to the World Trade Center",
+      "Remembrance and Healing"
     ],
-    "perspective": "Personal recollection of watching the events unfold from Steelcase headquarters in Grand Rapids, alongside memories of a prior visit to the World Trade Center; the account does not place Lundy at an attack site."
+    "perspective": "First-person recollection of watching events unfold at Steelcase headquarters in Grand Rapids and of a prior visit to the World Trade Center; the account does not place Lundy at the attack site on September 11."
   },
   "visual_evidence": {
     "visual_observations": [
@@ -68,16 +66,15 @@
     "September 11, 2001 attacks",
     "World Trade Center visit",
     "Steelcase headquarters in Grand Rapids",
-    "New York City employment and relocation",
-    "remembrance and healing"
+    "New York City employment search",
+    "Remembrance and healing for 9/11 victims"
   ],
   "fast_subjects": [
-    "September 11 Terrorist Attacks (2001)",
-    "New York (State)--New York--World Trade Center Site"
+    "September 11 Terrorist Attacks (2001)"
   ],
   "description_support": [
     {
-      "text": "Ken Lundy recorded this interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026, the 25th anniversary of the September 11 attacks.",
+      "text": "Ken Lundy records this interview at UCF’s John C. Hitt Library for the Knights Tales Project on September 11, 2026.",
       "support": [
         {
           "source_id": "T001",
@@ -85,16 +82,12 @@
         },
         {
           "source_id": "C001",
-          "quote": "{\"Q1_4\": \"Ken\", \"Q1_5\": \"\", \"Q1_6\": \"Lundy\", \"Speaker_Name\": \"Ken Lundy\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 3 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Lundy-Ken-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
-        },
-        {
-          "source_id": "C002",
-          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+          "quote": "{\"Q1_4\": \"Ken\", \"Q1_5\": \"\", \"Q1_6\": \"Lundy\", \"Speaker_Name\": \"Ken Lundy\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 3 / Q1_4–Q1_6\", \"RecordedDate\": \"September 11, 2026\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Lundy-Ken-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         }
       ]
     },
     {
-      "text": "At the time of the attacks, Lundy worked for Steelcase, whose headquarters was in Grand Rapids, Michigan, and his territory was New York City.",
+      "text": "He recalls working for Steelcase, whose headquarters was in Grand Rapids, Michigan, while his territory was New York City.",
       "support": [
         {
           "source_id": "T001",
@@ -103,16 +96,7 @@
       ]
     },
     {
-      "text": "He and his wife had recently traveled to the New York City area to find work and a place to stay, then returned to Grand Rapids before September 11.",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
-        }
-      ]
-    },
-    {
-      "text": "Lundy says he watched events unfold at Steelcase headquarters and could not reach his wife, who was working for Social Security; they met at home later that afternoon.",
+      "text": "On Labor Day 2001, Lundy and his wife had visited the New York City area to seek employment and find a place to stay; he recalls that this was his first time in the World Trade Center towers.",
       "support": [
         {
           "source_id": "T001",
@@ -125,7 +109,16 @@
       ]
     },
     {
-      "text": "He first visited the World Trade Center towers on Labor Day 2001, met a friend in the shopping area, and recalls seeing people who worked in the building.",
+      "text": "On September 11, 2001, Lundy was back in Grand Rapids at Steelcase headquarters, where he watched events unfold and was unable to reach his wife, who was working for Social Security.",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Ken Landy, and I'm at UCF's John C. Hitt Library recording an interview for the Knights Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. I have firsthand experience of 9/11, as I at the time was set to work there. At the time, I was working for a company called Steelcase, and my territory was New York City. And so on September 11th, my wife and I had just returned from finding employment, or more importantly, her finding employment, and us finding a place to stay in the New York City area that Labor Day before. And so as we went back to, or flew back to Grand Rapids, Michigan, where Steelcase headquarters was located, on September 11th, everything unfolded, and we watched it there at the Steelcase headquarters. I had reached out to my wife at the time. She was working for Social Security, and I couldn't get through to her. And later on that afternoon, "
+        }
+      ]
+    },
+    {
+      "text": "He recalls meeting a friend in the World Trade Center shopping area during the earlier visit and seeing people who worked in the building.",
       "support": [
         {
           "source_id": "T002",
@@ -134,20 +127,11 @@
       ]
     },
     {
-      "text": "Lundy remembers the victims and expresses hope and prayer for healing.",
+      "text": "Lundy closes by remembering the victims and expressing hope for healing.",
       "support": [
         {
           "source_id": "T002",
           "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
-        }
-      ]
-    },
-    {
-      "text": "The interview is part of the UCF Remembers 9/11 collection.",
-      "support": [
-        {
-          "source_id": "C002",
-          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
         }
       ]
     }
@@ -185,7 +169,7 @@
       ]
     },
     {
-      "term": "New York City employment and relocation",
+      "term": "New York City employment search",
       "support": [
         {
           "source_id": "T001",
@@ -194,7 +178,7 @@
       ]
     },
     {
-      "term": "remembrance and healing",
+      "term": "Remembrance and healing for 9/11 victims",
       "support": [
         {
           "source_id": "T002",
@@ -208,45 +192,18 @@
       "heading": "September 11 Terrorist Attacks (2001)",
       "authority_id": "fst01112794",
       "reason": "Collection-wide policy"
-    },
-    {
-      "candidate_id": "F20",
-      "rationale": "The interview includes a sustained recollection of Lundy's Labor Day 2001 visit to the World Trade Center, including meeting a friend in its shopping area and seeing people who worked in the towers.",
-      "support": [
-        {
-          "source_id": "T002",
-          "quote": "we were able to meet up at home. There in Grand Rapids. So my first time being in the towers, my first time being there was that Labor Day of 2001. And all the many people that worked in that building, all the several people that came down from work. I actually met a friend of mine in the World Trade Center shopping area and witnessed all the people that worked there in the World Trade Center. So we will not forget, and we think about the 9/11 victims, and we pray for healing. Thank you."
-        }
-      ],
-      "heading": "New York (State)--New York--World Trade Center Site",
-      "authority_id": "fst01328038"
     }
   ],
   "fast_candidates": [
     {
-      "id": "fst00960394",
-      "heading": "Horror tales--Library resources",
+      "id": "fst01001196",
+      "heading": "Local Library Cooperation Project",
       "facet": "Topical",
       "rrf_score": 0.008849557522123894,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -0.8416257500648499,
-      "metadata": {
-        "id": "fst00960394",
-        "fast": "Horror tales--Library resources",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01001196",
-      "heading": "Local Library Cooperation Project",
-      "facet": "Topical",
-      "rrf_score": 0.009009009009009009,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -0.8756760954856873,
+      "rerank_score": -5.443864822387695,
       "metadata": {
         "id": "fst01001196",
         "fast": "Local Library Cooperation Project",
@@ -257,12 +214,12 @@
       "id": "fst01907194",
       "heading": "September 11 Terrorist Attacks (2001) in literature",
       "facet": "Topical",
-      "rrf_score": 0.028782894736842105,
+      "rrf_score": 0.03149801587301587,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -1.1939383745193481,
+      "rerank_score": -5.621939659118652,
       "metadata": {
         "id": "fst01907194",
         "fast": "September 11 Terrorist Attacks (2001) in literature",
@@ -270,15 +227,30 @@
       }
     },
     {
+      "id": "fst00960394",
+      "heading": "Horror tales--Library resources",
+      "facet": "Topical",
+      "rrf_score": 0.008695652173913044,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.682832717895508,
+      "metadata": {
+        "id": "fst00960394",
+        "fast": "Horror tales--Library resources",
+        "facet": "Topical"
+      }
+    },
+    {
       "id": "fst02060917",
       "heading": "September 11 Terrorist Attacks, 2001, in comics",
       "facet": "Topical",
-      "rrf_score": 0.0288981288981289,
+      "rrf_score": 0.0315136476426799,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -1.2398864030838013,
+      "rerank_score": -5.715117454528809,
       "metadata": {
         "id": "fst02060917",
         "fast": "September 11 Terrorist Attacks, 2001, in comics",
@@ -286,34 +258,17 @@
       }
     },
     {
-      "id": "fst01907195",
-      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "id": "fst00997882",
+      "heading": "Library publications",
       "facet": "Topical",
-      "rrf_score": 0.02919863597612958,
+      "rrf_score": 0.012658227848101266,
       "retrieval_routes": [
-        "semantic",
-        "lexical"
+        "semantic"
       ],
-      "rerank_score": -1.2852907180786133,
+      "rerank_score": -5.748642444610596,
       "metadata": {
-        "id": "fst01907195",
-        "fast": "September 11 Terrorist Attacks (2001) in mass media",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01907196",
-      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
-      "facet": "Topical",
-      "rrf_score": 0.02877846790890269,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -1.3218553066253662,
-      "metadata": {
-        "id": "fst01907196",
-        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
+        "id": "fst00997882",
+        "fast": "Library publications",
         "facet": "Topical"
       }
     },
@@ -321,12 +276,12 @@
       "id": "fst01747281",
       "heading": "September 11 Terrorist Attacks, 2001, on television",
       "facet": "Topical",
-      "rrf_score": 0.02886002886002886,
+      "rrf_score": 0.032266458495966696,
       "retrieval_routes": [
         "semantic",
         "lexical"
       ],
-      "rerank_score": -1.3732266426086426,
+      "rerank_score": -5.753381252288818,
       "metadata": {
         "id": "fst01747281",
         "fast": "September 11 Terrorist Attacks, 2001, on television",
@@ -334,17 +289,49 @@
       }
     },
     {
-      "id": "fst01142267",
-      "heading": "Tales From the Floating Vagabond (Game)",
+      "id": "fst01907195",
+      "heading": "September 11 Terrorist Attacks (2001) in mass media",
       "facet": "Topical",
-      "rrf_score": 0.008403361344537815,
+      "rrf_score": 0.030117753623188408,
       "retrieval_routes": [
+        "semantic",
         "lexical"
       ],
-      "rerank_score": -1.4116384983062744,
+      "rerank_score": -5.823024749755859,
       "metadata": {
-        "id": "fst01142267",
-        "fast": "Tales From the Floating Vagabond (Game)",
+        "id": "fst01907195",
+        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00997850",
+      "heading": "Library orientation for college students--Information services",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -5.8346405029296875,
+      "metadata": {
+        "id": "fst00997850",
+        "fast": "Library orientation for college students--Information services",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907196",
+      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "facet": "Topical",
+      "rrf_score": 0.02967032967032967,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -5.855267524719238,
+      "metadata": {
+        "id": "fst01907196",
+        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
         "facet": "Topical"
       }
     },
@@ -352,11 +339,11 @@
       "id": "fst01878859",
       "heading": "Virginia--John W. Warner Rapids",
       "facet": "Geographic",
-      "rrf_score": 0.009900990099009901,
+      "rrf_score": 0.00980392156862745,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.5229549407958984,
+      "rerank_score": -5.943661689758301,
       "metadata": {
         "id": "fst01878859",
         "fast": "Virginia--John W. Warner Rapids",
@@ -364,77 +351,17 @@
       }
     },
     {
-      "id": "fst01769267",
-      "heading": "Exhibition Hall (United States Capitol Visitor Center, Washington, D.C.)",
+      "id": "fst01160892",
+      "heading": "Undergraduate libraries",
       "facet": "Topical",
-      "rrf_score": 0.0136986301369863,
+      "rrf_score": 0.011764705882352941,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -1.6913070678710938,
+      "rerank_score": -5.979182243347168,
       "metadata": {
-        "id": "fst01769267",
-        "fast": "Exhibition Hall (United States Capitol Visitor Center, Washington, D.C.)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01327677",
-      "heading": "Washington (D.C.)--John F. Kennedy Center Plaza",
-      "facet": "Geographic",
-      "rrf_score": 0.011235955056179775,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -1.7168173789978027,
-      "metadata": {
-        "id": "fst01327677",
-        "fast": "Washington (D.C.)--John F. Kennedy Center Plaza",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01180739",
-      "heading": "World War II Memorial (Washington, D.C.)",
-      "facet": "Topical",
-      "rrf_score": 0.012048192771084338,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -1.8758344650268555,
-      "metadata": {
-        "id": "fst01180739",
-        "fast": "World War II Memorial (Washington, D.C.)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01911272",
-      "heading": "Trylon and Perisphere (New York, N.Y.)",
-      "facet": "Topical",
-      "rrf_score": 0.0125,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -1.90803861618042,
-      "metadata": {
-        "id": "fst01911272",
-        "fast": "Trylon and Perisphere (New York, N.Y.)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00870710",
-      "heading": "Community college libraries",
-      "facet": "Topical",
-      "rrf_score": 0.012345679012345678,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -1.946757435798645,
-      "metadata": {
-        "id": "fst00870710",
-        "fast": "Community college libraries",
+        "id": "fst01160892",
+        "fast": "Undergraduate libraries",
         "facet": "Topical"
       }
     },
@@ -442,120 +369,14 @@
       "id": "fst01035615",
       "heading": "Neighborhood Information Center Project",
       "facet": "Topical",
-      "rrf_score": 0.011494252873563218,
+      "rrf_score": 0.011363636363636364,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.9633110761642456,
+      "rerank_score": -6.103067874908447,
       "metadata": {
         "id": "fst01035615",
         "fast": "Neighborhood Information Center Project",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00841085",
-      "heading": "Buildings--Library resources",
-      "facet": "Topical",
-      "rrf_score": 0.011235955056179775,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -1.9900407791137695,
-      "metadata": {
-        "id": "fst00841085",
-        "fast": "Buildings--Library resources",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01181393",
-      "heading": "World politics--Library resources",
-      "facet": "Topical",
-      "rrf_score": 0.008695652173913044,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.0112788677215576,
-      "metadata": {
-        "id": "fst01181393",
-        "fast": "World politics--Library resources",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01746769",
-      "heading": "Lumbermen's Monument (Mich.)",
-      "facet": "Topical",
-      "rrf_score": 0.011764705882352941,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.053126096725464,
-      "metadata": {
-        "id": "fst01746769",
-        "fast": "Lumbermen's Monument (Mich.)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01764135",
-      "heading": "Imagine Peace Tower (Viðey, Iceland)",
-      "facet": "Topical",
-      "rrf_score": 0.01282051282051282,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -2.069094657897949,
-      "metadata": {
-        "id": "fst01764135",
-        "fast": "Imagine Peace Tower (Viðey, Iceland)",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01328038",
-      "heading": "New York (State)--New York--World Trade Center Site",
-      "facet": "Geographic",
-      "rrf_score": 0.016129032258064516,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.0779738426208496,
-      "metadata": {
-        "id": "fst01328038",
-        "fast": "New York (State)--New York--World Trade Center Site",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01112793",
-      "heading": "September",
-      "facet": "Topical",
-      "rrf_score": 0.025003906860446942,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.107522964477539,
-      "metadata": {
-        "id": "fst01112793",
-        "fast": "September",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01142257",
-      "heading": "Tales--Social aspects",
-      "facet": "Topical",
-      "rrf_score": 0.00847457627118644,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.111128330230713,
-      "metadata": {
-        "id": "fst01142257",
-        "fast": "Tales--Social aspects",
         "facet": "Topical"
       }
     },
@@ -567,7 +388,7 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.1555967330932617,
+      "rerank_score": -6.255008697509766,
       "metadata": {
         "id": "fst01347388",
         "fast": "Michigan--Grand Rapids Metropolitan Area",
@@ -575,47 +396,108 @@
       }
     },
     {
-      "id": "fst01229406",
-      "heading": "New York (State)--Guilderland Center",
+      "id": "fst01336664",
+      "heading": "Ohio--Grand Rapids (Township)",
       "facet": "Geographic",
-      "rrf_score": 0.01098901098901099,
+      "rrf_score": 0.011764705882352941,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.23046612739563,
+      "rerank_score": -6.265523910522461,
       "metadata": {
-        "id": "fst01229406",
-        "fast": "New York (State)--Guilderland Center",
+        "id": "fst01336664",
+        "fast": "Ohio--Grand Rapids (Township)",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01268210",
-      "heading": "New York (State)--Ontario Center",
+      "id": "fst01095327",
+      "heading": "Research libraries",
+      "facet": "Topical",
+      "rrf_score": 0.011494252873563218,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.29233455657959,
+      "metadata": {
+        "id": "fst01095327",
+        "fast": "Research libraries",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01337295",
+      "heading": "Michigan--Grand Rapids (Township)",
       "facet": "Geographic",
-      "rrf_score": 0.010638297872340425,
+      "rrf_score": 0.014925373134328358,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.2843005657196045,
+      "rerank_score": -6.308952331542969,
       "metadata": {
-        "id": "fst01268210",
-        "fast": "New York (State)--Ontario Center",
+        "id": "fst01337295",
+        "fast": "Michigan--Grand Rapids (Township)",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01257864",
-      "heading": "New York (State)--Center Moriches",
+      "id": "fst01334115",
+      "heading": "Wisconsin--Grand Rapids (Town)",
       "facet": "Geographic",
-      "rrf_score": 0.010869565217391304,
+      "rrf_score": 0.011904761904761904,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.292046546936035,
+      "rerank_score": -6.313111305236816,
       "metadata": {
-        "id": "fst01257864",
-        "fast": "New York (State)--Center Moriches",
+        "id": "fst01334115",
+        "fast": "Wisconsin--Grand Rapids (Town)",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst02029811",
+      "heading": "Libraries--Special collections--College publications",
+      "facet": "Topical",
+      "rrf_score": 0.012345679012345678,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -6.320409774780273,
+      "metadata": {
+        "id": "fst02029811",
+        "fast": "Libraries--Special collections--College publications",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01112793",
+      "heading": "September",
+      "facet": "Topical",
+      "rrf_score": 0.02690100430416069,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -6.367123603820801,
+      "metadata": {
+        "id": "fst01112793",
+        "fast": "September",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01327677",
+      "heading": "Washington (D.C.)--John F. Kennedy Center Plaza",
+      "facet": "Geographic",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.395292282104492,
+      "metadata": {
+        "id": "fst01327677",
+        "fast": "Washington (D.C.)--John F. Kennedy Center Plaza",
         "facet": "Geographic"
       }
     },
@@ -623,11 +505,11 @@
       "id": "fst01280194",
       "heading": "North Dakota--Grand Rapids",
       "facet": "Geographic",
-      "rrf_score": 0.012195121951219513,
+      "rrf_score": 0.012048192771084338,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.2945384979248047,
+      "rerank_score": -6.410029888153076,
       "metadata": {
         "id": "fst01280194",
         "fast": "North Dakota--Grand Rapids",
@@ -635,32 +517,17 @@
       }
     },
     {
-      "id": "fst01922086",
-      "heading": "New York (State)--New York--Grand Concourse",
+      "id": "fst01341467",
+      "heading": "Manitoba--Grand Rapids",
       "facet": "Geographic",
-      "rrf_score": 0.011363636363636364,
+      "rrf_score": 0.013157894736842105,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.305421829223633,
+      "rerank_score": -6.413122177124023,
       "metadata": {
-        "id": "fst01922086",
-        "fast": "New York (State)--New York--Grand Concourse",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01232068",
-      "heading": "Michigan--East Grand Rapids",
-      "facet": "Geographic",
-      "rrf_score": 0.015151515151515152,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.307685136795044,
-      "metadata": {
-        "id": "fst01232068",
-        "fast": "Michigan--East Grand Rapids",
+        "id": "fst01341467",
+        "fast": "Manitoba--Grand Rapids",
         "facet": "Geographic"
       }
     },
@@ -672,10 +539,115 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.3093605041503906,
+      "rerank_score": -6.425407886505127,
       "metadata": {
         "id": "fst01347390",
         "fast": "Michigan--Grand Rapids Suburban Area",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01341345",
+      "heading": "Manitoba--Little Grand Rapids",
+      "facet": "Geographic",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.4284515380859375,
+      "metadata": {
+        "id": "fst01341345",
+        "fast": "Manitoba--Little Grand Rapids",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01347389",
+      "heading": "Michigan--Grand Rapids Region",
+      "facet": "Geographic",
+      "rrf_score": 0.014705882352941176,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.432574272155762,
+      "metadata": {
+        "id": "fst01347389",
+        "fast": "Michigan--Grand Rapids Region",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01232068",
+      "heading": "Michigan--East Grand Rapids",
+      "facet": "Geographic",
+      "rrf_score": 0.015151515151515152,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.445728302001953,
+      "metadata": {
+        "id": "fst01232068",
+        "fast": "Michigan--East Grand Rapids",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01181393",
+      "heading": "World politics--Library resources",
+      "facet": "Topical",
+      "rrf_score": 0.008403361344537815,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.458059310913086,
+      "metadata": {
+        "id": "fst01181393",
+        "fast": "World politics--Library resources",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01922085",
+      "heading": "New York (State)--New York--Grand Central Parkway",
+      "facet": "Geographic",
+      "rrf_score": 0.009615384615384616,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.501840591430664,
+      "metadata": {
+        "id": "fst01922085",
+        "fast": "New York (State)--New York--Grand Central Parkway",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01712102",
+      "heading": "Michigan--Grand Rapids--Heritage Hill",
+      "facet": "Geographic",
+      "rrf_score": 0.0136986301369863,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.5071258544921875,
+      "metadata": {
+        "id": "fst01712102",
+        "fast": "Michigan--Grand Rapids--Heritage Hill",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01291166",
+      "heading": "Ohio--Grand Rapids",
+      "facet": "Geographic",
+      "rrf_score": 0.013333333333333334,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -6.512237071990967,
+      "metadata": {
+        "id": "fst01291166",
+        "fast": "Ohio--Grand Rapids",
         "facet": "Geographic"
       }
     }

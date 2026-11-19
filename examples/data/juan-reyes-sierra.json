@@ -4,14 +4,15 @@
   "video_filename": "Reyes-Sierra-Juan-2026-09-11_Video.mp4",
   "duration_seconds": 150.0,
   "sampled_frames": 15,
-  "description": "Juan Reyes Sierra, a UCF senior from Sarasota, Florida, shares his father’s account of September 11, 2001; Juan says he was not yet born when the attacks happened. His father was a manager at the Colony Beach and Resort in Longboat Key and helped coordinate logistics during President George W. Bush’s stay there on the morning of September 11. Juan says his father recalled preparations for a brunch menu and had a photograph taken with the president. According to the account Juan relays, his father learned of the unfolding events when Sarasota Airport closed and fighter jets were present; the family account describes fears that the president might be targeted. Juan presents the story as inherited family memory rather than a personal experience of the attacks, and says he feels proud to share his father’s connection to the president.",
+  "description": "Juan Reyes Sierra, a UCF senior, shares his father’s account of September 11, 2001, noting that he was not yet born when the attacks occurred. At the time, his father managed the Colony Beach and Resort in Longboat Key, Florida, and was responsible for logistics during President George W. Bush’s visit there on the morning of September 11. Reyes Sierra says his father recalled preparing a brunch menu for the visit and having his photograph taken with the president. His father later observed that Sarasota Airport had shut down and that fighter jets were present, amid concern that the president might be targeted. The account is inherited family memory rather than Reyes Sierra’s personal experience of 9/11; he describes feeling proud to share his father’s story. In the recording, Reyes Sierra holds up a phone displaying a photograph of two people in shirts and ties; the people shown are not identified by the visual evidence.",
   "entities_and_facets": {
     "people": [
       "Juan Reyes Sierra",
-      "Juan's father",
+      "Juan Reyes Sierra's father",
       "George W. Bush"
     ],
     "locations": [
+      "UCF",
       "Sarasota, Florida",
       "Longboat Key, Florida",
       "Colony Beach and Resort",
@@ -19,22 +20,21 @@
       "Sarasota Airport"
     ],
     "organizations": [
-      "University of Central Florida (UCF)",
       "UCF Remembers 9/11"
     ],
     "dates": [
       "September 11, 2001",
-      "2026-09-11"
+      "September 11, 2026"
     ],
     "themes": [
-      "September 11 attacks",
-      "family memory",
-      "presidential visit",
-      "hotel management and event logistics",
-      "Sarasota Airport closure",
-      "fighter jets"
+      "September 11 Attacks",
+      "Family Memory",
+      "Presidential Visit",
+      "Hospitality and Event Logistics",
+      "Sarasota Response and Airport Shutdown",
+      "Intergenerational Remembrance"
     ],
-    "perspective": "A UCF student's account of his father's experience, recalled and shared as family memory; the speaker was not born at the time and does not describe personal presence at an attack site."
+    "perspective": "A UCF student's inherited family account of his father's work during President Bush's Sarasota-area visit on September 11, 2001; the speaker was not yet born and does not claim personal presence at the events."
   },
   "visual_evidence": {
     "visual_observations": [
@@ -83,10 +83,10 @@
     ]
   },
   "keywords": [
-    "September 11 family memory",
-    "George W. Bush's Sarasota visit",
-    "Colony Beach and Resort management",
-    "Sarasota Airport closure and fighter jets",
+    "September 11, 2001 family memory",
+    "President Bush's Sarasota-area visit",
+    "Colony Beach and Resort logistics",
+    "Sarasota Airport shutdown and fighter jets",
     "intergenerational remembrance"
   ],
   "fast_subjects": [
@@ -95,24 +95,20 @@
   ],
   "description_support": [
     {
-      "text": "Juan Reyes Sierra, a UCF senior from Sarasota, Florida, shares his father’s account of September 11, 2001; Juan says he was not yet born when the attacks happened.",
+      "text": "Juan Reyes Sierra, a UCF senior, shares his father’s account of September 11, 2001, noting that he was not yet born when the attacks occurred.",
       "support": [
-        {
-          "source_id": "T001",
-          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
-        },
         {
           "source_id": "C001",
-          "quote": "{\"Q1_4\": \"Juan\", \"Q1_5\": \"Esteban\", \"Q1_6\": \"Reyes Sierra\", \"Speaker_Name\": \"Juan Reyes Sierra\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 6 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Reyes-Sierra-Juan-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+          "quote": "{\"Q1_4\": \"Juan\", \"Q1_5\": \"Esteban\", \"Q1_6\": \"Reyes Sierra\", \"Speaker_Name\": \"Juan Reyes Sierra\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 6 / Q1_4–Q1_6\", \"RecordedDate\": \"September 11, 2026\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Reyes-Sierra-Juan-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
         },
         {
-          "source_id": "C002",
-          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+          "source_id": "T001",
+          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
         }
       ]
     },
     {
-      "text": "His father was a manager at the Colony Beach and Resort in Longboat Key and helped coordinate logistics during President George W. Bush’s stay there on the morning of September 11.",
+      "text": "At the time, his father managed the Colony Beach and Resort in Longboat Key, Florida, and was responsible for logistics during President George W. Bush’s visit there on the morning of September 11.",
       "support": [
         {
           "source_id": "T001",
@@ -121,7 +117,7 @@
       ]
     },
     {
-      "text": "Juan says his father recalled preparations for a brunch menu and had a photograph taken with the president.",
+      "text": "Reyes Sierra says his father recalled preparing a brunch menu for the visit and having his photograph taken with the president.",
       "support": [
         {
           "source_id": "T001",
@@ -134,7 +130,7 @@
       ]
     },
     {
-      "text": "According to the account Juan relays, his father learned of the unfolding events when Sarasota Airport closed and fighter jets were present; the family account describes fears that the president might be targeted.",
+      "text": "His father later observed that Sarasota Airport had shut down and that fighter jets were present, amid concern that the president might be targeted.",
       "support": [
         {
           "source_id": "T002",
@@ -143,7 +139,20 @@
       ]
     },
     {
-      "text": "Juan presents the story as inherited family memory rather than a personal experience of the attacks, and says he feels proud to share his father’s connection to the president.",
+      "text": "The account is inherited family memory rather than Reyes Sierra’s personal experience of 9/11; he describes feeling proud to share his father’s story.",
+      "support": [
+        {
+          "source_id": "T002",
+          "quote": "for him. And then he actually took a picture with him. I have the photo right here. Let me see if I can pull it up on my phone. I have the photo right here. So that's my dad with President Bush. And yeah, he just said that, like, you know, after— he didn't know what happened. He just saw that, like, the airport, the local airport, Sarasota Airport, it got shut down. There was, like, fighter jets, because, like, that's the thing. Like, they thought that they were going after, like, the president. So, like, Sarasota, they thought that something was going to happen in Sarasota. And that's just about it. That's— it's not a story about me because I wasn't born, but I feel like my dad played, and, like, to this day, like, this day for him, it's like, wow. It's just, like, one of those things that, like, you know— like, no words. But for me, like, every time this day comes, I feel like, you "
+        },
+        {
+          "source_id": "T003",
+          "quote": "know, proud to, like, share the story that, like, my dad at least did something cool, that, like, you know, he was with the president. Not a lot of people get to do that, so that's my story."
+        }
+      ]
+    },
+    {
+      "text": "In the recording, Reyes Sierra holds up a phone displaying a photograph of two people in shirts and ties; the people shown are not identified by the visual evidence.",
       "support": [
         {
           "source_id": "T002",
@@ -158,7 +167,7 @@
   ],
   "keyword_support": [
     {
-      "term": "September 11 family memory",
+      "term": "September 11, 2001 family memory",
       "support": [
         {
           "source_id": "T001",
@@ -171,33 +180,33 @@
         {
           "source_id": "T003",
           "quote": "know, proud to, like, share the story that, like, my dad at least did something cool, that, like, you know, he was with the president. Not a lot of people get to do that, so that's my story."
+        }
+      ]
+    },
+    {
+      "term": "President Bush's Sarasota-area visit",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
+        }
+      ]
+    },
+    {
+      "term": "Colony Beach and Resort logistics",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
         },
         {
-          "source_id": "C002",
-          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+          "source_id": "T002",
+          "quote": "for him. And then he actually took a picture with him. I have the photo right here. Let me see if I can pull it up on my phone. I have the photo right here. So that's my dad with President Bush. And yeah, he just said that, like, you know, after— he didn't know what happened. He just saw that, like, the airport, the local airport, Sarasota Airport, it got shut down. There was, like, fighter jets, because, like, that's the thing. Like, they thought that they were going after, like, the president. So, like, Sarasota, they thought that something was going to happen in Sarasota. And that's just about it. That's— it's not a story about me because I wasn't born, but I feel like my dad played, and, like, to this day, like, this day for him, it's like, wow. It's just, like, one of those things that, like, you know— like, no words. But for me, like, every time this day comes, I feel like, you "
         }
       ]
     },
     {
-      "term": "George W. Bush's Sarasota visit",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
-        }
-      ]
-    },
-    {
-      "term": "Colony Beach and Resort management",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "Hi, my name is Juan Reyes Sierra. I am a senior here at UCF, and I wasn't born by the time, like, 9/11 happened. But I have a story that, like, you know, it's about my dad. So, my— I'm from Sarasota, Florida, and at the time, my dad was a manager at the Colony Beach and Resort in Longboat Key, which is located in Sarasota, Florida. And the day of 9/11, President Bush was at Booker Elementary, an elementary school in Sarasota. But before he went to Booker Elementary School, he was actually staying at the Colony Beach and Resort, and my dad was with President Bush, like, the morning of 9/11. And he was just, like, the main guy, like, in charge of, like, you know, making sure that, like, everything, like the logistics and all that. And then he remember telling me that, like, you know, they had, like, they spent, like, you know, kind of like a week, like, preparing, like, that brunch menu "
-        }
-      ]
-    },
-    {
-      "term": "Sarasota Airport closure and fighter jets",
+      "term": "Sarasota Airport shutdown and fighter jets",
       "support": [
         {
           "source_id": "T002",
@@ -226,8 +235,8 @@
       "reason": "Collection-wide policy"
     },
     {
-      "candidate_id": "F01",
-      "rationale": "Sarasota is the principal geographic setting of the account: the father worked at the Longboat Key resort, Bush visited Booker Elementary, and the airport closure and fighter jets are described there.",
+      "candidate_id": "F06",
+      "rationale": "Sarasota is the central setting of the account, including the father's work at the Longboat Key resort and the local airport shutdown.",
       "support": [
         {
           "source_id": "T001",
@@ -244,6 +253,85 @@
   ],
   "fast_candidates": [
     {
+      "id": "fst01907195",
+      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "facet": "Topical",
+      "rrf_score": 0.027346637102734665,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -1.5182839632034302,
+      "metadata": {
+        "id": "fst01907195",
+        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01747281",
+      "heading": "September 11 Terrorist Attacks, 2001, on television",
+      "facet": "Topical",
+      "rrf_score": 0.0315136476426799,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -1.553306221961975,
+      "metadata": {
+        "id": "fst01747281",
+        "fast": "September 11 Terrorist Attacks, 2001, on television",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst02060917",
+      "heading": "September 11 Terrorist Attacks, 2001, in comics",
+      "facet": "Topical",
+      "rrf_score": 0.029709507042253523,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -1.6552683115005493,
+      "metadata": {
+        "id": "fst02060917",
+        "fast": "September 11 Terrorist Attacks, 2001, in comics",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907194",
+      "heading": "September 11 Terrorist Attacks (2001) in literature",
+      "facet": "Topical",
+      "rrf_score": 0.030798389007344232,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -1.670508623123169,
+      "metadata": {
+        "id": "fst01907194",
+        "fast": "September 11 Terrorist Attacks (2001) in literature",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907196",
+      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "facet": "Topical",
+      "rrf_score": 0.014925373134328358,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.707682490348816,
+      "metadata": {
+        "id": "fst01907196",
+        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
+        "facet": "Topical"
+      }
+    },
+    {
       "id": "fst01207248",
       "heading": "Florida--Sarasota",
       "facet": "Geographic",
@@ -251,7 +339,7 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.4557242393493652,
+      "rerank_score": -2.993462324142456,
       "metadata": {
         "id": "fst01207248",
         "fast": "Florida--Sarasota",
@@ -262,15 +350,46 @@
       "id": "fst01343986",
       "heading": "Florida--Sarasota Metropolitan Area",
       "facet": "Geographic",
-      "rrf_score": 0.013157894736842105,
+      "rrf_score": 0.013888888888888888,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.520511269569397,
+      "rerank_score": -3.0004701614379883,
       "metadata": {
         "id": "fst01343986",
         "fast": "Florida--Sarasota Metropolitan Area",
         "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01112793",
+      "heading": "September",
+      "facet": "Topical",
+      "rrf_score": 0.027629397679130595,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -3.0295047760009766,
+      "metadata": {
+        "id": "fst01112793",
+        "fast": "September",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00956749",
+      "heading": "Hijacking of aircraft",
+      "facet": "Topical",
+      "rrf_score": 0.012345679012345678,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -3.1264421939849854,
+      "metadata": {
+        "id": "fst00956749",
+        "fast": "Hijacking of aircraft",
+        "facet": "Topical"
       }
     },
     {
@@ -281,10 +400,40 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.6181695461273193,
+      "rerank_score": -3.1380138397216797,
       "metadata": {
         "id": "fst01343987",
         "fast": "Florida--Sarasota Region",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01343985",
+      "heading": "Florida--Sarasota Bay Region",
+      "facet": "Geographic",
+      "rrf_score": 0.014084507042253521,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.141749143600464,
+      "metadata": {
+        "id": "fst01343985",
+        "fast": "Florida--Sarasota Bay Region",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01877821",
+      "heading": "Florida--Sarasota Bay Watershed",
+      "facet": "Geographic",
+      "rrf_score": 0.0136986301369863,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.181253433227539,
+      "metadata": {
+        "id": "fst01877821",
+        "fast": "Florida--Sarasota Bay Watershed",
         "facet": "Geographic"
       }
     },
@@ -296,7 +445,7 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.8779258728027344,
+      "rerank_score": -3.2004780769348145,
       "metadata": {
         "id": "fst01214943",
         "fast": "Florida--Sarasota County",
@@ -304,32 +453,32 @@
       }
     },
     {
-      "id": "fst01343985",
-      "heading": "Florida--Sarasota Bay Region",
-      "facet": "Geographic",
-      "rrf_score": 0.013333333333333334,
+      "id": "fst01002084",
+      "heading": "Logistics",
+      "facet": "Topical",
+      "rrf_score": 0.015873015873015872,
       "retrieval_routes": [
-        "lexical"
+        "semantic"
       ],
-      "rerank_score": -1.9325792789459229,
+      "rerank_score": -3.226710796356201,
       "metadata": {
-        "id": "fst01343985",
-        "fast": "Florida--Sarasota Bay Region",
-        "facet": "Geographic"
+        "id": "fst01002084",
+        "fast": "Logistics",
+        "facet": "Topical"
       }
     },
     {
-      "id": "fst01877821",
-      "heading": "Florida--Sarasota Bay Watershed",
+      "id": "fst01213563",
+      "heading": "Florida--Vero Beach",
       "facet": "Geographic",
-      "rrf_score": 0.012987012987012988,
+      "rrf_score": 0.009615384615384616,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -1.9648206233978271,
+      "rerank_score": -3.243828773498535,
       "metadata": {
-        "id": "fst01877821",
-        "fast": "Florida--Sarasota Bay Watershed",
+        "id": "fst01213563",
+        "fast": "Florida--Vero Beach",
         "facet": "Geographic"
       }
     },
@@ -337,11 +486,11 @@
       "id": "fst01308766",
       "heading": "Florida--Manasota Key",
       "facet": "Geographic",
-      "rrf_score": 0.011235955056179775,
+      "rrf_score": 0.011904761904761904,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -2.3864643573760986,
+      "rerank_score": -3.2452547550201416,
       "metadata": {
         "id": "fst01308766",
         "fast": "Florida--Manasota Key",
@@ -349,337 +498,77 @@
       }
     },
     {
-      "id": "fst01907195",
-      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "id": "fst01216013",
+      "heading": "Florida--Dania Beach",
+      "facet": "Geographic",
+      "rrf_score": 0.009009009009009009,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.2628393173217773,
+      "metadata": {
+        "id": "fst01216013",
+        "fast": "Florida--Dania Beach",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00803678",
+      "heading": "Airport authorities",
       "facet": "Topical",
-      "rrf_score": 0.031544957774465976,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.442725419998169,
-      "metadata": {
-        "id": "fst01907195",
-        "fast": "September 11 Terrorist Attacks (2001) in mass media",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01907194",
-      "heading": "September 11 Terrorist Attacks (2001) in literature",
-      "facet": "Topical",
-      "rrf_score": 0.03125763125763126,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.5271382331848145,
-      "metadata": {
-        "id": "fst01907194",
-        "fast": "September 11 Terrorist Attacks (2001) in literature",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01747281",
-      "heading": "September 11 Terrorist Attacks, 2001, on television",
-      "facet": "Topical",
-      "rrf_score": 0.03200204813108039,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.5531249046325684,
-      "metadata": {
-        "id": "fst01747281",
-        "fast": "September 11 Terrorist Attacks, 2001, on television",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst02060917",
-      "heading": "September 11 Terrorist Attacks, 2001, in comics",
-      "facet": "Topical",
-      "rrf_score": 0.03125,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.6216630935668945,
-      "metadata": {
-        "id": "fst02060917",
-        "fast": "September 11 Terrorist Attacks, 2001, in comics",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01907196",
-      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
-      "facet": "Topical",
-      "rrf_score": 0.031054405392392875,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -2.655069589614868,
-      "metadata": {
-        "id": "fst01907196",
-        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01882094",
-      "heading": "Florida--Florida State University Reservation",
-      "facet": "Geographic",
-      "rrf_score": 0.00980392156862745,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -2.803213119506836,
-      "metadata": {
-        "id": "fst01882094",
-        "fast": "Florida--Florida State University Reservation",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01241082",
-      "heading": "Florida--Lido Key",
-      "facet": "Geographic",
-      "rrf_score": 0.011904761904761904,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.092827320098877,
-      "metadata": {
-        "id": "fst01241082",
-        "fast": "Florida--Lido Key",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01242110",
-      "heading": "Florida--Saint Armands Key",
-      "facet": "Geographic",
-      "rrf_score": 0.009259259259259259,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.1638171672821045,
-      "metadata": {
-        "id": "fst01242110",
-        "fast": "Florida--Saint Armands Key",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01210669",
-      "heading": "Florida--Key Biscayne",
-      "facet": "Geographic",
-      "rrf_score": 0.0125,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2062525749206543,
-      "metadata": {
-        "id": "fst01210669",
-        "fast": "Florida--Key Biscayne",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01215775",
-      "heading": "Florida--Siesta Key",
-      "facet": "Geographic",
-      "rrf_score": 0.012345679012345678,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2097256183624268,
-      "metadata": {
-        "id": "fst01215775",
-        "fast": "Florida--Siesta Key",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01232504",
-      "heading": "Florida--Jupiter Inlet Colony",
-      "facet": "Geographic",
-      "rrf_score": 0.009523809523809525,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2115941047668457,
-      "metadata": {
-        "id": "fst01232504",
-        "fast": "Florida--Jupiter Inlet Colony",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01307560",
-      "heading": "Florida--Perdido Key",
-      "facet": "Geographic",
       "rrf_score": 0.011363636363636364,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2210261821746826,
-      "metadata": {
-        "id": "fst01307560",
-        "fast": "Florida--Perdido Key",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst00927686",
-      "heading": "Florida language",
-      "facet": "Topical",
-      "rrf_score": 0.011494252873563218,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -3.2738075256347656,
+      "rerank_score": -3.283461809158325,
       "metadata": {
-        "id": "fst00927686",
-        "fast": "Florida language",
+        "id": "fst00803678",
+        "fast": "Airport authorities",
         "facet": "Topical"
       }
     },
     {
-      "id": "fst01205000",
-      "heading": "Florida--Pensacola Beach",
+      "id": "fst01215852",
+      "heading": "Florida--Pompano Beach",
       "facet": "Geographic",
-      "rrf_score": 0.008620689655172414,
+      "rrf_score": 0.00909090909090909,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -3.2745213508605957,
+      "rerank_score": -3.291623592376709,
       "metadata": {
-        "id": "fst01205000",
-        "fast": "Florida--Pensacola Beach",
+        "id": "fst01215852",
+        "fast": "Florida--Pompano Beach",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01889144",
-      "heading": "Florida--Egmont Key",
-      "facet": "Geographic",
-      "rrf_score": 0.010869565217391304,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2825913429260254,
-      "metadata": {
-        "id": "fst01889144",
-        "fast": "Florida--Egmont Key",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01219956",
-      "heading": "Florida--Key Largo",
-      "facet": "Geographic",
-      "rrf_score": 0.012195121951219513,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.2888693809509277,
-      "metadata": {
-        "id": "fst01219956",
-        "fast": "Florida--Key Largo",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01207829",
-      "heading": "Florida--Key West",
-      "facet": "Geographic",
-      "rrf_score": 0.012658227848101266,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.294994831085205,
-      "metadata": {
-        "id": "fst01207829",
-        "fast": "Florida--Key West",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01204159",
-      "heading": "Florida--Miami Beach",
-      "facet": "Geographic",
-      "rrf_score": 0.008695652173913044,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.319675922393799,
-      "metadata": {
-        "id": "fst01204159",
-        "fast": "Florida--Miami Beach",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01202733",
-      "heading": "Florida--Daytona Beach",
-      "facet": "Geographic",
-      "rrf_score": 0.008771929824561403,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.3269686698913574,
-      "metadata": {
-        "id": "fst01202733",
-        "fast": "Florida--Daytona Beach",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01210771",
-      "heading": "Florida--Apollo Beach",
-      "facet": "Geographic",
-      "rrf_score": 0.008403361344537815,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -3.3300676345825195,
-      "metadata": {
-        "id": "fst01210771",
-        "fast": "Florida--Apollo Beach",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01212556",
-      "heading": "Florida--Cocoa Beach",
+      "id": "fst01226608",
+      "heading": "Florida--Melbourne Beach",
       "facet": "Geographic",
       "rrf_score": 0.008333333333333333,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -3.3347020149230957,
+      "rerank_score": -3.301931381225586,
       "metadata": {
-        "id": "fst01212556",
-        "fast": "Florida--Cocoa Beach",
+        "id": "fst01226608",
+        "fast": "Florida--Melbourne Beach",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01343952",
-      "heading": "Florida--Key West Region",
+      "id": "fst01215210",
+      "heading": "Florida--Madeira Beach",
       "facet": "Geographic",
-      "rrf_score": 0.009174311926605505,
+      "rrf_score": 0.009523809523809525,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -3.355736017227173,
+      "rerank_score": -3.3032686710357666,
       "metadata": {
-        "id": "fst01343952",
-        "fast": "Florida--Key West Region",
+        "id": "fst01215210",
+        "fast": "Florida--Madeira Beach",
         "facet": "Geographic"
       }
     },
@@ -687,14 +576,134 @@
       "id": "fst01886640",
       "heading": "Florida--Conch Key",
       "facet": "Geographic",
-      "rrf_score": 0.01098901098901099,
+      "rrf_score": 0.011627906976744186,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -3.3601880073547363,
+      "rerank_score": -3.308708906173706,
       "metadata": {
         "id": "fst01886640",
         "fast": "Florida--Conch Key",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01232504",
+      "heading": "Florida--Jupiter Inlet Colony",
+      "facet": "Geographic",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.3133225440979004,
+      "metadata": {
+        "id": "fst01232504",
+        "fast": "Florida--Jupiter Inlet Colony",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01226584",
+      "heading": "Florida--Deerfield Beach",
+      "facet": "Geographic",
+      "rrf_score": 0.008403361344537815,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.3148326873779297,
+      "metadata": {
+        "id": "fst01226584",
+        "fast": "Florida--Deerfield Beach",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01215775",
+      "heading": "Florida--Siesta Key",
+      "facet": "Geographic",
+      "rrf_score": 0.013157894736842105,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.3171920776367188,
+      "metadata": {
+        "id": "fst01215775",
+        "fast": "Florida--Siesta Key",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01241082",
+      "heading": "Florida--Lido Key",
+      "facet": "Geographic",
+      "rrf_score": 0.012658227848101266,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.320314884185791,
+      "metadata": {
+        "id": "fst01241082",
+        "fast": "Florida--Lido Key",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01166347",
+      "heading": "Victims of terrorism",
+      "facet": "Topical",
+      "rrf_score": 0.013333333333333334,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -3.3240253925323486,
+      "metadata": {
+        "id": "fst01166347",
+        "fast": "Victims of terrorism",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01219956",
+      "heading": "Florida--Key Largo",
+      "facet": "Geographic",
+      "rrf_score": 0.012987012987012988,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.3421781063079834,
+      "metadata": {
+        "id": "fst01219956",
+        "fast": "Florida--Key Largo",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01215440",
+      "heading": "Florida--Delray Beach",
+      "facet": "Geographic",
+      "rrf_score": 0.009433962264150943,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.3452539443969727,
+      "metadata": {
+        "id": "fst01215440",
+        "fast": "Florida--Delray Beach",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01215470",
+      "heading": "Florida--Palm Beach",
+      "facet": "Geographic",
+      "rrf_score": 0.009174311926605505,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -3.345306634902954,
+      "metadata": {
+        "id": "fst01215470",
+        "fast": "Florida--Palm Beach",
         "facet": "Geographic"
       }
     }
