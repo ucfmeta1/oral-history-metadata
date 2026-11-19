@@ -111,9 +111,13 @@ def main():
     parser.add_argument('--input', type=Path, default=ROOT/'outputs/notebook/UCFremembers911_video_metadata.json')
     parser.add_argument('--video', help='Optional single filename; by default publish all records.')
     parser.add_argument('--prepare-media', action='store_true', help='Create compressed video copies and previews from local source videos.')
-    parser.add_argument('--video-url', default=VIDEO_URL)
+    parser.add_argument('--video-url', default=VIDEO_URL, help='Optional Ken Lundy attachment override.')
+    parser.add_argument('--attachments', type=Path, default=ROOT/'examples/video-attachments.json',
+                        help='Video attachment URLs keyed by speaker slug.')
     args = parser.parse_args()
     records = json.loads(args.input.read_text())
+    video_urls = json.loads(args.attachments.read_text()) if args.attachments.exists() else {}
+    video_urls['ken-lundy'] = args.video_url
     if args.video:
         records = [r for r in records if r['video_filename'] == args.video]
     if not records:
@@ -150,9 +154,9 @@ def main():
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
     section = (START + '\n## Video examples — all generated results\n\n'
                f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, available visual evidence, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
-               'Ken Lundy has one inline video player with play/pause and audio controls. For the other interviews, click the preview or Open video player with audio to open the full MP4 on GitHub. '
+               'Every interview has one inline video player with play/pause and audio controls. A fallback link is provided below each player. '
                'Results use the original workbook’s speaker names.\n\n'
-               + index + '\n\n' + ''.join(build(r, args.video_url if identity(r)[1] == 'ken-lundy' else None) for r in records)
+               + index + '\n\n' + ''.join(build(r, video_urls.get(identity(r)[1])) for r in records)
                + 'Source: notebook metadata records. '
                'Visual observations are retained without post-processing.\n' + END)
     readme = ROOT/'README.md'
