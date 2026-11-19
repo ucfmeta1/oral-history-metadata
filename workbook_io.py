@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parent
 ENTITY_KEYS = ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective')
 
 def display_header(label):
+    if re.sub(r'\s+', '', str(label)).casefold() in {'organization', 'organizations', 'organization/initiatives', 'organizations/initiatives'}:
+        return 'Organizations/ Initiatives'
     acronyms={'id':'ID','ids':'IDs','json':'JSON','fast':'FAST','asr':'ASR','ucf':'UCF'}
     label=re.sub(r'([a-z])([A-Z])',r'\1 \2',str(label)).replace('_',' ')
     return ' '.join(acronyms.get(word.lower(),word.capitalize()) for word in label.split())

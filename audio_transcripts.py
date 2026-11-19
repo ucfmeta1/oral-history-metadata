@@ -1,4 +1,4 @@
-"""Generate transcript Excel from video audio; never read the supplied transcript."""
+"""Generate speech transcripts from audio; optionally use original speaker-name fields."""
 import hashlib
 import json
 from pathlib import Path
@@ -17,6 +17,42 @@ def video_context(video):
     date = re.search(r'(\d{4}-\d{2}-\d{2})_Video$', video.stem)
     return dict(Q1_4=parts[-1] if len(parts)>1 else '', Q1_6=' '.join(parts[:-1]) if len(parts)>1 else stem,
                 RecordedDate=date.group(1) if date else '', Identity_Source='Video filename')
+
+def original_speaker_names(workbook, videos):
+    """Read only Q1_4–Q1_6 as name authority; never use supplied transcript text."""
+    def normalized(value):
+        return re.sub(r'[^a-z0-9]', '', str(value).casefold())
+    wb = load_workbook(workbook, read_only=True, data_only=True)
+    entries = []
+    try:
+        for sheet in wb:
+            rows = iter(sheet.values)
+            headers = next(rows, ())
+            if not {'Q1_4', 'Q1_6'}.issubset(headers):
+                continue
+            positions = {key: headers.index(key) for key in ('Q1_4', 'Q1_5', 'Q1_6') if key in headers}
+            for row_number, row in enumerate(rows, 2):
+                names = {key: str((row[index] if index < len(row) else '') or '').strip() for key, index in positions.items()}
+                first, last = names.get('Q1_4', ''), names.get('Q1_6', '')
+                # Qualtrics includes a descriptive second header row.
+                if not first or not last or 'Personal Information' in first:
+                    continue
+                entries.append((names, f'{Path(workbook).name} / {sheet.title} / row {row_number} / Q1_4–Q1_6'))
+    finally:
+        wb.close()
+    result = {}
+    for video in videos:
+        filename = video_context(video)
+        matches = [(names, source) for names, source in entries
+                   if normalized(names['Q1_4']) == normalized(filename['Q1_4'])
+                   and normalized(names['Q1_6']) == normalized(filename['Q1_6'])]
+        if len(matches) != 1:
+            raise ValueError(f'Expected one original speaker-name row for {video.name}; found {len(matches)}.')
+        names, source = matches[0]
+        result[video.name] = dict(names, Speaker_Name=f"{names['Q1_4']} {names['Q1_6']}",
+                                 Identity_Source='Original workbook name fields', Speaker_Name_Source=source)
+    return result
+
 
 def transcribe_video(client, video, cache_dir, model='gpt-transcribe', chunk_seconds=600):
     if chunk_seconds <= 0 or chunk_seconds > 1800:
@@ -57,20 +93,23 @@ def transcribe_video(client, video, cache_dir, model='gpt-transcribe', chunk_sec
     final.write_text(json.dumps(result,ensure_ascii=False,indent=2))
     return result
 
-def generate_transcript_workbook(client,videos,target,model='gpt-transcribe',preview_dir=None):
+def generate_transcript_workbook(client,videos,target,model='gpt-transcribe',preview_dir=None,name_authority=None):
     videos=list(videos)
     if not videos:raise ValueError('No videos to transcribe')
     if len({p.name for p in videos})!=len(videos):raise ValueError('Video filenames must be unique to match transcripts safely')
     target=Path(target);target.parent.mkdir(parents=True,exist_ok=True)
+    names=original_speaker_names(name_authority,videos) if name_authority else {}
     rows=[];manifest=[]
-    headers=['Video','Response ID','First Name','Last Name','Recorded Date','Transcript','Transcription Model','Transcript File','Identity Source']
+    headers=['Video','Response ID','First Name','Last Name','Recorded Date','Transcript','Transcription Model','Transcript File','Identity Source','Maiden Name (optional)','Speaker Name','Speaker Name Source']
     for video in videos:
         result=transcribe_video(client,video,target.parent/'audio_cache',model)
         context=video_context(video)
+        context.update(names.get(video.name, {}))
         text_path=target.parent/(video.stem+'.transcript.txt')
         text_path.write_text(result['text']+'\n')
         rows.append([video.name,'ASR_'+result['video_sha256'][:16],context['Q1_4'],context['Q1_6'],context['RecordedDate'],
-                     result['text'],model,text_path.name,context['Identity_Source']])
+                     result['text'],model,text_path.name,context['Identity_Source'],context.get('Q1_5',''),
+                     context.get('Speaker_Name',f"{context['Q1_4']} {context['Q1_6']}"),context.get('Speaker_Name_Source','Video filename')])
         manifest.append(dict(result,context=context))
     write_workbook(target,[dict(name='Transcriptions',headers=headers,rows=rows,previewRange='A1:E3')],preview_dir)
     target.with_suffix('.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
@@ -81,11 +120,11 @@ def load_transcript_workbook(path, videos):
     wb=load_workbook(path,read_only=True,data_only=True)
     try:
         values=iter(wb['Transcriptions'].values);headers=next(values)
-        aliases={'Response ID':'ResponseId','First Name':'Q1_4','Last Name':'Q1_6','Recorded Date':'RecordedDate','Transcript':'Q14_Video_Transcript','Transcription Model':'Transcription_Model','Transcript File':'Transcript_File','Identity Source':'Identity_Source'}
+        aliases={'Response ID':'ResponseId','First Name':'Q1_4','Last Name':'Q1_6','Recorded Date':'RecordedDate','Transcript':'Q14_Video_Transcript','Transcription Model':'Transcription_Model','Transcript File':'Transcript_File','Identity Source':'Identity_Source','Maiden Name (optional)':'Q1_5','Speaker Name':'Speaker_Name','Speaker Name Source':'Speaker_Name_Source'}
         headers=[aliases.get(h,h) for h in headers]
         records={}
         for row in values:
-            aliases={'Response ID':'ResponseId','First Name':'Q1_4','Last Name':'Q1_6','Recorded Date':'RecordedDate','Transcript':'Q14_Video_Transcript','Transcription Model':'Transcription_Model','Transcript File':'Transcript_File','Identity Source':'Identity_Source'}
+            aliases={'Response ID':'ResponseId','First Name':'Q1_4','Last Name':'Q1_6','Recorded Date':'RecordedDate','Transcript':'Q14_Video_Transcript','Transcription Model':'Transcription_Model','Transcript File':'Transcript_File','Identity Source':'Identity_Source','Maiden Name (optional)':'Q1_5','Speaker Name':'Speaker_Name','Speaker Name Source':'Speaker_Name_Source'}
             record={aliases.get(key,key):value for key,value in zip(headers,row)};name=record['Video']
             if name in records:raise ValueError('Duplicate video in generated transcript workbook')
             if not str(record.get('Q14_Video_Transcript') or '').strip():raise ValueError(f'Missing generated transcript: {name}')

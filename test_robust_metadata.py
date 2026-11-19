@@ -6,6 +6,22 @@ from metadata_policy import UNIVERSAL_FAST, apply_fast_policy
 from robust_metadata import Authority, spans, validate_support
 
 class RobustMetadataTests(unittest.TestCase):
+    def test_original_speaker_name_is_required_in_description_and_people(self):
+        from robust_metadata import speaker_identity_issues
+        context=dict(Speaker_Name='Ken Lundy')
+        good=dict(sentences=[dict(text='Ken Lundy recalls the attacks.')],entities_and_facets=dict(people=['Ken Lundy']))
+        self.assertEqual(speaker_identity_issues(good,context),[])
+        wrong=dict(sentences=[dict(text='Ken Landy recalls the attacks.')],entities_and_facets=dict(people=['Ken Landy']))
+        self.assertEqual(len(speaker_identity_issues(wrong,context)),2)
+        self.assertEqual(speaker_identity_issues(wrong,{}),[])
+
+    def test_name_comparison_commentary_is_rejected(self):
+        from robust_metadata import speaker_identity_issues
+        for text in ['Ken Lundy is the speaker name from transcript.', 'Ken Lundy (transcript name uncertain).',
+                     'Ken Lundy is the metadata name; surname spelling is unresolved.']:
+            metadata=dict(sentences=[dict(text=text)],entities_and_facets=dict(people=['Ken Lundy']))
+            self.assertTrue(speaker_identity_issues(metadata,dict(Speaker_Name='Ken Lundy')))
+
     def test_spans_reconstruct_source_without_truncation(self):
         text=('An exact transcript sentence. '*300)+'[PII]'
         chunks=spans(text,200)

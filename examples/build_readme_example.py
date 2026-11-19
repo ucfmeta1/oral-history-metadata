@@ -7,8 +7,10 @@ import re
 import subprocess
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from audio_transcripts import video_context
-from visual_evidence import visual_json
+from audio_transcripts import video_context, original_speaker_names
+from robust_metadata import speaker_identity_issues
+from metadata_presentation import presentation_record, presentation_visual_json
+from workbook_io import display_header
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_URL = 'https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf'
@@ -23,7 +25,7 @@ def listing(value):
 
 def identity(record):
     context = video_context(Path(record['video_filename']))
-    name = ' '.join([context['Q1_4'], context['Q1_6']])
+    name = record.get('speaker_name') or ' '.join([context['Q1_4'], context['Q1_6']])
     slug = re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
     return name, slug
 
@@ -33,14 +35,14 @@ def build(record, video_url=None):
     facets = record['entities_and_facets']
     left = ''
     for key in ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective'):
-        left += '<h4>' + key.title() + '</h4>' + listing(facets.get(key))
+        left += '<h4>' + display_header(key) + '</h4>' + listing(facets.get(key))
     left += '<h4>Visual evidence</h4>'
     observations = record['visual_evidence']['visual_observations']
     for category, label in [('attire_and_symbols', 'Attire and symbols'),
                              ('artifacts_and_props', 'Artifacts and props'),
                              ('activities_and_emotional_moments', 'Activities, expressions and gaze')]:
         left += '<p><strong>' + label + '</strong></p>'
-        left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']} (confidence: {o['confidence']}; review required: {o['review_required']})"
+        left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']}"
                          for o in observations if o['category'] == category])
     right = '<h3>' + escape(name) + '</h3>'
     right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
@@ -52,17 +54,14 @@ def build(record, video_url=None):
     else:
         right += f'<p><a href="examples/videos/{slug}.mp4"><img src="examples/previews/{slug}.jpg" width="480" alt="Play {escape(name)} interview with audio"></a></p>'
         right += f'<p><a href="examples/videos/{slug}.mp4">Open video player with audio</a> · Compressed viewing copy; original duration retained.</p>'
-    right += '<h4>Generated description</h4><p>' + escape(record['description']) + '</p>'
+    right += '<h4>Description</h4><p>' + escape(record['description']) + '</p>'
     right += '<h4>Keywords</h4>' + listing(record['keywords'])
-    right += '<h4>Selected FAST subjects</h4>' + listing(record['fast_subjects'])
-    right += '<h4>Review status</h4><p>' + escape(record['quality']['status']) + '</p>'
-    right += '<h4>Review issues</h4>' + listing(record['quality'].get('issues'))
-    right += '<h4>Uncertainties</h4>' + listing(record.get('uncertainty_notes'))
+    right += '<h4>FAST Subjects</h4>' + listing(record['fast_subjects'])
     candidates = listing([f"{i}. {c['heading']} ({c.get('id', c.get('authority_id', ''))})" for i, c in enumerate(record['fast_candidates'], 1)])
     return (f'### {name}\n\n'
             '<table>\n<tr><th width="40%">Entities and visual evidence</th><th width="60%">Video and generated metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
             + left + '\n\n</td>\n<td width="60%" valign="top">\n\n' + right + '\n\n</td>\n</tr>\n</table>\n\n'
-            + '<details><summary>Visual evidence JSON</summary>\n\n```json\n' + visual_json(record['visual_evidence']) + '\n```\n\n</details>\n\n'
+            + '<details><summary>Visual evidence JSON</summary>\n\n```json\n' + presentation_visual_json(record['visual_evidence']) + '\n```\n\n</details>\n\n'
             + '<details><summary>All retrieved FAST candidates</summary>\n\n' + candidates + '\n\n</details>\n\n'
             + f'[Full generated result and supporting evidence](examples/data/{slug}.json).\n\n')
 
@@ -99,11 +98,22 @@ def main():
         records = [r for r in records if r['video_filename'] == args.video]
     if not records:
         raise ValueError('No matching video records.')
+    # Never publish old ASR-name labels when the original identity is available.
+    for record in records:
+        video = ROOT/'Library-Metadata'/record['video_path']
+        authority = video.parent/'9-11-26 Oral History Transcription.xlsx'
+        context = original_speaker_names(authority, [video])[video.name]
+        issues = speaker_identity_issues(dict(sentences=[dict(text=record['description'])],
+            entities_and_facets=record['entities_and_facets']), context)
+        if issues:
+            raise ValueError(f"Rerun the notebook for {video.name}: {' '.join(issues)}")
+        record['speaker_name'] = context['Speaker_Name']
+        record['speaker_name_source'] = context['Speaker_Name_Source']
     if args.prepare_media:
         for record in records:
             prepare_media(record)
     # Publish metadata only; omit full transcript spans and private workbook context.
-    keys = ('video_filename', 'duration_seconds', 'sampled_frames', 'description',
+    keys = ('speaker_name', 'speaker_name_source', 'video_filename', 'duration_seconds', 'sampled_frames', 'description',
             'entities_and_facets', 'visual_evidence', 'keywords', 'fast_subjects',
             'description_support', 'keyword_support', 'fast_selection_details',
             'fast_candidates', 'quality', 'uncertainty_notes', 'frame_manifest')
@@ -113,17 +123,17 @@ def main():
         _, slug = identity(record)
         if not (ROOT/'examples/videos'/f'{slug}.mp4').exists():
             raise FileNotFoundError('Run with --prepare-media to create the example videos first.')
-        example = {k: record[k] for k in keys if k in record}
+        example = presentation_record({k: record[k] for k in keys if k in record})
         (folder/f'{slug}.json').write_text(json.dumps(example, ensure_ascii=False, indent=2)+'\n')
         if slug == 'ken-lundy':
             (ROOT/'examples/ken-lundy-metadata.json').write_text(json.dumps(example, ensure_ascii=False, indent=2)+'\n')
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
     section = (START + '\n## Video examples — all generated results\n\n'
-               f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, all visual-evidence categories, the JSON evidence, description, five keywords, selected FAST subjects, retrieved candidates, and review notes. '
+               f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, all visual-evidence categories, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
                'Ken Lundy has one inline video player with play/pause and audio controls. For the other interviews, click the preview or Open video player with audio to open the full MP4 on GitHub. '
-               'Values are shown as generated, including unresolved transcription details.\n\n'
+               'Results use the original workbook’s speaker names.\n\n'
                + index + '\n\n' + ''.join(build(r, args.video_url if identity(r)[1] == 'ken-lundy' else None) for r in records)
-               + 'Source: `outputs/notebook/UCFremembers911_video_metadata.json`, matching the generated Excel workbook. '
+               + 'Source: notebook metadata records. '
                'Visual observations are retained without post-processing.\n' + END)
     readme = ROOT/'README.md'
     text = readme.read_text()

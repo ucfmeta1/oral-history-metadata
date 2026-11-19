@@ -24,7 +24,7 @@ for (const item of spec.input ? [] : spec.sheets) {
   for (let c = 0; c < item.headers.length; c++) {
     const label = item.headers[c];
     const width = label === 'Video' ? 55 : /Transcript|Description|Passage|Text|Issues|Observation/.test(label) ? 70 :
-      ['people','locations','organizations','themes','perspective'].includes(label.toLowerCase()) ? 40 : 30;
+      ['people','locations','organizations','organization/initiatives','organizations/ initiatives','themes','perspective'].includes(label.toLowerCase()) ? 40 : 30;
     sheet.getRangeByIndexes(0,c,data.length,1).format.columnWidth = width;
   }
 }

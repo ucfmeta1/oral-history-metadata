@@ -27,6 +27,8 @@ class RawVisualEvidenceTests(unittest.TestCase):
 
     def test_capitalizes_headers(self):
         self.assertEqual(display_header('people'),'People')
+        self.assertEqual(display_header('organizations'),'Organizations/ Initiatives')
+        self.assertEqual(display_header('Organizations/ Initiatives'),'Organizations/ Initiatives')
         self.assertEqual(display_header('FAST_Subjects'),'FAST Subjects')
 
 if __name__=='__main__':unittest.main()

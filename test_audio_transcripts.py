@@ -3,10 +3,11 @@ from tempfile import TemporaryDirectory
 from types import SimpleNamespace
 from unittest.mock import patch
 import json
+import ast
 import unittest
 from openpyxl import load_workbook
-from audio_transcripts import transcribe_video, generate_transcript_workbook, load_transcript_workbook, video_context
-from workbook_io import entity_columns
+from audio_transcripts import transcribe_video, generate_transcript_workbook, load_transcript_workbook, video_context, original_speaker_names
+from workbook_io import entity_columns, write_workbook
 
 
 class AudioTranscriptTests(unittest.TestCase):
@@ -43,6 +44,46 @@ class AudioTranscriptTests(unittest.TestCase):
             self.assertEqual(first['text'],second['text'])
             self.assertEqual(calls,['gpt-transcribe'])
             self.assertEqual(reused['video_filename'],renamed.name)
+
+    def test_notebook_refreshes_authoritative_names_on_every_video_call(self):
+        notebook=json.loads(Path('Test_UCFremembers911_video_FAST_metadata.ipynb').read_text())
+        tree=ast.parse(''.join(notebook['cells'][14]['source']))
+        function=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='get_transcript')
+        video=Path('Lundy-Ken-2026-09-11_Video.mp4')
+        stale=dict(Speaker_Name='Ken Landy',Identity_Source='Video filename')
+        calls=[]
+        def original_names(workbook,videos):
+            calls.append(str(workbook))
+            return {video.name:dict(Speaker_Name='Ken Lundy',Identity_Source='Original workbook name fields')}
+        namespace=dict(transcript_lookup={video.name:dict(texts=['ASR says Ken Landy.'],context=stale)},
+            norm_id=lambda name:name,NAME_AUTHORITY_WORKBOOK=Path('original.xlsx'),
+            audio_transcript_helpers=SimpleNamespace(original_speaker_names=original_names))
+        exec(compile(ast.Module(body=[function],type_ignores=[]),'<notebook-names>','exec'),namespace)
+        for _ in range(2):
+            text,context=namespace['get_transcript'](video)
+            self.assertEqual(text,'ASR says Ken Landy.')
+            self.assertEqual(context['Speaker_Name'],'Ken Lundy')
+        self.assertEqual(len(calls),2)
+        self.assertEqual(stale['Speaker_Name'],'Ken Landy')
+
+    def test_original_names_override_filename_spelling_without_using_original_speech(self):
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp);video=root/'Arrieta-Ventura-Danna-2026-09-11_Video.mp4'
+            original=root/'original.xlsx';target=root/'generated.xlsx'
+            write_workbook(original,[dict(name='Original',headers=['Q1_4','Q1_5','Q1_6','Q14_Video_Transcript'],
+                rows=[['Danna','Elizabeth','Arrieta-Ventura','ORIGINAL SPEECH MUST NOT BE USED']])])
+            generated=dict(text='ASR calls me Donna.',video_sha256='a'*64,video_filename=video.name,chunks=[])
+            with patch('audio_transcripts.transcribe_video',return_value=generated):
+                generate_transcript_workbook(None,[video],target,name_authority=original)
+            row=load_transcript_workbook(target,[video])[video.name]
+            self.assertEqual(row['Speaker_Name'],'Danna Arrieta-Ventura')
+            self.assertEqual(row['Q1_5'],'Elizabeth')
+            self.assertEqual(row['Q14_Video_Transcript'],generated['text'])
+            self.assertEqual(row['Identity_Source'],'Original workbook name fields')
+            self.assertIn('Q1_4–Q1_6',row['Speaker_Name_Source'])
+            write_workbook(original,[dict(name='Original',headers=['Q1_4','Q1_6'],rows=[['Danna','Arrieta-Ventura'],['Danna','Arrieta-Ventura']])])
+            with self.assertRaisesRegex(ValueError,'found 2'):original_speaker_names(original,[video])
+            with self.assertRaisesRegex(ValueError,'found 0'):original_speaker_names(original,[root/'Unknown-Person-2026-09-11_Video.mp4'])
 
     def test_generated_workbook_is_read_back_without_source_excel(self):
         with TemporaryDirectory() as tmp:

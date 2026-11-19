@@ -1,35 +1,36 @@
 {
+  "speaker_name": "Chereeka Garner",
+  "speaker_name_source": "9-11-26 Oral History Transcription.xlsx / Sheet0 / row 8 / Q1_4–Q1_6",
   "video_filename": "Garner-Chereeka-2026-09-11_Video.mp4",
   "duration_seconds": 329.3333333333333,
   "sampled_frames": 8,
-  "description": "In an interview recorded at UCF’s John C. Hitt Library on September 11, 2026, the speaker introduces herself as Sharika Garner and identifies the interview as part of the Night Tales Project. Garner recalls being a senior at University High School in Orlando, across the street from UCF, on September 11, 2001. She describes arriving early for the senior class panoramic photograph, then waiting in the courtyard before walking to a class where students were watching television coverage of the World Trade Center attack. Confused by the quiet and events at school, she called her father, who told her she could go home; she later recalls the long line of parents signing students out. Garner says she stayed at school until the end of the day and understood the magnitude of the events more fully after returning home and finding that her father had left work early. The account is a personal recollection of school experiences and television news coverage, with no claim that Garner was physically present at an attack site.",
+  "description": "Chereeka Garner is recording an interview at UCF’s John C. Hitt Library for the Night Tales Project. She recalls being a senior at University High School in Orlando on September 11, 2001, when her class gathered to take its senior photograph. After the photo, she waited in the courtyard and then entered a classroom where students were watching television coverage of the attacks. Her history teacher told the class that a plane had hit the World Trade Center, and Garner recalls watching the news coverage for about an hour. She called her father, who told her she could go home, but a long line at the attendance office prevented her from signing out. Garner recalls remaining at school until the end of the day and understanding the magnitude of the events more fully after she got home and found her father there.",
   "entities_and_facets": {
     "people": [
-      "Sharika Garner (speaker, as introduced in the transcript)",
-      "Garner’s father (unnamed)"
+      "Chereeka Garner",
+      "Garner's father"
     ],
     "locations": [
-      "John C. Hitt Library, UCF",
+      "UCF John C. Hitt Library",
       "University High School, Orlando, Florida",
-      "School gym, courtyard, classroom, locker room, and attendance office (as recalled)"
+      "World Trade Center"
     ],
     "organizations": [
-      "University of Central Florida (UCF)",
-      "University High School",
+      "UCF",
       "Night Tales Project",
       "UCF Remembers 9/11"
     ],
     "dates": [
-      "September 11, 2001 (historical event and recollection date)",
-      "September 11, 2026 (recording date)"
+      "September 11, 2001",
+      "September 11, 2026"
     ],
     "themes": [
-      "Student recollections of September 11, 2001",
-      "Television news coverage of the World Trade Center attack",
-      "School response and student departures",
-      "Family communication and understanding the event’s magnitude"
+      "September 11, 2001 attacks",
+      "high school recollections",
+      "television news coverage",
+      "school dismissal and family response"
     ],
-    "perspective": "First-person recollection by a high school senior; distinguishes her school experience and television viewing from direct presence at an attack site."
+    "perspective": "First-person recollection by a high school senior who learned about the attacks at school and watched television coverage; she does not describe being at an attack site."
   },
   "visual_evidence": {
     "visual_observations": [
@@ -37,59 +38,53 @@
         "frame_id": "V001",
         "category": "attire_and_symbols",
         "observation": "The seated speaker wears a white outer layer over a dark navy top with a folded collar; no legible insignia is visible.",
-        "confidence": "high",
-        "timestamp_seconds": 6.0,
-        "review_required": false
+        "timestamp_seconds": 6.0
       },
       {
         "frame_id": "V001",
         "category": "artifacts_and_props",
         "observation": "A large foam-covered microphone on an articulated arm is visible at the left; another microphone is partly visible at the upper right.",
-        "confidence": "high",
-        "timestamp_seconds": 6.0,
-        "review_required": false
+        "timestamp_seconds": 6.0
       },
       {
         "frame_id": "V003",
         "category": "activities_and_emotional_moments",
         "observation": "The speaker looks downward with eyes partly closed and mouth open mid-speech.",
-        "confidence": "high",
-        "timestamp_seconds": 50.0,
-        "review_required": false
+        "timestamp_seconds": 50.0
       },
       {
         "frame_id": "V004",
         "category": "activities_and_emotional_moments",
         "observation": "The speaker faces forward with eyes widened and mouth slightly open while speaking.",
-        "confidence": "high",
-        "timestamp_seconds": 82.333,
-        "review_required": false
+        "timestamp_seconds": 82.333
       },
       {
         "frame_id": "V006",
         "category": "activities_and_emotional_moments",
         "observation": "The speaker's brow is furrowed and eyes narrowed, with mouth open mid-speech.",
-        "confidence": "high",
-        "timestamp_seconds": 192.1,
-        "review_required": false
+        "timestamp_seconds": 192.1
       }
     ]
   },
   "keywords": [
-    "high school student recollections",
-    "September 11 television coverage",
-    "school dismissal and parent sign-outs",
-    "family communication during crisis",
-    "UCF Remembers 9/11 oral histories"
+    "September 11, 2001 high school recollections",
+    "school-day response to the attacks",
+    "television news coverage of September 11",
+    "school dismissal and attendance office",
+    "family response to the attacks"
   ],
   "fast_subjects": [
     "September 11 Terrorist Attacks (2001)",
-    "September 11 Terrorist Attacks, 2001, on television"
+    "Florida--Orlando"
   ],
   "description_support": [
     {
-      "text": "In an interview recorded at UCF’s John C. Hitt Library on September 11, 2026, the speaker introduces herself as Sharika Garner and identifies the interview as part of the Night Tales Project.",
+      "text": "Chereeka Garner is recording an interview at UCF’s John C. Hitt Library for the Night Tales Project.",
       "support": [
+        {
+          "source_id": "C001",
+          "quote": "{\"Q1_4\": \"Chereeka\", \"Q1_5\": \"\", \"Q1_6\": \"Garner\", \"Speaker_Name\": \"Chereeka Garner\", \"Speaker_Name_Source\": \"9-11-26 Oral History Transcription.xlsx / Sheet0 / row 8 / Q1_4–Q1_6\", \"RecordedDate\": \"2026-09-11\", \"Identity_Source\": \"Original workbook name fields\", \"Transcription_Model\": \"gpt-transcribe\", \"Transcript_File\": \"Garner-Chereeka-2026-09-11_Video.transcript.txt\", \"Transcript_Source\": \"Audio-generated transcription workbook\"}"
+        },
         {
           "source_id": "T001",
           "quote": "This is Sharika Garner, and I am at UCF's John C. Hitt Library recording an interview for the Night Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. So on September 11th, I was a senior in high school. I went to high school right across the street from UCF. I was at University High School here in Orlando, Florida, and we were preparing to take our senior photo, our senior class photo. I don't know if this is something that folks still do, but at the time, every member of the senior class would go to the gym and take a panoramic photo that would end up in the yearbook and the office, and, like, you could buy your own copy and things of that sort. I normally did not have a first period, but because of our senior class photo, I went to school early that day. Also, I went to a school that had about 5,000 students, and so we had about eight or nine hundred students "
@@ -97,21 +92,25 @@
       ]
     },
     {
-      "text": "Garner recalls being a senior at University High School in Orlando, across the street from UCF, on September 11, 2001.",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "This is Sharika Garner, and I am at UCF's John C. Hitt Library recording an interview for the Night Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. So on September 11th, I was a senior in high school. I went to high school right across the street from UCF. I was at University High School here in Orlando, Florida, and we were preparing to take our senior photo, our senior class photo. I don't know if this is something that folks still do, but at the time, every member of the senior class would go to the gym and take a panoramic photo that would end up in the yearbook and the office, and, like, you could buy your own copy and things of that sort. I normally did not have a first period, but because of our senior class photo, I went to school early that day. Also, I went to a school that had about 5,000 students, and so we had about eight or nine hundred students "
-        }
-      ]
-    },
-    {
-      "text": "She describes arriving early for the senior class panoramic photograph, then waiting in the courtyard before walking to a class where students were watching television coverage of the World Trade Center attack.",
+      "text": "She recalls being a senior at University High School in Orlando on September 11, 2001, when her class gathered to take its senior photograph.",
       "support": [
         {
           "source_id": "T001",
           "quote": "This is Sharika Garner, and I am at UCF's John C. Hitt Library recording an interview for the Night Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. So on September 11th, I was a senior in high school. I went to high school right across the street from UCF. I was at University High School here in Orlando, Florida, and we were preparing to take our senior photo, our senior class photo. I don't know if this is something that folks still do, but at the time, every member of the senior class would go to the gym and take a panoramic photo that would end up in the yearbook and the office, and, like, you could buy your own copy and things of that sort. I normally did not have a first period, but because of our senior class photo, I went to school early that day. Also, I went to a school that had about 5,000 students, and so we had about eight or nine hundred students "
         },
+        {
+          "source_id": "T002",
+          "quote": "in our senior class. So we all lined up, gathered into the gym to take our senior photo. It probably took about 20 minutes to take the photo, and then because I was a senior class officer, after everyone left, I stayed behind to help clean up. So about 10 or 20 minutes after everyone left, I went out to the courtyard because, again, I did not have a first period. So it was about 8:50, 9 o'clock in the morning, and I went out to the courtyard to wait for the bell to ring to go to second period. So because this was 2001, I did not have a cell phone. Well, I had a cell phone, but it didn't have the time. I think it was off. It was like a very large cell phone that you really only used in emergencies. And so I was sitting on the bench just waiting for the bell to ring, and the bell never rang. It was very, very quiet. I was super confused because I had kind of, like, dazed out, and I wasn't "
+        },
+        {
+          "source_id": "C002",
+          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
+        }
+      ]
+    },
+    {
+      "text": "After the photo, she waited in the courtyard and then entered a classroom where students were watching television coverage of the attacks.",
+      "support": [
         {
           "source_id": "T002",
           "quote": "in our senior class. So we all lined up, gathered into the gym to take our senior photo. It probably took about 20 minutes to take the photo, and then because I was a senior class officer, after everyone left, I stayed behind to help clean up. So about 10 or 20 minutes after everyone left, I went out to the courtyard because, again, I did not have a first period. So it was about 8:50, 9 o'clock in the morning, and I went out to the courtyard to wait for the bell to ring to go to second period. So because this was 2001, I did not have a cell phone. Well, I had a cell phone, but it didn't have the time. I think it was off. It was like a very large cell phone that you really only used in emergencies. And so I was sitting on the bench just waiting for the bell to ring, and the bell never rang. It was very, very quiet. I was super confused because I had kind of, like, dazed out, and I wasn't "
@@ -127,7 +126,16 @@
       ]
     },
     {
-      "text": "Confused by the quiet and events at school, she called her father, who told her she could go home; she later recalls the long line of parents signing students out.",
+      "text": "Her history teacher told the class that a plane had hit the World Trade Center, and Garner recalls watching the news coverage for about an hour.",
+      "support": [
+        {
+          "source_id": "T004",
+          "quote": "Everyone was quiet. I was super confused about what was going on. And so my teacher, who was a history teacher, was like, They hit the World Trade Center. A plane hit the World Trade Center. And I was like, What does that mean? What are we talking about? I haven't heard anything. I just got here. And so I just remember sitting in that classroom for about an hour just watching the news coverage over and over again. And then I just couldn't sit there anymore. So I told my teacher that I was going to go to PE. Because my other class of the day was PE, and so I went to the locker room, and I was the only person in there. So everywhere that I was going that day, I was really kind of the only person around, and so I was very confused about what was happening. So I remember that I called my dad. I pulled out that very large emergency cell phone, and I was like, What is going on? My dad was a "
+        }
+      ]
+    },
+    {
+      "text": "She called her father, who told her she could go home, but a long line at the attendance office prevented her from signing out.",
       "support": [
         {
           "source_id": "T004",
@@ -140,25 +148,8 @@
       ]
     },
     {
-      "text": "Garner says she stayed at school until the end of the day and understood the magnitude of the events more fully after returning home and finding that her father had left work early.",
+      "text": "Garner recalls remaining at school until the end of the day and understanding the magnitude of the events more fully after she got home and found her father there.",
       "support": [
-        {
-          "source_id": "T006",
-          "quote": "much until the end of the day. And then I remember going home, and it wasn't until I got home and my dad was there, which means that he had left work early, that I really kind of understood the magnitude of what had happened that day."
-        }
-      ]
-    },
-    {
-      "text": "The account is a personal recollection of school experiences and television news coverage, with no claim that Garner was physically present at an attack site.",
-      "support": [
-        {
-          "source_id": "T003",
-          "quote": "really sure what time it was or how long I had been sitting on this bench. And so I was like, I think maybe I missed the bell, which I don't know why I missed the bell. I thought I missed the bell because class change would have been 5,000 students in the hallway, so I don't think there's any way that I could have missed the bell to head to second period. But I started walking to my second period. Our school was very large, so it had two campuses, so I had to walk across the street to our second campus. And I got to my second period, or my first period of the day, and I walked into class and none of the people were familiar because the bell had not rang to go to second period. So these were students who were still in that teacher's first period, and they were watching TV. And so I walked in and I was like, These students are not very scholarly because they're in here watching TV. "
-        },
-        {
-          "source_id": "T004",
-          "quote": "Everyone was quiet. I was super confused about what was going on. And so my teacher, who was a history teacher, was like, They hit the World Trade Center. A plane hit the World Trade Center. And I was like, What does that mean? What are we talking about? I haven't heard anything. I just got here. And so I just remember sitting in that classroom for about an hour just watching the news coverage over and over again. And then I just couldn't sit there anymore. So I told my teacher that I was going to go to PE. Because my other class of the day was PE, and so I went to the locker room, and I was the only person in there. So everywhere that I was going that day, I was really kind of the only person around, and so I was very confused about what was happening. So I remember that I called my dad. I pulled out that very large emergency cell phone, and I was like, What is going on? My dad was a "
-        },
         {
           "source_id": "T006",
           "quote": "much until the end of the day. And then I remember going home, and it wasn't until I got home and my dad was there, which means that he had left work early, that I really kind of understood the magnitude of what had happened that day."
@@ -168,7 +159,7 @@
   ],
   "keyword_support": [
     {
-      "term": "high school student recollections",
+      "term": "September 11, 2001 high school recollections",
       "support": [
         {
           "source_id": "T001",
@@ -177,15 +168,28 @@
         {
           "source_id": "T002",
           "quote": "in our senior class. So we all lined up, gathered into the gym to take our senior photo. It probably took about 20 minutes to take the photo, and then because I was a senior class officer, after everyone left, I stayed behind to help clean up. So about 10 or 20 minutes after everyone left, I went out to the courtyard because, again, I did not have a first period. So it was about 8:50, 9 o'clock in the morning, and I went out to the courtyard to wait for the bell to ring to go to second period. So because this was 2001, I did not have a cell phone. Well, I had a cell phone, but it didn't have the time. I think it was off. It was like a very large cell phone that you really only used in emergencies. And so I was sitting on the bench just waiting for the bell to ring, and the bell never rang. It was very, very quiet. I was super confused because I had kind of, like, dazed out, and I wasn't "
-        },
-        {
-          "source_id": "T006",
-          "quote": "much until the end of the day. And then I remember going home, and it wasn't until I got home and my dad was there, which means that he had left work early, that I really kind of understood the magnitude of what had happened that day."
         }
       ]
     },
     {
-      "term": "September 11 television coverage",
+      "term": "school-day response to the attacks",
+      "support": [
+        {
+          "source_id": "T003",
+          "quote": "really sure what time it was or how long I had been sitting on this bench. And so I was like, I think maybe I missed the bell, which I don't know why I missed the bell. I thought I missed the bell because class change would have been 5,000 students in the hallway, so I don't think there's any way that I could have missed the bell to head to second period. But I started walking to my second period. Our school was very large, so it had two campuses, so I had to walk across the street to our second campus. And I got to my second period, or my first period of the day, and I walked into class and none of the people were familiar because the bell had not rang to go to second period. So these were students who were still in that teacher's first period, and they were watching TV. And so I walked in and I was like, These students are not very scholarly because they're in here watching TV. "
+        },
+        {
+          "source_id": "T004",
+          "quote": "Everyone was quiet. I was super confused about what was going on. And so my teacher, who was a history teacher, was like, They hit the World Trade Center. A plane hit the World Trade Center. And I was like, What does that mean? What are we talking about? I haven't heard anything. I just got here. And so I just remember sitting in that classroom for about an hour just watching the news coverage over and over again. And then I just couldn't sit there anymore. So I told my teacher that I was going to go to PE. Because my other class of the day was PE, and so I went to the locker room, and I was the only person in there. So everywhere that I was going that day, I was really kind of the only person around, and so I was very confused about what was happening. So I remember that I called my dad. I pulled out that very large emergency cell phone, and I was like, What is going on? My dad was a "
+        },
+        {
+          "source_id": "T005",
+          "quote": "single father. He worked very hard. He worked two jobs, and so he was at work, and he was very bothered that I was calling him at work because he also did not know what had happened. He worked in construction at the time, so he was outside. He was working, and I kept telling him I thought I needed to go home, and he was like, Just go home, because I could sign myself out, and I had driven to school that day. And so I was like, Okay, I'm just going to go to the attendance office and I'll go home. So I walked back to the other campus, because that's where our attendance office is, and I realized that the line to sign students out from school was around the corner. It was out of the office into the hallways. Hundreds and hundreds, maybe even thousands of parents were there to sign their students out of school. So I just walked back to the locker room, and I remember sitting there pretty "
+        }
+      ]
+    },
+    {
+      "term": "television news coverage of September 11",
       "support": [
         {
           "source_id": "T003",
@@ -198,7 +202,7 @@
       ]
     },
     {
-      "term": "school dismissal and parent sign-outs",
+      "term": "school dismissal and attendance office",
       "support": [
         {
           "source_id": "T005",
@@ -207,12 +211,8 @@
       ]
     },
     {
-      "term": "family communication during crisis",
+      "term": "family response to the attacks",
       "support": [
-        {
-          "source_id": "T004",
-          "quote": "Everyone was quiet. I was super confused about what was going on. And so my teacher, who was a history teacher, was like, They hit the World Trade Center. A plane hit the World Trade Center. And I was like, What does that mean? What are we talking about? I haven't heard anything. I just got here. And so I just remember sitting in that classroom for about an hour just watching the news coverage over and over again. And then I just couldn't sit there anymore. So I told my teacher that I was going to go to PE. Because my other class of the day was PE, and so I went to the locker room, and I was the only person in there. So everywhere that I was going that day, I was really kind of the only person around, and so I was very confused about what was happening. So I remember that I called my dad. I pulled out that very large emergency cell phone, and I was like, What is going on? My dad was a "
-        },
         {
           "source_id": "T005",
           "quote": "single father. He worked very hard. He worked two jobs, and so he was at work, and he was very bothered that I was calling him at work because he also did not know what had happened. He worked in construction at the time, so he was outside. He was working, and I kept telling him I thought I needed to go home, and he was like, Just go home, because I could sign myself out, and I had driven to school that day. And so I was like, Okay, I'm just going to go to the attendance office and I'll go home. So I walked back to the other campus, because that's where our attendance office is, and I realized that the line to sign students out from school was around the corner. It was out of the office into the hallways. Hundreds and hundreds, maybe even thousands of parents were there to sign their students out of school. So I just walked back to the locker room, and I remember sitting there pretty "
@@ -220,19 +220,6 @@
         {
           "source_id": "T006",
           "quote": "much until the end of the day. And then I remember going home, and it wasn't until I got home and my dad was there, which means that he had left work early, that I really kind of understood the magnitude of what had happened that day."
-        }
-      ]
-    },
-    {
-      "term": "UCF Remembers 9/11 oral histories",
-      "support": [
-        {
-          "source_id": "C002",
-          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
-        },
-        {
-          "source_id": "T001",
-          "quote": "This is Sharika Garner, and I am at UCF's John C. Hitt Library recording an interview for the Night Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. So on September 11th, I was a senior in high school. I went to high school right across the street from UCF. I was at University High School here in Orlando, Florida, and we were preparing to take our senior photo, our senior class photo. I don't know if this is something that folks still do, but at the time, every member of the senior class would go to the gym and take a panoramic photo that would end up in the yearbook and the office, and, like, you could buy your own copy and things of that sort. I normally did not have a first period, but because of our senior class photo, I went to school early that day. Also, I went to a school that had about 5,000 students, and so we had about eight or nine hundred students "
         }
       ]
     }
@@ -244,188 +231,35 @@
       "reason": "Collection-wide policy"
     },
     {
-      "candidate_id": "F05",
-      "rationale": "Television coverage is a sustained part of Garner’s account: she enters a classroom where students are watching the news, learns of the World Trade Center attack, and watches the coverage for about an hour. This specific heading is more precise than the broader mass-media heading.",
+      "candidate_id": "F18",
+      "rationale": "The interview is grounded in Garner’s experience as a high school senior in Orlando, where she attended University High School and learned of the attacks. Orlando is a sustained geographic setting, rather than a passing affiliation.",
       "support": [
+        {
+          "source_id": "T001",
+          "quote": "This is Sharika Garner, and I am at UCF's John C. Hitt Library recording an interview for the Night Tales Project. Today is September 11th, 2026, the 25th anniversary of 9/11. So on September 11th, I was a senior in high school. I went to high school right across the street from UCF. I was at University High School here in Orlando, Florida, and we were preparing to take our senior photo, our senior class photo. I don't know if this is something that folks still do, but at the time, every member of the senior class would go to the gym and take a panoramic photo that would end up in the yearbook and the office, and, like, you could buy your own copy and things of that sort. I normally did not have a first period, but because of our senior class photo, I went to school early that day. Also, I went to a school that had about 5,000 students, and so we had about eight or nine hundred students "
+        },
         {
           "source_id": "T003",
           "quote": "really sure what time it was or how long I had been sitting on this bench. And so I was like, I think maybe I missed the bell, which I don't know why I missed the bell. I thought I missed the bell because class change would have been 5,000 students in the hallway, so I don't think there's any way that I could have missed the bell to head to second period. But I started walking to my second period. Our school was very large, so it had two campuses, so I had to walk across the street to our second campus. And I got to my second period, or my first period of the day, and I walked into class and none of the people were familiar because the bell had not rang to go to second period. So these were students who were still in that teacher's first period, and they were watching TV. And so I walked in and I was like, These students are not very scholarly because they're in here watching TV. "
-        },
-        {
-          "source_id": "T004",
-          "quote": "Everyone was quiet. I was super confused about what was going on. And so my teacher, who was a history teacher, was like, They hit the World Trade Center. A plane hit the World Trade Center. And I was like, What does that mean? What are we talking about? I haven't heard anything. I just got here. And so I just remember sitting in that classroom for about an hour just watching the news coverage over and over again. And then I just couldn't sit there anymore. So I told my teacher that I was going to go to PE. Because my other class of the day was PE, and so I went to the locker room, and I was the only person in there. So everywhere that I was going that day, I was really kind of the only person around, and so I was very confused about what was happening. So I remember that I called my dad. I pulled out that very large emergency cell phone, and I was like, What is going on? My dad was a "
         }
       ],
-      "heading": "September 11 Terrorist Attacks, 2001, on television",
-      "authority_id": "fst01747281"
+      "heading": "Florida--Orlando",
+      "authority_id": "fst01204036"
     }
   ],
   "fast_candidates": [
     {
-      "id": "fst01907196",
-      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "id": "fst01001196",
+      "heading": "Local Library Cooperation Project",
       "facet": "Topical",
-      "rrf_score": 0.015151515151515152,
+      "rrf_score": 0.011494252873563218,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.49949836730957,
+      "rerank_score": -4.784085750579834,
       "metadata": {
-        "id": "fst01907196",
-        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01907195",
-      "heading": "September 11 Terrorist Attacks (2001) in mass media",
-      "facet": "Topical",
-      "rrf_score": 0.0315136476426799,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -4.518537521362305,
-      "metadata": {
-        "id": "fst01907195",
-        "fast": "September 11 Terrorist Attacks (2001) in mass media",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01907194",
-      "heading": "September 11 Terrorist Attacks (2001) in literature",
-      "facet": "Topical",
-      "rrf_score": 0.03200204813108039,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -4.524845123291016,
-      "metadata": {
-        "id": "fst01907194",
-        "fast": "September 11 Terrorist Attacks (2001) in literature",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst02060917",
-      "heading": "September 11 Terrorist Attacks, 2001, in comics",
-      "facet": "Topical",
-      "rrf_score": 0.015873015873015872,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.565807819366455,
-      "metadata": {
-        "id": "fst02060917",
-        "fast": "September 11 Terrorist Attacks, 2001, in comics",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01747281",
-      "heading": "September 11 Terrorist Attacks, 2001, on television",
-      "facet": "Topical",
-      "rrf_score": 0.03278688524590164,
-      "retrieval_routes": [
-        "semantic",
-        "lexical"
-      ],
-      "rerank_score": -4.6096577644348145,
-      "metadata": {
-        "id": "fst01747281",
-        "fast": "September 11 Terrorist Attacks, 2001, on television",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01308005",
-      "heading": "Florida--John F. Kennedy Space Center Region",
-      "facet": "Geographic",
-      "rrf_score": 0.009615384615384616,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.8060150146484375,
-      "metadata": {
-        "id": "fst01308005",
-        "fast": "Florida--John F. Kennedy Space Center Region",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst00997882",
-      "heading": "Library publications",
-      "facet": "Topical",
-      "rrf_score": 0.011904761904761904,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.940867900848389,
-      "metadata": {
-        "id": "fst00997882",
-        "fast": "Library publications",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01135935",
-      "heading": "Student library assistants",
-      "facet": "Topical",
-      "rrf_score": 0.008695652173913044,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.0076494216918945,
-      "metadata": {
-        "id": "fst01135935",
-        "fast": "Student library assistants",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01112793",
-      "heading": "September",
-      "facet": "Topical",
-      "rrf_score": 0.010869565217391304,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.031820297241211,
-      "metadata": {
-        "id": "fst01112793",
-        "fast": "September",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01327677",
-      "heading": "Washington (D.C.)--John F. Kennedy Center Plaza",
-      "facet": "Geographic",
-      "rrf_score": 0.008928571428571428,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.08616828918457,
-      "metadata": {
-        "id": "fst01327677",
-        "fast": "Washington (D.C.)--John F. Kennedy Center Plaza",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01135936",
-      "heading": "Student library assistants--Training of",
-      "facet": "Topical",
-      "rrf_score": 0.009009009009009009,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.141931533813477,
-      "metadata": {
-        "id": "fst01135936",
-        "fast": "Student library assistants--Training of",
+        "id": "fst01001196",
+        "fast": "Local Library Cooperation Project",
         "facet": "Topical"
       }
     },
@@ -433,11 +267,11 @@
       "id": "fst01037025",
       "heading": "News recordings",
       "facet": "Topical",
-      "rrf_score": 0.013333333333333334,
+      "rrf_score": 0.011764705882352941,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -5.273972988128662,
+      "rerank_score": -4.989823341369629,
       "metadata": {
         "id": "fst01037025",
         "fast": "News recordings",
@@ -445,14 +279,104 @@
       }
     },
     {
-      "id": "fst01882094",
-      "heading": "Florida--Florida State University Reservation",
-      "facet": "Geographic",
-      "rrf_score": 0.008333333333333333,
+      "id": "fst00997856",
+      "heading": "Library orientation for junior high school students",
+      "facet": "Topical",
+      "rrf_score": 0.009708737864077669,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.285491943359375,
+      "rerank_score": -5.1693925857543945,
+      "metadata": {
+        "id": "fst00997856",
+        "fast": "Library orientation for junior high school students",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00960394",
+      "heading": "Horror tales--Library resources",
+      "facet": "Topical",
+      "rrf_score": 0.011363636363636364,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.233560562133789,
+      "metadata": {
+        "id": "fst00960394",
+        "fast": "Horror tales--Library resources",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00997853",
+      "heading": "Library orientation for high school students",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.270709037780762,
+      "metadata": {
+        "id": "fst00997853",
+        "fast": "Library orientation for high school students",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01107552",
+      "heading": "School library agencies",
+      "facet": "Topical",
+      "rrf_score": 0.008547008547008548,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.272655010223389,
+      "metadata": {
+        "id": "fst01107552",
+        "fast": "School library agencies",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01146945",
+      "heading": "Television in university extension",
+      "facet": "Topical",
+      "rrf_score": 0.011111111111111112,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.414676666259766,
+      "metadata": {
+        "id": "fst01146945",
+        "fast": "Television in university extension",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01107553",
+      "heading": "School library finance",
+      "facet": "Topical",
+      "rrf_score": 0.00847457627118644,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.4182257652282715,
+      "metadata": {
+        "id": "fst01107553",
+        "fast": "School library finance",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01882094",
+      "heading": "Florida--Florida State University Reservation",
+      "facet": "Geographic",
+      "rrf_score": 0.012195121951219513,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.430930137634277,
       "metadata": {
         "id": "fst01882094",
         "fast": "Florida--Florida State University Reservation",
@@ -460,89 +384,74 @@
       }
     },
     {
-      "id": "fst01320716",
-      "heading": "Florida--Orlando--International Drive",
-      "facet": "Geographic",
-      "rrf_score": 0.009433962264150943,
+      "id": "fst02021234",
+      "heading": "Fairy tales on television",
+      "facet": "Topical",
+      "rrf_score": 0.010638297872340425,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.462569236755371,
+      "rerank_score": -5.442281246185303,
       "metadata": {
-        "id": "fst01320716",
-        "fast": "Florida--Orlando--International Drive",
-        "facet": "Geographic"
+        "id": "fst02021234",
+        "fast": "Fairy tales on television",
+        "facet": "Topical"
       }
     },
     {
-      "id": "fst01204036",
-      "heading": "Florida--Orlando",
-      "facet": "Geographic",
-      "rrf_score": 0.014925373134328358,
+      "id": "fst01107554",
+      "heading": "School library supervisors",
+      "facet": "Topical",
+      "rrf_score": 0.008403361344537815,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.493657112121582,
+      "rerank_score": -5.453782558441162,
       "metadata": {
-        "id": "fst01204036",
-        "fast": "Florida--Orlando",
-        "facet": "Geographic"
+        "id": "fst01107554",
+        "fast": "School library supervisors",
+        "facet": "Topical"
       }
     },
     {
-      "id": "fst01216436",
-      "heading": "Florida--North Orlando",
-      "facet": "Geographic",
-      "rrf_score": 0.013157894736842105,
+      "id": "fst00997854",
+      "heading": "Library orientation for high school students--Evaluation",
+      "facet": "Topical",
+      "rrf_score": 0.00980392156862745,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.496822357177734,
+      "rerank_score": -5.462348937988281,
       "metadata": {
-        "id": "fst01216436",
-        "fast": "Florida--North Orlando",
-        "facet": "Geographic"
+        "id": "fst00997854",
+        "fast": "Library orientation for high school students--Evaluation",
+        "facet": "Topical"
       }
     },
     {
-      "id": "fst01313729",
-      "heading": "Florida--Orlando--Pine Castle",
-      "facet": "Geographic",
-      "rrf_score": 0.009523809523809525,
+      "id": "fst00997882",
+      "heading": "Library publications",
+      "facet": "Topical",
+      "rrf_score": 0.011235955056179775,
       "retrieval_routes": [
-        "lexical"
+        "semantic"
       ],
-      "rerank_score": -5.554782867431641,
+      "rerank_score": -5.465259552001953,
       "metadata": {
-        "id": "fst01313729",
-        "fast": "Florida--Orlando--Pine Castle",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01343966",
-      "heading": "Florida--Orlando Metropolitan Area",
-      "facet": "Geographic",
-      "rrf_score": 0.009345794392523364,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.571062088012695,
-      "metadata": {
-        "id": "fst01343966",
-        "fast": "Florida--Orlando Metropolitan Area",
-        "facet": "Geographic"
+        "id": "fst00997882",
+        "fast": "Library publications",
+        "facet": "Topical"
       }
     },
     {
       "id": "fst01035615",
       "heading": "Neighborhood Information Center Project",
       "facet": "Topical",
-      "rrf_score": 0.009708737864077669,
+      "rrf_score": 0.013888888888888888,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.583161354064941,
+      "rerank_score": -5.553373336791992,
       "metadata": {
         "id": "fst01035615",
         "fast": "Neighborhood Information Center Project",
@@ -550,14 +459,74 @@
       }
     },
     {
-      "id": "fst01343967",
-      "heading": "Florida--Orlando Region",
-      "facet": "Geographic",
-      "rrf_score": 0.01282051282051282,
+      "id": "fst00997906",
+      "heading": "Library school closings",
+      "facet": "Topical",
+      "rrf_score": 0.008620689655172414,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.602861404418945,
+      "rerank_score": -5.556100845336914,
+      "metadata": {
+        "id": "fst00997906",
+        "fast": "Library school closings",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01343966",
+      "heading": "Florida--Orlando Metropolitan Area",
+      "facet": "Geographic",
+      "rrf_score": 0.013157894736842105,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.575357913970947,
+      "metadata": {
+        "id": "fst01343966",
+        "fast": "Florida--Orlando Metropolitan Area",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01216436",
+      "heading": "Florida--North Orlando",
+      "facet": "Geographic",
+      "rrf_score": 0.014925373134328358,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.62648868560791,
+      "metadata": {
+        "id": "fst01216436",
+        "fast": "Florida--North Orlando",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01204036",
+      "heading": "Florida--Orlando",
+      "facet": "Geographic",
+      "rrf_score": 0.015151515151515152,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.648703575134277,
+      "metadata": {
+        "id": "fst01204036",
+        "fast": "Florida--Orlando",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01343967",
+      "heading": "Florida--Orlando Region",
+      "facet": "Geographic",
+      "rrf_score": 0.014492753623188406,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.654975414276123,
       "metadata": {
         "id": "fst01343967",
         "fast": "Florida--Orlando Region",
@@ -565,14 +534,44 @@
       }
     },
     {
-      "id": "fst01343968",
-      "heading": "Florida--Orlando Suburban Area",
+      "id": "fst01905680",
+      "heading": "Florida--Orlando--Holy Land Experience",
       "facet": "Geographic",
-      "rrf_score": 0.009259259259259259,
+      "rrf_score": 0.011235955056179775,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.708048343658447,
+      "rerank_score": -5.716236114501953,
+      "metadata": {
+        "id": "fst01905680",
+        "fast": "Florida--Orlando--Holy Land Experience",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01320716",
+      "heading": "Florida--Orlando--International Drive",
+      "facet": "Geographic",
+      "rrf_score": 0.013333333333333334,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.729877948760986,
+      "metadata": {
+        "id": "fst01320716",
+        "fast": "Florida--Orlando--International Drive",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01343968",
+      "heading": "Florida--Orlando Suburban Area",
+      "facet": "Geographic",
+      "rrf_score": 0.012987012987012988,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.73741340637207,
       "metadata": {
         "id": "fst01343968",
         "fast": "Florida--Orlando Suburban Area",
@@ -580,14 +579,59 @@
       }
     },
     {
-      "id": "fst01323268",
-      "heading": "Florida--Orlando--Williamsburg",
+      "id": "fst01329164",
+      "heading": "Florida--Tallahassee--University Park",
       "facet": "Geographic",
-      "rrf_score": 0.012987012987012988,
+      "rrf_score": 0.010869565217391304,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.709940433502197,
+      "rerank_score": -5.769806385040283,
+      "metadata": {
+        "id": "fst01329164",
+        "fast": "Florida--Tallahassee--University Park",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01313729",
+      "heading": "Florida--Orlando--Pine Castle",
+      "facet": "Geographic",
+      "rrf_score": 0.013513513513513514,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.791316032409668,
+      "metadata": {
+        "id": "fst01313729",
+        "fast": "Florida--Orlando--Pine Castle",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01336402",
+      "heading": "Florida--Orlando--Universal Studios Florida (Amusement park)",
+      "facet": "Geographic",
+      "rrf_score": 0.01098901098901099,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.794673442840576,
+      "metadata": {
+        "id": "fst01336402",
+        "fast": "Florida--Orlando--Universal Studios Florida (Amusement park)",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01323268",
+      "heading": "Florida--Orlando--Williamsburg",
+      "facet": "Geographic",
+      "rrf_score": 0.014705882352941176,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -5.824408054351807,
       "metadata": {
         "id": "fst01323268",
         "fast": "Florida--Orlando--Williamsburg",
@@ -595,137 +639,65 @@
       }
     },
     {
-      "id": "fst01135969",
-      "heading": "Student participation in administration",
-      "facet": "Topical",
-      "rrf_score": 0.014084507042253521,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -5.716798305511475,
-      "metadata": {
-        "id": "fst01135969",
-        "fast": "Student participation in administration",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01215369",
-      "heading": "Florida--Center Hill",
+      "id": "fst01308005",
+      "heading": "Florida--John F. Kennedy Space Center Region",
       "facet": "Geographic",
-      "rrf_score": 0.00847457627118644,
+      "rrf_score": 0.0136986301369863,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.7274017333984375,
+      "rerank_score": -5.860960006713867,
       "metadata": {
-        "id": "fst01215369",
-        "fast": "Florida--Center Hill",
+        "id": "fst01308005",
+        "fast": "Florida--John F. Kennedy Space Center Region",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst00909634",
-      "heading": "End of the world",
+      "id": "fst00956236",
+      "heading": "High school students' writings",
       "facet": "Topical",
-      "rrf_score": 0.00980392156862745,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.741036891937256,
-      "metadata": {
-        "id": "fst00909634",
-        "fast": "End of the world",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst00956238",
-      "heading": "High school students' writings, American",
-      "facet": "Topical",
-      "rrf_score": 0.011235955056179775,
+      "rrf_score": 0.013513513513513514,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -5.775546550750732,
+      "rerank_score": -5.8700175285339355,
       "metadata": {
-        "id": "fst00956238",
-        "fast": "High school students' writings, American",
+        "id": "fst00956236",
+        "fast": "High school students' writings",
         "facet": "Topical"
       }
     },
     {
-      "id": "fst00956172",
-      "heading": "High school student activities",
-      "facet": "Topical",
-      "rrf_score": 0.014285714285714285,
+      "id": "fst01226588",
+      "heading": "Florida--Port Saint John",
+      "facet": "Geographic",
+      "rrf_score": 0.010101010101010102,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.7772064208984375,
+      "rerank_score": -5.947483062744141,
       "metadata": {
-        "id": "fst00956172",
-        "fast": "High school student activities",
-        "facet": "Topical"
+        "id": "fst01226588",
+        "fast": "Florida--Port Saint John",
+        "facet": "Geographic"
       }
     },
     {
-      "id": "fst00956194",
-      "heading": "High school students--Family relationships",
-      "facet": "Topical",
-      "rrf_score": 0.009174311926605505,
+      "id": "fst01327677",
+      "heading": "Washington (D.C.)--John F. Kennedy Center Plaza",
+      "facet": "Geographic",
+      "rrf_score": 0.012658227848101266,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -5.797023773193359,
+      "rerank_score": -5.94800329208374,
       "metadata": {
-        "id": "fst00956194",
-        "fast": "High school students--Family relationships",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01001682",
-      "heading": "Locker hooking",
-      "facet": "Topical",
-      "rrf_score": 0.00909090909090909,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -5.803638458251953,
-      "metadata": {
-        "id": "fst01001682",
-        "fast": "Locker hooking",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01082940",
-      "heading": "Public school closings",
-      "facet": "Topical",
-      "rrf_score": 0.011494252873563218,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -5.812753200531006,
-      "metadata": {
-        "id": "fst01082940",
-        "fast": "Public school closings",
-        "facet": "Topical"
+        "id": "fst01327677",
+        "fast": "Washington (D.C.)--John F. Kennedy Center Plaza",
+        "facet": "Geographic"
       }
     }
-  ],
-  "quality": {
-    "status": "passed_automated_review",
-    "issues": [],
-    "attempts": 2,
-    "visual_low_confidence": 0,
-    "specific_fast_count": 1
-  },
-  "uncertainty_notes": [
-    "The speaker introduces herself as “Sharika Garner” in T001, while C001 lists “Chereeka Garner” and gives a filename using Chereeka; the speaker’s name requires verification.",
-    "C001 records the date as 2026-09-11, consistent with the spoken date in T001; the interview date is distinct from the historical events recalled from 2001.",
-    "No specific names are provided for Garner’s father, teachers, or classmates."
   ],
   "frame_manifest": [
     {
