@@ -152,8 +152,10 @@ def main():
         if slug == 'ken-lundy':
             (ROOT/'examples/ken-lundy-metadata.json').write_text(json.dumps(example, ensure_ascii=False, indent=2)+'\n')
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
+    frame_counts = {r['sampled_frames'] for r in records}
+    sampling = f'{next(iter(frame_counts))}-frame notebook run' if len(frame_counts) == 1 else 'notebook run'
     section = (START + '\n## Video examples — all generated results\n\n'
-               f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, available visual evidence, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
+               f'All {len(records)} interviews from the {sampling}. Each example includes every entity facet, available visual evidence, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
                'Every interview has one inline video player with play/pause and audio controls. A fallback link is provided below each player. '
                'Results use the original workbook’s speaker names.\n\n'
                + index + '\n\n' + ''.join(build(r, video_urls.get(identity(r)[1])) for r in records)

@@ -77,9 +77,9 @@ class FrameSamplingTests(unittest.TestCase):
             self.assertTrue(all(f['data_url'].startswith('data:image/jpeg;base64,') for f in frames))
             self.assertEqual(sum(f['selection']=='coverage' for f in frames),12)
             reduced,duration=sample_frames(path)
-            self.assertEqual(len(reduced),8)
-            self.assertEqual(len({f['timestamp_seconds'] for f in reduced}),8)
-            self.assertEqual(sum(f['selection']=='coverage' for f in reduced),6)
+            self.assertEqual(len(reduced),15)
+            self.assertEqual(len({f['timestamp_seconds'] for f in reduced}),15)
+            self.assertEqual(sum(f['selection']=='coverage' for f in reduced),8)
             self.assertTrue(all(0<=f['timestamp_seconds']<duration for f in reduced))
 
 class SourceBindingTests(unittest.TestCase):

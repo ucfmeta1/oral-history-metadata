@@ -3,8 +3,8 @@
   "speaker_name_source": "9-11-26 Oral History Transcription.xlsx / Sheet0 / row 7 / Q1_4–Q1_6",
   "video_filename": "Arrieta-Ventura-Danna-2026-09-11_Video.mp4",
   "duration_seconds": 168.96666666666667,
-  "sampled_frames": 8,
-  "description": "Danna Arrieta-Ventura reflects on her family’s connections to 9/11 and its aftermath in an interview recorded September 11, 2026. She describes her mother’s family as immigrants from Huánuco, Peru, and explains that her mother was studying in high school in New York in 2001. Danna recounts how her great-aunt, in Lima, followed the attacks on the radio and feared for her mother because communication between Peru and New York was limited. She also shares a story from middle school about her former science teacher’s friend, a hijab-wearing woman who worked near the World Trade Center and was hidden by coworkers and friends while walking in New York in the weeks afterward. Danna emphasizes the cultural impact and fear caused by 9/11 in the United States and internationally, including in rural areas. Her account is primarily a reflection on inherited family memories and stories she heard, rather than a description of her own presence at an attack site.",
+  "sampled_frames": 15,
+  "description": "Danna Arrieta-Ventura reflects on her family’s connections to the September 11 attacks and their aftermath. She recounts that her mother, an immigrant from Huánuco, Peru, was studying in high school in New York in 2001 and had limited communication with relatives in Peru. Her great-aunt was in Lima when the attacks occurred, listening to the radio and fearing for Danna’s mother while they were unable to communicate. Danna also shares a story from middle school about her former science teacher’s friend, who worked near the World Trade Center and was surrounded and hidden by coworkers and friends while walking in New York in the weeks afterward. She describes the attacks’ cultural impact and fear as extending beyond the United States, and emphasizes the importance of remembering those effects internationally. Her account centers on family and community memories rather than a claim of personal presence at an attack site.",
   "entities_and_facets": {
     "people": [
       "Danna Arrieta-Ventura",
@@ -17,74 +17,67 @@
       "Huánuco, Peru",
       "Lima, Peru",
       "New York",
-      "World Trade Center"
+      "United States"
     ],
     "organizations": [
-      "UCF Remembers 9/11"
+      "UCF Remembers 9/11",
+      "World Trade Center"
     ],
     "dates": [
       "September 11, 2001",
       "September 11, 2026"
     ],
     "themes": [
-      "Family memories of 9/11",
-      "International and rural impact",
-      "Communication barriers",
+      "Family connections to September 11",
+      "Immigration and transnational family communication",
       "Fear and uncertainty",
-      "Cultural impact and aftermath",
-      "Community support"
+      "International and cultural effects",
+      "Remembering the aftermath"
     ],
-    "perspective": "A personal reflection drawing on family memories and stories from others; the speaker does not describe being present at an attack site."
+    "perspective": "A family-centered account drawing on inherited memory from the speaker’s great-aunt and a story shared by a former teacher; the speaker does not describe being present at an attack site."
   },
   "visual_evidence": {
     "visual_observations": [
       {
-        "frame_id": "V005",
+        "frame_id": "V003",
         "category": "attire_and_symbols",
-        "observation": "Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible.",
-        "timestamp_seconds": 98.533
+        "observation": "At 31.667 seconds, the seated person wears a bright red top with a black neckline and large clear-lens glasses; no legible insignia is visible.",
+        "timestamp_seconds": 31.667
       },
       {
         "frame_id": "V001",
         "category": "activities_and_emotional_moments",
-        "observation": "Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area.",
-        "timestamp_seconds": 14.067
+        "observation": "At 4.0 seconds, the person looks downward with lips parted.",
+        "timestamp_seconds": 4.0
       },
       {
         "frame_id": "V003",
         "category": "activities_and_emotional_moments",
-        "observation": "Leans forward and looks slightly downward, mouth open.",
-        "timestamp_seconds": 42.233
+        "observation": "At 31.667 seconds, the person faces forward with mouth open as if speaking.",
+        "timestamp_seconds": 31.667
       },
       {
         "frame_id": "V007",
         "category": "activities_and_emotional_moments",
-        "observation": "Tilts head down and directs gaze below the camera; eyes appear closed or lowered.",
-        "timestamp_seconds": 142.0
-      },
-      {
-        "frame_id": "V008",
-        "category": "activities_and_emotional_moments",
-        "observation": "Raises gaze to face forward again, with a neutral visible expression.",
-        "timestamp_seconds": 154.867
+        "observation": "At 80.0 seconds, the person looks down; in later sampled frames they mostly face forward, sometimes with lips parted.",
+        "timestamp_seconds": 80.0
       }
     ]
   },
   "keywords": [
-    "Family memories of 9/11",
-    "Peruvian family connections",
-    "International impact of 9/11",
-    "Communication barriers and family separation",
-    "Cultural impact and community support after 9/11"
+    "September 11 family memories",
+    "Peru and transnational family communication",
+    "Fear and uncertainty after the attacks",
+    "Cultural impact in New York",
+    "International remembrance of September 11"
   ],
   "fast_subjects": [
     "September 11 Terrorist Attacks (2001)",
-    "Peru--Huánuco",
-    "Peru--Lima"
+    "Women immigrants--Family relationships"
   ],
   "description_support": [
     {
-      "text": "Danna Arrieta-Ventura reflects on her family’s connections to 9/11 and its aftermath in an interview recorded September 11, 2026.",
+      "text": "Danna Arrieta-Ventura reflects on her family’s connections to the September 11 attacks and their aftermath.",
       "support": [
         {
           "source_id": "C001",
@@ -93,11 +86,15 @@
         {
           "source_id": "T001",
           "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "C002",
+          "quote": "Collection: UCF Remembers 9/11. Collection event: September 11 Terrorist Attacks (2001)."
         }
       ]
     },
     {
-      "text": "She describes her mother’s family as immigrants from Huánuco, Peru, and explains that her mother was studying in high school in New York in 2001.",
+      "text": "She recounts that her mother, an immigrant from Huánuco, Peru, was studying in high school in New York in 2001 and had limited communication with relatives in Peru.",
       "support": [
         {
           "source_id": "T001",
@@ -106,7 +103,7 @@
       ]
     },
     {
-      "text": "Danna recounts how her great-aunt, in Lima, followed the attacks on the radio and feared for her mother because communication between Peru and New York was limited.",
+      "text": "Her great-aunt was in Lima when the attacks occurred, listening to the radio and fearing for Danna’s mother while they were unable to communicate.",
       "support": [
         {
           "source_id": "T001",
@@ -119,7 +116,7 @@
       ]
     },
     {
-      "text": "She also shares a story from middle school about her former science teacher’s friend, a hijab-wearing woman who worked near the World Trade Center and was hidden by coworkers and friends while walking in New York in the weeks afterward.",
+      "text": "Danna also shares a story from middle school about her former science teacher’s friend, who worked near the World Trade Center and was surrounded and hidden by coworkers and friends while walking in New York in the weeks afterward.",
       "support": [
         {
           "source_id": "T002",
@@ -128,7 +125,7 @@
       ]
     },
     {
-      "text": "Danna emphasizes the cultural impact and fear caused by 9/11 in the United States and internationally, including in rural areas.",
+      "text": "She describes the attacks’ cultural impact and fear as extending beyond the United States, and emphasizes the importance of remembering those effects internationally.",
       "support": [
         {
           "source_id": "T002",
@@ -141,7 +138,7 @@
       ]
     },
     {
-      "text": "Her account is primarily a reflection on inherited family memories and stories she heard, rather than a description of her own presence at an attack site.",
+      "text": "Her account centers on family and community memories rather than a claim of personal presence at an attack site.",
       "support": [
         {
           "source_id": "T001",
@@ -150,13 +147,17 @@
         {
           "source_id": "T002",
           "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        },
+        {
+          "source_id": "T003",
+          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
         }
       ]
     }
   ],
   "keyword_support": [
     {
-      "term": "Family memories of 9/11",
+      "term": "September 11 family memories",
       "support": [
         {
           "source_id": "T001",
@@ -169,7 +170,7 @@
       ]
     },
     {
-      "term": "Peruvian family connections",
+      "term": "Peru and transnational family communication",
       "support": [
         {
           "source_id": "T001",
@@ -182,7 +183,20 @@
       ]
     },
     {
-      "term": "International impact of 9/11",
+      "term": "Fear and uncertainty after the attacks",
+      "support": [
+        {
+          "source_id": "T001",
+          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
+        },
+        {
+          "source_id": "T002",
+          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
+        }
+      ]
+    },
+    {
+      "term": "Cultural impact in New York",
       "support": [
         {
           "source_id": "T002",
@@ -195,25 +209,8 @@
       ]
     },
     {
-      "term": "Communication barriers and family separation",
+      "term": "International remembrance of September 11",
       "support": [
-        {
-          "source_id": "T001",
-          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
-        },
-        {
-          "source_id": "T002",
-          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
-        }
-      ]
-    },
-    {
-      "term": "Cultural impact and community support after 9/11",
-      "support": [
-        {
-          "source_id": "T002",
-          "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
-        },
         {
           "source_id": "T003",
           "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
@@ -228,24 +225,8 @@
       "reason": "Collection-wide policy"
     },
     {
-      "candidate_id": "F03",
-      "rationale": "Huánuco is the stated origin of the speaker’s maternal family and frames her account of the international and rural reach of 9/11.",
-      "support": [
-        {
-          "source_id": "T001",
-          "quote": "Hello, I'm Donna, and I am going to answer the prompt, what personal connections, if any, do I have of 9/11 and its aftermath? I am family are immigrants. My mother's side is from Peru, Huánuco, and by this point in time, when it was 2001, my mom had immigrated and she's been studying in high school in New York. So with that in mind, since my family is from Huánuco, there wasn't that many access to communication like phones and any forms of communication, especially internationally. And my mom was only able to communicate with her family there every week or every two weeks. So my great aunt, who was her closest relative at the time, when 9/11 happened, she was in the capital of Peru, in Lima, and all the radios were turned on. Everybody was paying attention. Everybody was hearing the events of 9/11 actively happening. And my aunt, she described the experience as if, like, the world was "
-        },
-        {
-          "source_id": "T003",
-          "quote": "about the aftermath, there's a giant cultural impact that occurred not only in the United States, but in rural areas as well, and it caused a lot of fear. And it's really important that we continue remembering them and how it affected not only the U.S., but internationally as well. Thank you for listening."
-        }
-      ],
-      "heading": "Peru--Huánuco",
-      "authority_id": "fst01223929"
-    },
-    {
-      "candidate_id": "F26",
-      "rationale": "Lima is where the speaker’s great-aunt followed the attacks and experienced the fear caused by being unable to contact family in New York.",
+      "candidate_id": "F11",
+      "rationale": "The account centers on the family relationship between Danna’s immigrant mother in New York and relatives in Peru, especially her great-aunt’s fear during the period when they could not communicate. This heading captures that sustained family-and-immigration theme.",
       "support": [
         {
           "source_id": "T001",
@@ -256,20 +237,65 @@
           "quote": "ending, and the fear that she had not being able to communicate with my mother for that whole week or the two weeks that she wasn't able to communicate, worrying about her, because even though she wasn't working at the World Trade Center, because it was United States and especially because it was New York, it left her very afraid. So 9/11 definitely hit rural areas in different parts of the world, completely changing how we viewed these sorts of situations. Aside from that, I also have another story of when I was in middle school. My old science teacher, he had an old friend who was a hijab who was working or working nearby at the World Trade Center, and a lot of her coworkers and friends would have to surround her and hide her, walking in the streets of New York the weeks afterwards, simply because of how huge the cultural impact of 9/11 did. With that in mind, when we were talking "
         }
       ],
-      "heading": "Peru--Lima",
-      "authority_id": "fst01205423"
+      "heading": "Women immigrants--Family relationships",
+      "authority_id": "fst01177771"
     }
   ],
   "fast_candidates": [
     {
+      "id": "fst01907195",
+      "heading": "September 11 Terrorist Attacks (2001) in mass media",
+      "facet": "Topical",
+      "rrf_score": 0.008547008547008548,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -0.21203365921974182,
+      "metadata": {
+        "id": "fst01907195",
+        "fast": "September 11 Terrorist Attacks (2001) in mass media",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907194",
+      "heading": "September 11 Terrorist Attacks (2001) in literature",
+      "facet": "Topical",
+      "rrf_score": 0.011235955056179775,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -0.24566560983657837,
+      "metadata": {
+        "id": "fst01907194",
+        "fast": "September 11 Terrorist Attacks (2001) in literature",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01907196",
+      "heading": "September 11 Terrorist Attacks (2001) in motion pictures",
+      "facet": "Topical",
+      "rrf_score": 0.00847457627118644,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -0.28498375415802,
+      "metadata": {
+        "id": "fst01907196",
+        "fast": "September 11 Terrorist Attacks (2001) in motion pictures",
+        "facet": "Topical"
+      }
+    },
+    {
       "id": "fst01747281",
       "heading": "September 11 Terrorist Attacks, 2001, on television",
       "facet": "Topical",
-      "rrf_score": 0.01639344262295082,
+      "rrf_score": 0.011363636363636364,
       "retrieval_routes": [
-        "semantic"
+        "lexical"
       ],
-      "rerank_score": -2.6819043159484863,
+      "rerank_score": -0.3278690576553345,
       "metadata": {
         "id": "fst01747281",
         "fast": "September 11 Terrorist Attacks, 2001, on television",
@@ -277,17 +303,78 @@
       }
     },
     {
-      "id": "fst01314272",
-      "heading": "Peru--Puerto Inca (Huánuco)",
-      "facet": "Geographic",
-      "rrf_score": 0.012658227848101266,
+      "id": "fst02060917",
+      "heading": "September 11 Terrorist Attacks, 2001, in comics",
+      "facet": "Topical",
+      "rrf_score": 0.02750455373406193,
+      "retrieval_routes": [
+        "semantic",
+        "lexical"
+      ],
+      "rerank_score": -0.3593211770057678,
+      "metadata": {
+        "id": "fst02060917",
+        "fast": "September 11 Terrorist Attacks, 2001, in comics",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01025886",
+      "heading": "Monumento a Túpac Amaru II (Yanaoca, Peru)",
+      "facet": "Topical",
+      "rrf_score": 0.015384615384615385,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -1.6270697116851807,
+      "metadata": {
+        "id": "fst01025886",
+        "fast": "Monumento a Túpac Amaru II (Yanaoca, Peru)",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01112793",
+      "heading": "September",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.268959045410156,
+      "rerank_score": -1.634294033050537,
+      "metadata": {
+        "id": "fst01112793",
+        "fast": "September",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01314272",
+      "heading": "Peru--Puerto Inca (Huánuco)",
+      "facet": "Geographic",
+      "rrf_score": 0.012345679012345678,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.640512228012085,
       "metadata": {
         "id": "fst01314272",
         "fast": "Peru--Puerto Inca (Huánuco)",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01319201",
+      "heading": "Peru--Santa Marta (Huánuco)",
+      "facet": "Geographic",
+      "rrf_score": 0.012195121951219513,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.6667888164520264,
+      "metadata": {
+        "id": "fst01319201",
+        "fast": "Peru--Santa Marta (Huánuco)",
         "facet": "Geographic"
       }
     },
@@ -299,7 +386,7 @@
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.309223175048828,
+      "rerank_score": -1.6791882514953613,
       "metadata": {
         "id": "fst01223929",
         "fast": "Peru--Huánuco",
@@ -307,104 +394,29 @@
       }
     },
     {
-      "id": "fst01319201",
-      "heading": "Peru--Santa Marta (Huánuco)",
-      "facet": "Geographic",
-      "rrf_score": 0.0125,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.324437618255615,
-      "metadata": {
-        "id": "fst01319201",
-        "fast": "Peru--Santa Marta (Huánuco)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01715148",
-      "heading": "Peru--Huánuco (Department)",
-      "facet": "Geographic",
-      "rrf_score": 0.015151515151515152,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.377551555633545,
-      "metadata": {
-        "id": "fst01715148",
-        "fast": "Peru--Huánuco (Department)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01335220",
-      "heading": "Peru--Comas (Lima : District)",
-      "facet": "Geographic",
-      "rrf_score": 0.010416666666666666,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.393566131591797,
-      "metadata": {
-        "id": "fst01335220",
-        "fast": "Peru--Comas (Lima : District)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01322373",
-      "heading": "Peru--Santa María (Huánuco)",
-      "facet": "Geographic",
-      "rrf_score": 0.012345679012345678,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.397497177124023,
-      "metadata": {
-        "id": "fst01322373",
-        "fast": "Peru--Santa María (Huánuco)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01058918",
-      "heading": "Peru in music",
+      "id": "fst01177771",
+      "heading": "Women immigrants--Family relationships",
       "facet": "Topical",
-      "rrf_score": 0.01282051282051282,
+      "rrf_score": 0.013513513513513514,
       "retrieval_routes": [
         "semantic"
       ],
-      "rerank_score": -4.424264907836914,
+      "rerank_score": -1.6976584196090698,
       "metadata": {
-        "id": "fst01058918",
-        "fast": "Peru in music",
+        "id": "fst01177771",
+        "fast": "Women immigrants--Family relationships",
         "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01336116",
-      "heading": "Peru--Huánuco (Diocese)",
-      "facet": "Geographic",
-      "rrf_score": 0.015384615384615385,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.425534725189209,
-      "metadata": {
-        "id": "fst01336116",
-        "fast": "Peru--Huánuco (Diocese)",
-        "facet": "Geographic"
       }
     },
     {
       "id": "fst01715160",
       "heading": "Peru--Lima--Quinta Heeren",
       "facet": "Geographic",
-      "rrf_score": 0.00980392156862745,
+      "rrf_score": 0.00909090909090909,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.433388710021973,
+      "rerank_score": -1.7014470100402832,
       "metadata": {
         "id": "fst01715160",
         "fast": "Peru--Lima--Quinta Heeren",
@@ -412,29 +424,119 @@
       }
     },
     {
-      "id": "fst01715156",
-      "heading": "Peru--Lima--Huáscar",
+      "id": "fst01322373",
+      "heading": "Peru--Santa María (Huánuco)",
       "facet": "Geographic",
-      "rrf_score": 0.013157894736842105,
+      "rrf_score": 0.012048192771084338,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.437975883483887,
+      "rerank_score": -1.734609842300415,
       "metadata": {
-        "id": "fst01715156",
-        "fast": "Peru--Lima--Huáscar",
+        "id": "fst01322373",
+        "fast": "Peru--Santa María (Huánuco)",
         "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01746411",
+      "heading": "Immigrant families",
+      "facet": "Topical",
+      "rrf_score": 0.014492753623188406,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -1.7695279121398926,
+      "metadata": {
+        "id": "fst01746411",
+        "fast": "Immigrant families",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01715148",
+      "heading": "Peru--Huánuco (Department)",
+      "facet": "Geographic",
+      "rrf_score": 0.014925373134328358,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.7811981439590454,
+      "metadata": {
+        "id": "fst01715148",
+        "fast": "Peru--Huánuco (Department)",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst01336116",
+      "heading": "Peru--Huánuco (Diocese)",
+      "facet": "Geographic",
+      "rrf_score": 0.015151515151515152,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.7900866270065308,
+      "metadata": {
+        "id": "fst01336116",
+        "fast": "Peru--Huánuco (Diocese)",
+        "facet": "Geographic"
+      }
+    },
+    {
+      "id": "fst00875339",
+      "heading": "Connections (Mathematics)",
+      "facet": "Topical",
+      "rrf_score": 0.008403361344537815,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.818565845489502,
+      "metadata": {
+        "id": "fst00875339",
+        "fast": "Connections (Mathematics)",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01020719",
+      "heading": "Migrant labor--Family relationships",
+      "facet": "Topical",
+      "rrf_score": 0.011627906976744186,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -1.8192874193191528,
+      "metadata": {
+        "id": "fst01020719",
+        "fast": "Migrant labor--Family relationships",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst00908706",
+      "heading": "Emigration and immigration--International cooperation",
+      "facet": "Topical",
+      "rrf_score": 0.008620689655172414,
+      "retrieval_routes": [
+        "lexical"
+      ],
+      "rerank_score": -1.8770042657852173,
+      "metadata": {
+        "id": "fst00908706",
+        "fast": "Emigration and immigration--International cooperation",
+        "facet": "Topical"
       }
     },
     {
       "id": "fst01715155",
       "heading": "Peru--Lima--El Agustino",
       "facet": "Geographic",
-      "rrf_score": 0.010101010101010102,
+      "rrf_score": 0.009345794392523364,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.444792747497559,
+      "rerank_score": -1.8812451362609863,
       "metadata": {
         "id": "fst01715155",
         "fast": "Peru--Lima--El Agustino",
@@ -445,11 +547,11 @@
       "id": "fst01871940",
       "heading": "Peru--San Bartolo (Lima)",
       "facet": "Geographic",
-      "rrf_score": 0.009615384615384616,
+      "rrf_score": 0.008928571428571428,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.478885650634766,
+      "rerank_score": -1.913752555847168,
       "metadata": {
         "id": "fst01871940",
         "fast": "Peru--San Bartolo (Lima)",
@@ -457,59 +559,14 @@
       }
     },
     {
-      "id": "fst01316851",
-      "heading": "Peru--Chancay River (Lima)",
-      "facet": "Geographic",
-      "rrf_score": 0.010526315789473684,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.484598159790039,
-      "metadata": {
-        "id": "fst01316851",
-        "fast": "Peru--Chancay River (Lima)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01881448",
-      "heading": "New York (State)--Tioga Center",
-      "facet": "Geographic",
-      "rrf_score": 0.01098901098901099,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.487653732299805,
-      "metadata": {
-        "id": "fst01881448",
-        "fast": "New York (State)--Tioga Center",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01166348",
-      "heading": "Victims of terrorism--Family relationships",
-      "facet": "Topical",
-      "rrf_score": 0.014705882352941176,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.492928981781006,
-      "metadata": {
-        "id": "fst01166348",
-        "fast": "Victims of terrorism--Family relationships",
-        "facet": "Topical"
-      }
-    },
-    {
       "id": "fst01235122",
       "heading": "Peru--Huánuco Pampa",
       "facet": "Geographic",
-      "rrf_score": 0.015625,
+      "rrf_score": 0.015384615384615385,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.504472732543945,
+      "rerank_score": -1.9278626441955566,
       "metadata": {
         "id": "fst01235122",
         "fast": "Peru--Huánuco Pampa",
@@ -517,104 +574,14 @@
       }
     },
     {
-      "id": "fst01320876",
-      "heading": "Peru--Chancay (Lima)",
+      "id": "fst01314882",
+      "heading": "Peru--Barranca (Lima)",
       "facet": "Geographic",
       "rrf_score": 0.014084507042253521,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.527730941772461,
-      "metadata": {
-        "id": "fst01320876",
-        "fast": "Peru--Chancay (Lima)",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01715153",
-      "heading": "Peru--Lima--Barrios Altos",
-      "facet": "Geographic",
-      "rrf_score": 0.01020408163265306,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.529134750366211,
-      "metadata": {
-        "id": "fst01715153",
-        "fast": "Peru--Lima--Barrios Altos",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01715158",
-      "heading": "Peru--Lima--Miraflores",
-      "facet": "Geographic",
-      "rrf_score": 0.012987012987012988,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.552412033081055,
-      "metadata": {
-        "id": "fst01715158",
-        "fast": "Peru--Lima--Miraflores",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01245200",
-      "heading": "Peru--Huánuco Pampa Site",
-      "facet": "Geographic",
-      "rrf_score": 0.01282051282051282,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.5614118576049805,
-      "metadata": {
-        "id": "fst01245200",
-        "fast": "Peru--Huánuco Pampa Site",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01715161",
-      "heading": "Peru--Lima--San Isidro",
-      "facet": "Geographic",
-      "rrf_score": 0.009708737864077669,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.56720495223999,
-      "metadata": {
-        "id": "fst01715161",
-        "fast": "Peru--Lima--San Isidro",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst00962660",
-      "heading": "Huaylas",
-      "facet": "Topical",
-      "rrf_score": 0.014925373134328358,
-      "retrieval_routes": [
-        "semantic"
-      ],
-      "rerank_score": -4.572940349578857,
-      "metadata": {
-        "id": "fst00962660",
-        "fast": "Huaylas",
-        "facet": "Topical"
-      }
-    },
-    {
-      "id": "fst01314882",
-      "heading": "Peru--Barranca (Lima)",
-      "facet": "Geographic",
-      "rrf_score": 0.014492753623188406,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.587335586547852,
+      "rerank_score": -1.9506855010986328,
       "metadata": {
         "id": "fst01314882",
         "fast": "Peru--Barranca (Lima)",
@@ -622,135 +589,185 @@
       }
     },
     {
-      "id": "fst01315000",
-      "heading": "Peru--Acos (Lima)",
+      "id": "fst01245200",
+      "heading": "Peru--Huánuco Pampa Site",
       "facet": "Geographic",
-      "rrf_score": 0.014285714285714285,
+      "rrf_score": 0.0125,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.593503475189209,
+      "rerank_score": -1.9673070907592773,
       "metadata": {
-        "id": "fst01315000",
-        "fast": "Peru--Acos (Lima)",
+        "id": "fst01245200",
+        "fast": "Peru--Huánuco Pampa Site",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01205423",
-      "heading": "Peru--Lima",
+      "id": "fst01715156",
+      "heading": "Peru--Lima--Huáscar",
       "facet": "Geographic",
-      "rrf_score": 0.015873015873015872,
+      "rrf_score": 0.01282051282051282,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.604503631591797,
+      "rerank_score": -1.9878473281860352,
       "metadata": {
-        "id": "fst01205423",
-        "fast": "Peru--Lima",
+        "id": "fst01715156",
+        "fast": "Peru--Lima--Huáscar",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01348990",
-      "heading": "Peru--Lima Region",
+      "id": "fst00908689",
+      "heading": "Emigrant remittances--Psychological aspects",
+      "facet": "Topical",
+      "rrf_score": 0.011764705882352941,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -1.9939154386520386,
+      "metadata": {
+        "id": "fst00908689",
+        "fast": "Emigrant remittances--Psychological aspects",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01320876",
+      "heading": "Peru--Chancay (Lima)",
       "facet": "Geographic",
-      "rrf_score": 0.013513513513513514,
+      "rrf_score": 0.0136986301369863,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.616571426391602,
+      "rerank_score": -1.999755620956421,
       "metadata": {
-        "id": "fst01348990",
-        "fast": "Peru--Lima Region",
+        "id": "fst01320876",
+        "fast": "Peru--Chancay (Lima)",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01328038",
-      "heading": "New York (State)--New York--World Trade Center Site",
+      "id": "fst01352666",
+      "heading": "Cultural policy--Foreign influences",
+      "facet": "Topical",
+      "rrf_score": 0.011904761904761904,
+      "retrieval_routes": [
+        "semantic"
+      ],
+      "rerank_score": -2.01623272895813,
+      "metadata": {
+        "id": "fst01352666",
+        "fast": "Cultural policy--Foreign influences",
+        "facet": "Topical"
+      }
+    },
+    {
+      "id": "fst01891439",
+      "heading": "United States--United States Highway 11",
       "facet": "Geographic",
-      "rrf_score": 0.01639344262295082,
+      "rrf_score": 0.015625,
       "retrieval_routes": [
         "lexical"
       ],
-      "rerank_score": -4.637737274169922,
+      "rerank_score": -2.018892288208008,
       "metadata": {
-        "id": "fst01328038",
-        "fast": "New York (State)--New York--World Trade Center Site",
+        "id": "fst01891439",
+        "fast": "United States--United States Highway 11",
         "facet": "Geographic"
       }
     },
     {
-      "id": "fst01348989",
-      "heading": "Peru--Lima Metropolitan Area",
-      "facet": "Geographic",
-      "rrf_score": 0.010309278350515464,
+      "id": "fst00862429",
+      "heading": "Civics, Peruvian",
+      "facet": "Topical",
+      "rrf_score": 0.014084507042253521,
       "retrieval_routes": [
-        "lexical"
+        "semantic"
       ],
-      "rerank_score": -4.638864040374756,
+      "rerank_score": -2.058077573776245,
       "metadata": {
-        "id": "fst01348989",
-        "fast": "Peru--Lima Metropolitan Area",
-        "facet": "Geographic"
-      }
-    },
-    {
-      "id": "fst01715159",
-      "heading": "Peru--Lima--Pueblo Libre",
-      "facet": "Geographic",
-      "rrf_score": 0.009900990099009901,
-      "retrieval_routes": [
-        "lexical"
-      ],
-      "rerank_score": -4.644928455352783,
-      "metadata": {
-        "id": "fst01715159",
-        "fast": "Peru--Lima--Pueblo Libre",
-        "facet": "Geographic"
+        "id": "fst00862429",
+        "fast": "Civics, Peruvian",
+        "facet": "Topical"
       }
     }
   ],
   "frame_manifest": [
     {
       "id": "V001",
-      "timestamp_seconds": 14.067,
-      "selection": "coverage"
-    },
-    {
-      "id": "V002",
-      "timestamp_seconds": 28.0,
+      "timestamp_seconds": 4.0,
       "selection": "visual_change_or_fill"
     },
     {
+      "id": "V002",
+      "timestamp_seconds": 10.533,
+      "selection": "coverage"
+    },
+    {
       "id": "V003",
-      "timestamp_seconds": 42.233,
+      "timestamp_seconds": 31.667,
       "selection": "coverage"
     },
     {
       "id": "V004",
-      "timestamp_seconds": 70.4,
-      "selection": "coverage"
+      "timestamp_seconds": 40.0,
+      "selection": "visual_change_or_fill"
     },
     {
       "id": "V005",
-      "timestamp_seconds": 98.533,
+      "timestamp_seconds": 52.8,
       "selection": "coverage"
     },
     {
       "id": "V006",
-      "timestamp_seconds": 126.7,
+      "timestamp_seconds": 73.9,
       "selection": "coverage"
     },
     {
       "id": "V007",
-      "timestamp_seconds": 142.0,
+      "timestamp_seconds": 80.0,
       "selection": "visual_change_or_fill"
     },
     {
       "id": "V008",
-      "timestamp_seconds": 154.867,
+      "timestamp_seconds": 95.033,
+      "selection": "coverage"
+    },
+    {
+      "id": "V009",
+      "timestamp_seconds": 104.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V010",
+      "timestamp_seconds": 110.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V011",
+      "timestamp_seconds": 116.133,
+      "selection": "coverage"
+    },
+    {
+      "id": "V012",
+      "timestamp_seconds": 137.267,
+      "selection": "coverage"
+    },
+    {
+      "id": "V013",
+      "timestamp_seconds": 146.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V014",
+      "timestamp_seconds": 152.0,
+      "selection": "visual_change_or_fill"
+    },
+    {
+      "id": "V015",
+      "timestamp_seconds": 158.4,
       "selection": "coverage"
     }
   ]

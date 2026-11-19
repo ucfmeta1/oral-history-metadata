@@ -30,13 +30,13 @@ def spans(text, limit=900):
         start=end
     return result
 
-def sample_frames(video, count=8):
+def sample_frames(video, count=15):
     if count<6:raise ValueError('Robust sampling requires at least six frames.')
     cap=cv2.VideoCapture(str(video))
     if not cap.isOpened():raise ValueError(f'Cannot open {video}')
     total=int(cap.get(cv2.CAP_PROP_FRAME_COUNT));fps=cap.get(cv2.CAP_PROP_FPS)
     if total<=0 or fps<=0:cap.release();raise ValueError('Video duration/fps unavailable.')
-    duration=total/fps;coverage=min(12,max(6,count//2))
+    duration=total/fps;coverage=min(12,max(6,(count+1)//2))
     selected={min(total-1,int(total*(i+.5)/coverage)) for i in range(coverage)}
     scores=[];last=None
     try:
@@ -187,7 +187,7 @@ def speaker_identity_issues(metadata, context):
     return issues
 
 
-def process(video,transcript,context,client,model,root,output_dir,semantic_retrieval,reranker,frame_count=8,settings=None):
+def process(video,transcript,context,client,model,root,output_dir,semantic_retrieval,reranker,frame_count=15,settings=None):
     if not transcript.strip():raise ValueError('Robust metadata requires a matched transcript')
     implementation=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     cache=output_dir/'robust_cache'/digest(dict(version=VERSION,code=implementation,model=model,video=str(video),
