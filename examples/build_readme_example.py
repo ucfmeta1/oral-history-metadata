@@ -41,9 +41,12 @@ def build(record, video_url=None):
     for category, label in [('attire_and_symbols', 'Attire and symbols'),
                              ('artifacts_and_props', 'Artifacts and props'),
                              ('activities_and_emotional_moments', 'Activities, expressions and gaze')]:
+        category_observations = [o for o in observations if o['category'] == category]
+        if category == 'artifacts_and_props' and not category_observations:
+            continue
         left += '<p><strong>' + label + '</strong></p>'
         left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']}"
-                         for o in observations if o['category'] == category])
+                         for o in category_observations])
     right = '<h3>' + escape(name) + '</h3>'
     right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
     if video_url:
@@ -129,7 +132,7 @@ def main():
             (ROOT/'examples/ken-lundy-metadata.json').write_text(json.dumps(example, ensure_ascii=False, indent=2)+'\n')
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
     section = (START + '\n## Video examples — all generated results\n\n'
-               f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, all visual-evidence categories, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
+               f'All {len(records)} interviews from the eight-frame notebook run. Each example includes every entity facet, available visual evidence, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
                'Ken Lundy has one inline video player with play/pause and audio controls. For the other interviews, click the preview or Open video player with audio to open the full MP4 on GitHub. '
                'Results use the original workbook’s speaker names.\n\n'
                + index + '\n\n' + ''.join(build(r, args.video_url if identity(r)[1] == 'ken-lundy' else None) for r in records)
