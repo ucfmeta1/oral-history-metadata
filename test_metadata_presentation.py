@@ -29,8 +29,9 @@ class PresentationTests(unittest.TestCase):
                 observation='Wears glasses.',confidence='high',timestamp_seconds=2,review_required=False)]))
         panel=build(record)
         self.assertNotIn('<strong>Artifacts and props</strong>',panel)
-        self.assertNotIn('2 s ·',panel)
-        self.assertNotIn('"timestamp_seconds"',panel)
+        self.assertIn('[2 s] Wears glasses.',panel)
+        self.assertNotIn('<h4>Visual evidence</h4>',panel)
+        self.assertIn('"timestamp_seconds": 2',panel)
         empty=deepcopy(record)
         empty['visual_evidence']['visual_observations']=[]
         self.assertNotIn('visual evidence',build(empty).lower())
@@ -39,8 +40,8 @@ class PresentationTests(unittest.TestCase):
             category='activities_and_emotional_moments',observation='At 8 s, Looks downward.',timestamp_seconds=8)
         self.assertIn('Looks downward.',build(activities))
         self.assertNotIn('At 8 s,',build(activities))
-        self.assertNotIn('8 s ·',build(activities))
-        self.assertNotIn('"timestamp_seconds"',build(activities))
+        self.assertIn('[8 s] Looks downward.',build(activities))
+        self.assertIn('"timestamp_seconds": 8',build(activities))
         with_artifact=deepcopy(record)
         with_artifact['visual_evidence']['visual_observations'].append(dict(frame_id='V002',category='artifacts_and_props',
             observation='Holds a photograph.',confidence='high',timestamp_seconds=4,review_required=False))
