@@ -30,22 +30,32 @@ def identity(record):
     return name, slug
 
 
+def readme_observation_text(item):
+    text = item['observation']
+    if item['category'] in {'attire_and_symbols', 'activities_and_emotional_moments'}:
+        text = re.sub(r'^(?:At\s+)?\d+(?:\.\d+)?\s*(?:s|seconds?)\s*[,;:\-]\s*', '', text, flags=re.I)
+    return text
+
+
 def build(record, video_url=None):
     name, slug = identity(record)
     facets = record['entities_and_facets']
     left = ''
     for key in ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective'):
         left += '<h4>' + display_header(key) + '</h4>' + listing(facets.get(key))
-    left += '<h4>Visual evidence</h4>'
-    observations = record['visual_evidence']['visual_observations']
+    observations = [o for o in record.get('visual_evidence', {}).get('visual_observations', [])
+                    if o.get('observation', '').strip()]
+    if observations:
+        left += '<h4>Visual evidence</h4>'
     for category, label in [('attire_and_symbols', 'Attire and symbols'),
                              ('artifacts_and_props', 'Artifacts and props'),
                              ('activities_and_emotional_moments', 'Activities, expressions and gaze')]:
         category_observations = [o for o in observations if o['category'] == category]
-        if category == 'artifacts_and_props' and not category_observations:
+        if not observations or (category == 'artifacts_and_props' and not category_observations):
             continue
         left += '<p><strong>' + label + '</strong></p>'
         left += listing([f"{o['timestamp_seconds']:g} s · {o['frame_id']} · {o['observation']}"
+                         if category == 'artifacts_and_props' else readme_observation_text(o)
                          for o in category_observations])
     right = '<h3>' + escape(name) + '</h3>'
     right += f"<p>{record['duration_seconds']:.0f} seconds · {record['sampled_frames']} sampled frames</p>"
@@ -61,10 +71,20 @@ def build(record, video_url=None):
     right += '<h4>Keywords</h4>' + listing(record['keywords'])
     right += '<h4>FAST Subjects</h4>' + listing(record['fast_subjects'])
     candidates = listing([f"{i}. {c['heading']} ({c.get('id', c.get('authority_id', ''))})" for i, c in enumerate(record['fast_candidates'], 1)])
+    visual_details = ''
+    if observations:
+        visual = json.loads(presentation_visual_json(dict(visual_observations=observations)))
+        for item in visual['visual_observations']:
+            if item['category'] in {'attire_and_symbols', 'activities_and_emotional_moments'}:
+                item.pop('timestamp_seconds', None)
+                item['observation'] = readme_observation_text(item)
+        visual_details = ('<details><summary>Visual evidence JSON</summary>\n\n```json\n'
+                          + json.dumps(visual, ensure_ascii=False, indent=2) + '\n```\n\n</details>\n\n')
+    entity_heading = 'Entities and visual evidence' if observations else 'Entities'
     return (f'### {name}\n\n'
-            '<table>\n<tr><th width="40%">Entities and visual evidence</th><th width="60%">Video and generated metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
+            f'<table>\n<tr><th width="40%">{entity_heading}</th><th width="60%">Video and generated metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
             + left + '\n\n</td>\n<td width="60%" valign="top">\n\n' + right + '\n\n</td>\n</tr>\n</table>\n\n'
-            + '<details><summary>Visual evidence JSON</summary>\n\n```json\n' + presentation_visual_json(record['visual_evidence']) + '\n```\n\n</details>\n\n'
+            + visual_details
             + '<details><summary>All retrieved FAST candidates</summary>\n\n' + candidates + '\n\n</details>\n\n'
             + f'[Full generated result and supporting evidence](examples/data/{slug}.json).\n\n')
 

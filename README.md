@@ -23,7 +23,7 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Danna Arrieta-Ventura</li><li>Danna’s mother</li><li>Danna’s great-aunt</li><li>Danna’s former science teacher</li><li>The teacher’s friend</li></ul><h4>Locations</h4><ul><li>Huánuco, Peru</li><li>Lima, Peru</li><li>New York</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>Family memories of 9/11</li><li>International and rural impact</li><li>Communication barriers</li><li>Fear and uncertainty</li><li>Cultural impact and aftermath</li><li>Community support</li></ul><h4>Perspective</h4><ul><li>A personal reflection drawing on family memories and stories from others; the speaker does not describe being present at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>98.533 s · V005 · Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>14.067 s · V001 · Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area.</li><li>42.233 s · V003 · Leans forward and looks slightly downward, mouth open.</li><li>142 s · V007 · Tilts head down and directs gaze below the camera; eyes appear closed or lowered.</li><li>154.867 s · V008 · Raises gaze to face forward again, with a neutral visible expression.</li></ul>
+<h4>People</h4><ul><li>Danna Arrieta-Ventura</li><li>Danna’s mother</li><li>Danna’s great-aunt</li><li>Danna’s former science teacher</li><li>The teacher’s friend</li></ul><h4>Locations</h4><ul><li>Huánuco, Peru</li><li>Lima, Peru</li><li>New York</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>Family memories of 9/11</li><li>International and rural impact</li><li>Communication barriers</li><li>Fear and uncertainty</li><li>Cultural impact and aftermath</li><li>Community support</li></ul><h4>Perspective</h4><ul><li>A personal reflection drawing on family memories and stories from others; the speaker does not describe being present at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area.</li><li>Leans forward and looks slightly downward, mouth open.</li><li>Tilts head down and directs gaze below the camera; eyes appear closed or lowered.</li><li>Raises gaze to face forward again, with a neutral visible expression.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -42,32 +42,27 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
     {
       "frame_id": "V005",
       "category": "attire_and_symbols",
-      "observation": "Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible.",
-      "timestamp_seconds": 98.533
+      "observation": "Wears a red top with a black neckline and clear-framed glasses; no legible insignia is visible."
     },
     {
       "frame_id": "V001",
       "category": "activities_and_emotional_moments",
-      "observation": "Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area.",
-      "timestamp_seconds": 14.067
+      "observation": "Faces forward with mouth slightly open, as if speaking; gaze is directed toward the camera area."
     },
     {
       "frame_id": "V003",
       "category": "activities_and_emotional_moments",
-      "observation": "Leans forward and looks slightly downward, mouth open.",
-      "timestamp_seconds": 42.233
+      "observation": "Leans forward and looks slightly downward, mouth open."
     },
     {
       "frame_id": "V007",
       "category": "activities_and_emotional_moments",
-      "observation": "Tilts head down and directs gaze below the camera; eyes appear closed or lowered.",
-      "timestamp_seconds": 142.0
+      "observation": "Tilts head down and directs gaze below the camera; eyes appear closed or lowered."
     },
     {
       "frame_id": "V008",
       "category": "activities_and_emotional_moments",
-      "observation": "Raises gaze to face forward again, with a neutral visible expression.",
-      "timestamp_seconds": 154.867
+      "observation": "Raises gaze to face forward again, with a neutral visible expression."
     }
   ]
 }
@@ -90,7 +85,7 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Chereeka Garner</li><li>Garner&#x27;s father</li></ul><h4>Locations</h4><ul><li>UCF John C. Hitt Library</li><li>University High School, Orlando, Florida</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF</li><li>Night Tales Project</li><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11, 2001 attacks</li><li>high school recollections</li><li>television news coverage</li><li>school dismissal and family response</li></ul><h4>Perspective</h4><ul><li>First-person recollection by a high school senior who learned about the attacks at school and watched television coverage; she does not describe being at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>6 s · V001 · The seated speaker wears a white outer layer over a dark navy top with a folded collar; no legible insignia is visible.</li></ul><p><strong>Artifacts and props</strong></p><ul><li>6 s · V001 · A large foam-covered microphone on an articulated arm is visible at the left; another microphone is partly visible at the upper right.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>50 s · V003 · The speaker looks downward with eyes partly closed and mouth open mid-speech.</li><li>82.333 s · V004 · The speaker faces forward with eyes widened and mouth slightly open while speaking.</li><li>192.1 s · V006 · The speaker&#x27;s brow is furrowed and eyes narrowed, with mouth open mid-speech.</li></ul>
+<h4>People</h4><ul><li>Chereeka Garner</li><li>Garner&#x27;s father</li></ul><h4>Locations</h4><ul><li>UCF John C. Hitt Library</li><li>University High School, Orlando, Florida</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF</li><li>Night Tales Project</li><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11, 2001 attacks</li><li>high school recollections</li><li>television news coverage</li><li>school dismissal and family response</li></ul><h4>Perspective</h4><ul><li>First-person recollection by a high school senior who learned about the attacks at school and watched television coverage; she does not describe being at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>The seated speaker wears a white outer layer over a dark navy top with a folded collar; no legible insignia is visible.</li></ul><p><strong>Artifacts and props</strong></p><ul><li>6 s · V001 · A large foam-covered microphone on an articulated arm is visible at the left; another microphone is partly visible at the upper right.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>The speaker looks downward with eyes partly closed and mouth open mid-speech.</li><li>The speaker faces forward with eyes widened and mouth slightly open while speaking.</li><li>The speaker&#x27;s brow is furrowed and eyes narrowed, with mouth open mid-speech.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -109,8 +104,7 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
     {
       "frame_id": "V001",
       "category": "attire_and_symbols",
-      "observation": "The seated speaker wears a white outer layer over a dark navy top with a folded collar; no legible insignia is visible.",
-      "timestamp_seconds": 6.0
+      "observation": "The seated speaker wears a white outer layer over a dark navy top with a folded collar; no legible insignia is visible."
     },
     {
       "frame_id": "V001",
@@ -121,20 +115,17 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
     {
       "frame_id": "V003",
       "category": "activities_and_emotional_moments",
-      "observation": "The speaker looks downward with eyes partly closed and mouth open mid-speech.",
-      "timestamp_seconds": 50.0
+      "observation": "The speaker looks downward with eyes partly closed and mouth open mid-speech."
     },
     {
       "frame_id": "V004",
       "category": "activities_and_emotional_moments",
-      "observation": "The speaker faces forward with eyes widened and mouth slightly open while speaking.",
-      "timestamp_seconds": 82.333
+      "observation": "The speaker faces forward with eyes widened and mouth slightly open while speaking."
     },
     {
       "frame_id": "V006",
       "category": "activities_and_emotional_moments",
-      "observation": "The speaker's brow is furrowed and eyes narrowed, with mouth open mid-speech.",
-      "timestamp_seconds": 192.1
+      "observation": "The speaker's brow is furrowed and eyes narrowed, with mouth open mid-speech."
     }
   ]
 }
@@ -157,7 +148,7 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Phillip Jones</li><li>Dwayne Williams</li></ul><h4>Locations</h4><ul><li>Shaw Air Force Base</li><li>Sumter, South Carolina</li><li>Egypt</li><li>Middle East</li><li>Afghanistan</li><li>Iraq</li><li>Pentagon</li></ul><h4>Organizations/ Initiatives</h4><ul><li>U.S. CENTAF</li><li>U.S. Air Force</li><li>UAE</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>about 90 days after September 11, 2001</li><li>about Thanksgiving</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>television coverage</li><li>military planning and deployment</li><li>logistics and transportation</li><li>care for personnel overseas</li><li>loss and remembrance</li></ul><h4>Perspective</h4><ul><li>First-person recollection by a military planner of watching television coverage and responding from Shaw Air Force Base; the account does not describe his presence at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>25.367 s · V001 · At 25.367s, he wears a royal-blue collared shirt and a dark navy baseball cap embroidered in yellow with “USCENTAF,” above a white aircraft graphic and smaller white lettering including “COLONEL PJ JONES.” A thin chain is visible at the neckline.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>76.133 s · V003 · At 76.133s, his mouth is open and his gaze is angled slightly downward.</li><li>104 s · V004 · At 104.0s, his eyes are closed and his mouth is closed.</li><li>177.7 s · V006 · At 177.7s, his eyes are closed and his mouth is open, with teeth visible.</li><li>228.467 s · V007 · At 228.467s, his gaze is lowered and his mouth is slightly open.</li></ul>
+<h4>People</h4><ul><li>Phillip Jones</li><li>Dwayne Williams</li></ul><h4>Locations</h4><ul><li>Shaw Air Force Base</li><li>Sumter, South Carolina</li><li>Egypt</li><li>Middle East</li><li>Afghanistan</li><li>Iraq</li><li>Pentagon</li></ul><h4>Organizations/ Initiatives</h4><ul><li>U.S. CENTAF</li><li>U.S. Air Force</li><li>UAE</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>about 90 days after September 11, 2001</li><li>about Thanksgiving</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>television coverage</li><li>military planning and deployment</li><li>logistics and transportation</li><li>care for personnel overseas</li><li>loss and remembrance</li></ul><h4>Perspective</h4><ul><li>First-person recollection by a military planner of watching television coverage and responding from Shaw Air Force Base; the account does not describe his presence at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>he wears a royal-blue collared shirt and a dark navy baseball cap embroidered in yellow with “USCENTAF,” above a white aircraft graphic and smaller white lettering including “COLONEL PJ JONES.” A thin chain is visible at the neckline.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>his mouth is open and his gaze is angled slightly downward.</li><li>his eyes are closed and his mouth is closed.</li><li>his eyes are closed and his mouth is open, with teeth visible.</li><li>his gaze is lowered and his mouth is slightly open.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -176,32 +167,27 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
     {
       "frame_id": "V001",
       "category": "attire_and_symbols",
-      "observation": "At 25.367s, he wears a royal-blue collared shirt and a dark navy baseball cap embroidered in yellow with “USCENTAF,” above a white aircraft graphic and smaller white lettering including “COLONEL PJ JONES.” A thin chain is visible at the neckline.",
-      "timestamp_seconds": 25.367
+      "observation": "he wears a royal-blue collared shirt and a dark navy baseball cap embroidered in yellow with “USCENTAF,” above a white aircraft graphic and smaller white lettering including “COLONEL PJ JONES.” A thin chain is visible at the neckline."
     },
     {
       "frame_id": "V003",
       "category": "activities_and_emotional_moments",
-      "observation": "At 76.133s, his mouth is open and his gaze is angled slightly downward.",
-      "timestamp_seconds": 76.133
+      "observation": "his mouth is open and his gaze is angled slightly downward."
     },
     {
       "frame_id": "V004",
       "category": "activities_and_emotional_moments",
-      "observation": "At 104.0s, his eyes are closed and his mouth is closed.",
-      "timestamp_seconds": 104.0
+      "observation": "his eyes are closed and his mouth is closed."
     },
     {
       "frame_id": "V006",
       "category": "activities_and_emotional_moments",
-      "observation": "At 177.7s, his eyes are closed and his mouth is open, with teeth visible.",
-      "timestamp_seconds": 177.7
+      "observation": "his eyes are closed and his mouth is open, with teeth visible."
     },
     {
       "frame_id": "V007",
       "category": "activities_and_emotional_moments",
-      "observation": "At 228.467s, his gaze is lowered and his mouth is slightly open.",
-      "timestamp_seconds": 228.467
+      "observation": "his gaze is lowered and his mouth is slightly open."
     }
   ]
 }
@@ -224,7 +210,7 @@ All 6 interviews from the eight-frame notebook run. Each example includes every 
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Ken Lundy</li></ul><h4>Locations</h4><ul><li>UCF John C. Hitt Library</li><li>New York City</li><li>Grand Rapids, Michigan</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF</li><li>Knights Tales Project</li><li>Steelcase</li><li>Social Security</li></ul><h4>Dates</h4><ul><li>September 11, 2026 (recording date)</li><li>September 11, 2001</li><li>Labor Day 2001</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>personal recollection</li><li>work and travel</li><li>family communication</li><li>World Trade Center visit</li><li>remembrance and healing</li></ul><h4>Perspective</h4><ul><li>First-person recollection of watching events unfold in Grand Rapids, alongside a visit to the World Trade Center on Labor Day 2001; the account does not establish that Lundy was physically present at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>15.567 s · V001 · Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>46.733 s · V002 · Mouth open mid-speech, facing mostly forward with gaze slightly to the side.</li><li>158 s · V006 · Gaze lowered and lips closed; no hand gesture is visible.</li><li>171.367 s · V007 · Mouth open mid-speech, with gaze angled slightly downward to the side.</li></ul>
+<h4>People</h4><ul><li>Ken Lundy</li></ul><h4>Locations</h4><ul><li>UCF John C. Hitt Library</li><li>New York City</li><li>Grand Rapids, Michigan</li><li>World Trade Center</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF</li><li>Knights Tales Project</li><li>Steelcase</li><li>Social Security</li></ul><h4>Dates</h4><ul><li>September 11, 2026 (recording date)</li><li>September 11, 2001</li><li>Labor Day 2001</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>personal recollection</li><li>work and travel</li><li>family communication</li><li>World Trade Center visit</li><li>remembrance and healing</li></ul><h4>Perspective</h4><ul><li>First-person recollection of watching events unfold in Grand Rapids, alongside a visit to the World Trade Center on Labor Day 2001; the account does not establish that Lundy was physically present at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>Mouth open mid-speech, facing mostly forward with gaze slightly to the side.</li><li>Gaze lowered and lips closed; no hand gesture is visible.</li><li>Mouth open mid-speech, with gaze angled slightly downward to the side.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -247,26 +233,22 @@ https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
     {
       "frame_id": "V001",
       "category": "attire_and_symbols",
-      "observation": "Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible.",
-      "timestamp_seconds": 15.567
+      "observation": "Wearing a black collared top and large translucent, pale-framed glasses with black temples; a small white mark is visible on one temple but is not legible."
     },
     {
       "frame_id": "V002",
       "category": "activities_and_emotional_moments",
-      "observation": "Mouth open mid-speech, facing mostly forward with gaze slightly to the side.",
-      "timestamp_seconds": 46.733
+      "observation": "Mouth open mid-speech, facing mostly forward with gaze slightly to the side."
     },
     {
       "frame_id": "V006",
       "category": "activities_and_emotional_moments",
-      "observation": "Gaze lowered and lips closed; no hand gesture is visible.",
-      "timestamp_seconds": 158.0
+      "observation": "Gaze lowered and lips closed; no hand gesture is visible."
     },
     {
       "frame_id": "V007",
       "category": "activities_and_emotional_moments",
-      "observation": "Mouth open mid-speech, with gaze angled slightly downward to the side.",
-      "timestamp_seconds": 171.367
+      "observation": "Mouth open mid-speech, with gaze angled slightly downward to the side."
     }
   ]
 }
@@ -289,7 +271,7 @@ https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Juan Reyes Sierra</li><li>President Bush</li></ul><h4>Locations</h4><ul><li>UCF</li><li>Sarasota, Florida</li><li>Longboat Key, Florida</li><li>Colony Beach and Resort</li><li>Booker Elementary School</li><li>Sarasota Airport</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11, 2001</li><li>family memory</li><li>presidential visit</li><li>hotel logistics</li><li>airport shutdown and fighter jets</li><li>intergenerational remembrance</li></ul><h4>Perspective</h4><ul><li>A son recounts his father’s experience and his own inherited family memory; the speaker was not born at the time and does not describe personal presence at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>62.5 s · V004 · He wears a dark top or jacket with a light gray-beige strap or trim visible over one shoulder; no legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>22 s · V002 · Facing forward, he looks toward the camera with his mouth slightly open.</li><li>76 s · V005 · He turns his face down and to one side, with his gaze lowered.</li><li>87.5 s · V006 · He bows his head, looking down; only the upper portion of his face is visible near the lower edge of the frame.</li><li>137.5 s · V008 · Facing forward again, he looks slightly upward with his mouth open.</li></ul>
+<h4>People</h4><ul><li>Juan Reyes Sierra</li><li>President Bush</li></ul><h4>Locations</h4><ul><li>UCF</li><li>Sarasota, Florida</li><li>Longboat Key, Florida</li><li>Colony Beach and Resort</li><li>Booker Elementary School</li><li>Sarasota Airport</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11, 2001</li><li>family memory</li><li>presidential visit</li><li>hotel logistics</li><li>airport shutdown and fighter jets</li><li>intergenerational remembrance</li></ul><h4>Perspective</h4><ul><li>A son recounts his father’s experience and his own inherited family memory; the speaker was not born at the time and does not describe personal presence at an attack site.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>He wears a dark top or jacket with a light gray-beige strap or trim visible over one shoulder; no legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>Facing forward, he looks toward the camera with his mouth slightly open.</li><li>He turns his face down and to one side, with his gaze lowered.</li><li>He bows his head, looking down; only the upper portion of his face is visible near the lower edge of the frame.</li><li>Facing forward again, he looks slightly upward with his mouth open.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -308,32 +290,27 @@ https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
     {
       "frame_id": "V004",
       "category": "attire_and_symbols",
-      "observation": "He wears a dark top or jacket with a light gray-beige strap or trim visible over one shoulder; no legible insignia is visible.",
-      "timestamp_seconds": 62.5
+      "observation": "He wears a dark top or jacket with a light gray-beige strap or trim visible over one shoulder; no legible insignia is visible."
     },
     {
       "frame_id": "V002",
       "category": "activities_and_emotional_moments",
-      "observation": "Facing forward, he looks toward the camera with his mouth slightly open.",
-      "timestamp_seconds": 22.0
+      "observation": "Facing forward, he looks toward the camera with his mouth slightly open."
     },
     {
       "frame_id": "V005",
       "category": "activities_and_emotional_moments",
-      "observation": "He turns his face down and to one side, with his gaze lowered.",
-      "timestamp_seconds": 76.0
+      "observation": "He turns his face down and to one side, with his gaze lowered."
     },
     {
       "frame_id": "V006",
       "category": "activities_and_emotional_moments",
-      "observation": "He bows his head, looking down; only the upper portion of his face is visible near the lower edge of the frame.",
-      "timestamp_seconds": 87.5
+      "observation": "He bows his head, looking down; only the upper portion of his face is visible near the lower edge of the frame."
     },
     {
       "frame_id": "V008",
       "category": "activities_and_emotional_moments",
-      "observation": "Facing forward again, he looks slightly upward with his mouth open.",
-      "timestamp_seconds": 137.5
+      "observation": "Facing forward again, he looks slightly upward with his mouth open."
     }
   ]
 }
@@ -356,7 +333,7 @@ https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
 <tr>
 <td width="40%" valign="top">
 
-<h4>People</h4><ul><li>Doris Stanley</li></ul><h4>Locations</h4><ul><li>New York</li><li>Pennsylvania</li><li>Pentagon</li><li>UCF</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>television coverage</li><li>restaurant work</li><li>anxiety and panic attacks</li><li>counseling</li><li>memorial visit and healing</li></ul><h4>Perspective</h4><ul><li>First-person recollection of television coverage during restaurant work, its later personal effects, and a subsequent memorial visit; no physical presence at an attack site is described.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>24.033 s · V002 · Wearing a dark, open-collar blouse; dark hair is tied back, with loose strands framing the face. No legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>2 s · V001 · At 2.0 seconds, holds a closed hand against the mouth and looks downward.</li><li>46 s · V003 · At 46.0 seconds, mouth is slightly open and gaze is directed downward.</li><li>216.4 s · V007 · At 216.4 seconds, looks forward with lips slightly parted.</li></ul>
+<h4>People</h4><ul><li>Doris Stanley</li></ul><h4>Locations</h4><ul><li>New York</li><li>Pennsylvania</li><li>Pentagon</li><li>UCF</li></ul><h4>Organizations/ Initiatives</h4><ul><li>UCF Remembers 9/11</li></ul><h4>Dates</h4><ul><li>September 11, 2001</li><li>September 11, 2026</li></ul><h4>Themes</h4><ul><li>September 11 attacks</li><li>television coverage</li><li>restaurant work</li><li>anxiety and panic attacks</li><li>counseling</li><li>memorial visit and healing</li></ul><h4>Perspective</h4><ul><li>First-person recollection of television coverage during restaurant work, its later personal effects, and a subsequent memorial visit; no physical presence at an attack site is described.</li></ul><h4>Visual evidence</h4><p><strong>Attire and symbols</strong></p><ul><li>Wearing a dark, open-collar blouse; dark hair is tied back, with loose strands framing the face. No legible insignia is visible.</li></ul><p><strong>Activities, expressions and gaze</strong></p><ul><li>holds a closed hand against the mouth and looks downward.</li><li>mouth is slightly open and gaze is directed downward.</li><li>looks forward with lips slightly parted.</li></ul>
 
 </td>
 <td width="60%" valign="top">
@@ -375,26 +352,22 @@ https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf
     {
       "frame_id": "V002",
       "category": "attire_and_symbols",
-      "observation": "Wearing a dark, open-collar blouse; dark hair is tied back, with loose strands framing the face. No legible insignia is visible.",
-      "timestamp_seconds": 24.033
+      "observation": "Wearing a dark, open-collar blouse; dark hair is tied back, with loose strands framing the face. No legible insignia is visible."
     },
     {
       "frame_id": "V001",
       "category": "activities_and_emotional_moments",
-      "observation": "At 2.0 seconds, holds a closed hand against the mouth and looks downward.",
-      "timestamp_seconds": 2.0
+      "observation": "holds a closed hand against the mouth and looks downward."
     },
     {
       "frame_id": "V003",
       "category": "activities_and_emotional_moments",
-      "observation": "At 46.0 seconds, mouth is slightly open and gaze is directed downward.",
-      "timestamp_seconds": 46.0
+      "observation": "mouth is slightly open and gaze is directed downward."
     },
     {
       "frame_id": "V007",
       "category": "activities_and_emotional_moments",
-      "observation": "At 216.4 seconds, looks forward with lips slightly parted.",
-      "timestamp_seconds": 216.4
+      "observation": "looks forward with lips slightly parted."
     }
   ]
 }
