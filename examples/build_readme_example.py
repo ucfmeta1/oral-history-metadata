@@ -38,8 +38,22 @@ def readme_observation_text(item):
     return sentence_text(text)
 
 
+def readme_record(record):
+    result = format_metadata(record)
+    def library_name(text):
+        return re.sub(r"\b(?:UCF|University of Central Florida)(?:['’]s)?\s+John C\. Hitt Library\b",
+                      'John C. Hitt Library', str(text))
+    result['description'] = library_name(result['description'])
+    for key, value in result.get('entities_and_facets', {}).items():
+        result['entities_and_facets'][key] = ([library_name(v) for v in value]
+                                             if isinstance(value, list) else library_name(value))
+    for item in result.get('visual_evidence', {}).get('visual_observations', []):
+        item['observation'] = library_name(item['observation'])
+    return result
+
+
 def build(record, video_url=None):
-    record = format_metadata(record)
+    record = readme_record(record)
     name, slug = identity(record)
     facets = record['entities_and_facets']
     for key in ('locations', 'organizations'):
@@ -125,7 +139,7 @@ def main():
     parser.add_argument('--attachments', type=Path, default=ROOT/'examples/video-attachments.json',
                         help='Video attachment URLs keyed by speaker slug.')
     args = parser.parse_args()
-    records = [format_metadata(r) for r in json.loads(args.input.read_text())]
+    records = [readme_record(r) for r in json.loads(args.input.read_text())]
     video_urls = json.loads(args.attachments.read_text()) if args.attachments.exists() else {}
     video_urls['ken-lundy'] = args.video_url
     if args.video:

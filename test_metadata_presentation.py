@@ -31,9 +31,18 @@ class PresentationTests(unittest.TestCase):
         ucf_locations['entities_and_facets']['locations']=['UCF','UCF John C. Hitt Library']
         ucf_locations['entities_and_facets']['organizations']=['UCF','UCF Remembers 9/11']
         expanded=build(ucf_locations)
-        self.assertIn('<h4>Locations</h4><ul><li>University of Central Florida</li><li>UCF John C. Hitt Library</li>',expanded)
+        self.assertIn('<h4>Locations</h4><ul><li>University of Central Florida</li><li>John C. Hitt Library</li>',expanded)
         self.assertIn('<h4>Organizations/ Initiatives</h4><ul><li>University of Central Florida</li><li>UCF Remembers 9/11</li>',expanded)
         self.assertEqual(ucf_locations['entities_and_facets']['locations'][0],'UCF')
+        library_record=deepcopy(record)
+        library_record['entities_and_facets']['locations']=['UCF John C. Hitt Library']
+        library_record['description']="Ken Lundy records at UCF’s John C. Hitt Library."
+        normalized=build(library_record)
+        self.assertIn('<li>John C. Hitt Library</li>',normalized)
+        self.assertIn('Ken Lundy records at John C. Hitt Library.',normalized)
+        self.assertNotIn('UCF John C. Hitt Library',normalized)
+        self.assertNotIn('UCF’s John C. Hitt Library',normalized)
+        self.assertEqual(library_record['entities_and_facets']['locations'],['UCF John C. Hitt Library'])
         panel=build(record)
         self.assertIn('Entities and Visual Evidence',panel)
         self.assertIn('<summary>Visual Evidence JSON</summary>',panel)
