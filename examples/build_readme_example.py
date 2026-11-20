@@ -42,6 +42,12 @@ def build(record, video_url=None):
     record = format_metadata(record)
     name, slug = identity(record)
     facets = record['entities_and_facets']
+    locations = facets.get('locations', [])
+    if isinstance(locations, list):
+        facets['locations'] = ['University of Central Florida' if str(value).strip() == 'UCF' else value
+                               for value in locations]
+    elif isinstance(locations, str) and locations.strip() == 'UCF':
+        facets['locations'] = 'University of Central Florida'
     left = ''
     for key in ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective'):
         left += '<h4>' + display_header(key) + '</h4>' + listing([sentence_text(v) for v in facets[key]] if isinstance(facets.get(key), list) else sentence_text(facets[key]) if facets.get(key) else [])
