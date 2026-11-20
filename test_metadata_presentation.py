@@ -29,10 +29,10 @@ class PresentationTests(unittest.TestCase):
                 observation='Wears glasses.',confidence='high',timestamp_seconds=2,review_required=False)]))
         ucf_locations=deepcopy(record)
         ucf_locations['entities_and_facets']['locations']=['UCF','UCF John C. Hitt Library']
-        ucf_locations['entities_and_facets']['organizations']=['UCF']
+        ucf_locations['entities_and_facets']['organizations']=['UCF','UCF Remembers 9/11']
         expanded=build(ucf_locations)
         self.assertIn('<h4>Locations</h4><ul><li>University of Central Florida</li><li>UCF John C. Hitt Library</li>',expanded)
-        self.assertIn('<h4>Organizations/ Initiatives</h4><ul><li>UCF</li>',expanded)
+        self.assertIn('<h4>Organizations/ Initiatives</h4><ul><li>University of Central Florida</li><li>UCF Remembers 9/11</li>',expanded)
         self.assertEqual(ucf_locations['entities_and_facets']['locations'][0],'UCF')
         panel=build(record)
         self.assertIn('Entities and Visual Evidence',panel)
