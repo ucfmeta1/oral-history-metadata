@@ -12,6 +12,7 @@ class FormattingTests(unittest.TestCase):
 
     def test_capitalization_preserves_acronyms_and_original_source(self):
         self.assertEqual(title_text('television coverage and UCF memories'), 'Television Coverage and UCF Memories')
+        self.assertEqual(title_text('memories in Huánuco and UCF'), 'Memories in Huánuco and UCF')
         source=dict(entities_and_facets=dict(dates=['2026-09-11'],themes=['family memory']),
                     visual_evidence=dict(visual_observations=[dict(observation='wears a UCF shirt.')]))
         original=deepcopy(source);formatted=format_metadata(source)

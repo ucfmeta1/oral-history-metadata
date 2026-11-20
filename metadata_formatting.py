@@ -30,7 +30,7 @@ def title_text(text):
         if match.start() and word.lower() in connectors:
             return word.lower()
         return word[:1].upper() + word[1:]
-    return re.sub(r"[A-Za-z][A-Za-z’']*", replace, str(text))
+    return re.sub(r"[^\W\d_]+(?:[’'][^\W\d_]+)*", replace, str(text))
 
 def sentence_text(text):
     text = str(text).strip()

@@ -11,7 +11,7 @@ from audio_transcripts import video_context, original_speaker_names
 from robust_metadata import speaker_identity_issues
 from metadata_presentation import presentation_record, presentation_visual_json
 from workbook_io import display_header
-from metadata_formatting import format_metadata, VISUAL_LABELS, sentence_text
+from metadata_formatting import format_metadata, VISUAL_LABELS, sentence_text, title_text
 
 ROOT = Path(__file__).resolve().parents[1]
 VIDEO_URL = 'https://github.com/user-attachments/assets/56694318-b34f-448b-ae63-0d945b35f1cf'
@@ -21,7 +21,7 @@ END = '<!-- END EXCEL VIDEO EXAMPLE -->'
 
 def listing(value):
     values = value if isinstance(value, list) else [value] if value else []
-    return '<ul>' + ''.join('<li>' + escape(str(v)) + '</li>' for v in (values or ['None recorded'])) + '</ul>'
+    return '<ul>' + ''.join('<li>' + escape(str(v)) + '</li>' for v in (values or ['None Recorded'])) + '</ul>'
 
 
 def identity(record):
@@ -44,7 +44,7 @@ def build(record, video_url=None):
     facets = record['entities_and_facets']
     left = ''
     for key in ('people', 'locations', 'organizations', 'dates', 'themes', 'perspective'):
-        left += '<h4>' + display_header(key) + '</h4>' + listing(facets.get(key))
+        left += '<h4>' + display_header(key) + '</h4>' + listing([sentence_text(v) for v in facets[key]] if isinstance(facets.get(key), list) else sentence_text(facets[key]) if facets.get(key) else [])
     observations = [o for o in record.get('visual_evidence', {}).get('visual_observations', [])
                     if o.get('observation', '').strip()]
     for category, label in [('attire_and_symbols', VISUAL_LABELS['attire_and_symbols']),
@@ -62,12 +62,12 @@ def build(record, video_url=None):
         # GitHub renders its uploaded attachment as a native inline video player.
         # Use that player alone instead of also showing a duplicate thumbnail.
         right += '<p>Play/pause and audio controls are available below.</p>\n\n' + video_url + '\n\n'
-        right += f'<p><a href="examples/videos/{slug}.mp4">Open video with audio if the inline player is unavailable</a></p>'
+        right += f'<p><a href="examples/videos/{slug}.mp4">Open Video with Audio if the Inline Player Is Unavailable</a></p>'
     else:
         right += f'<p><a href="examples/videos/{slug}.mp4"><img src="examples/previews/{slug}.jpg" width="480" alt="Play {escape(name)} interview with audio"></a></p>'
-        right += f'<p><a href="examples/videos/{slug}.mp4">Open video player with audio</a> · Compressed viewing copy; original duration retained.</p>'
+        right += f'<p><a href="examples/videos/{slug}.mp4">Open Video Player with Audio</a> · Compressed viewing copy; original duration retained.</p>'
     right += '<h4>Description</h4><p>' + escape(record['description']) + '</p>'
-    right += '<h4>Keywords</h4>' + listing(record['keywords'])
+    right += '<h4>Keywords</h4>' + listing([title_text(v) for v in record['keywords']])
     right += '<h4>FAST Subjects</h4>' + listing(record['fast_subjects'])
     candidates = listing([f"{i}. {c['heading']} ({c.get('id', c.get('authority_id', ''))})" for i, c in enumerate(record['fast_candidates'], 1)])
     visual_details = ''
@@ -78,15 +78,15 @@ def build(record, video_url=None):
                 item.pop('frame_id', None)
             if item['category'] in {'attire_and_symbols', 'artifacts_and_props', 'activities_and_emotional_moments'}:
                 item['observation'] = readme_observation_text(item)
-        visual_details = ('<details><summary>Visual evidence JSON</summary>\n\n```json\n'
+        visual_details = ('<details><summary>Visual Evidence JSON</summary>\n\n```json\n'
                           + json.dumps(visual, ensure_ascii=False, indent=2) + '\n```\n\n</details>\n\n')
-    entity_heading = 'Entities and visual evidence' if observations else 'Entities'
+    entity_heading = 'Entities and Visual Evidence' if observations else 'Entities'
     return (f'### {name}\n\n'
-            f'<table>\n<tr><th width="40%">{entity_heading}</th><th width="60%">Video and generated metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
+            f'<table>\n<tr><th width="40%">{entity_heading}</th><th width="60%">Video and Metadata</th></tr>\n<tr>\n<td width="40%" valign="top">\n\n'
             + left + '\n\n</td>\n<td width="60%" valign="top">\n\n' + right + '\n\n</td>\n</tr>\n</table>\n\n'
             + visual_details
-            + '<details><summary>All retrieved FAST candidates</summary>\n\n' + candidates + '\n\n</details>\n\n'
-            + f'[Full generated result and supporting evidence](examples/data/{slug}.json).\n\n')
+            + '<details><summary>All Retrieved FAST Candidates</summary>\n\n' + candidates + '\n\n</details>\n\n'
+            + f'[Full Result and Supporting Evidence](examples/data/{slug}.json).\n\n')
 
 
 def prepare_media(record):
@@ -157,7 +157,7 @@ def main():
     index = '\n'.join(f'- [{identity(r)[0]}](#{identity(r)[1]})' for r in records)
     frame_counts = {r['sampled_frames'] for r in records}
     sampling = f'{next(iter(frame_counts))}-frame notebook run' if len(frame_counts) == 1 else 'notebook run'
-    section = (START + '\n## Video examples — all generated results\n\n'
+    section = (START + '\n## Video Examples — All Generated Results\n\n'
                f'All {len(records)} interviews from the {sampling}. Each example includes every entity facet, available visual evidence, the JSON evidence, description, five keywords, FAST subjects, retrieved candidates, and supporting evidence. '
                'Every interview has one inline video player with play/pause and audio controls. A fallback link is provided below each player. '
                'Results use the original workbook’s speaker names.\n\n'

@@ -28,6 +28,12 @@ class PresentationTests(unittest.TestCase):
             visual_evidence=dict(visual_observations=[dict(frame_id='V001',category='attire_and_symbols',
                 observation='Wears glasses.',confidence='high',timestamp_seconds=2,review_required=False)]))
         panel=build(record)
+        self.assertIn('Entities and Visual Evidence',panel)
+        self.assertIn('<summary>Visual Evidence JSON</summary>',panel)
+        self.assertIn('<summary>All Retrieved FAST Candidates</summary>',panel)
+        lowercase_keywords=deepcopy(record)
+        lowercase_keywords['keywords']=['family communication and UCF']
+        self.assertIn('Family Communication and UCF',build(lowercase_keywords))
         self.assertNotIn('<strong>Artifacts & Props</strong>',panel)
         self.assertIn('[2 s] Wears glasses.',panel)
         self.assertNotIn('<h4>Visual evidence</h4>',panel)
